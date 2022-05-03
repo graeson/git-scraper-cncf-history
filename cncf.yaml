@@ -1033,6 +1033,14 @@ landscape:
             logo: teleport.svg
             crunchbase: https://www.crunchbase.com/organization/gravitational
           - item:
+            name: Teller
+            homepage_url: https://tlr.dev
+            twitter: https://twitter.com/getspectral
+            repo_url: https://github.com/SpectralOps/Teller
+            project: sandbox
+            logo: teller.svg
+            crunchbase: https://www.crunchbase.com/organization/spectral-4f70
+          - item:
             name: Vault
             homepage_url: https://www.vaultproject.io/
             repo_url: https://github.com/hashicorp/vault
@@ -3623,6 +3631,17 @@ landscape:
               mailing_list_url: https://porter.sh/mailing-list
               slack_url: https://porter.sh/community/#slack
               youtube_url: https://www.youtube.com/channel/UCbpSU5xLikfXQ-5meXLrsfA
+          - item:
+            name: sealer
+            homepage_url: https://sealer.cool
+            project: sandbox
+            repo_url: https://github.com/alibaba/sealer
+            logo: sealer_logo.svg
+            twitter: https://twitter.com/sealer_oss
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-04-26'
+              dev_stats_url: https://sealer.teststats.cncf.io/
           - item:
             name: Serverless Workflow
             homepage_url: https://serverlessworkflow.github.io
