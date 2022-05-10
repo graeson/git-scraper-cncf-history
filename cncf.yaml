@@ -3750,7 +3750,7 @@ landscape:
               artwork_url: https://github.com/cncf/artwork/tree/master/projects/argo
               stack_overflow_url: https://stackoverflow.com/questions/tagged/argoproj+or+argo
               blog_url: https://blog.argoproj.io/
-              slack_url: https://www.cncf.io/projects/argoproj.slack.com
+              slack_url: https://argoproj.slack.com/
               youtube_url: https://www.youtube.com/channel/UCOvYmppcbOPm1viN6ust3lA
           - item:
             name: AWS CodePipeline
@@ -6680,6 +6680,13 @@ landscape:
             homepage_url: https://www.granulate.io/
             logo: granulate.svg
             crunchbase: https://www.crunchbase.com/organization/granulate-cloud-solutions
+          - item:
+            name: gocrane
+            description: Crane (FinOps Crane) is an opensource project which manages cloud resource on Kubernetes stack, it is inspired by FinOps concepts.
+            homepage_url: https://docs.gocrane.io/
+            repo_url: https://github.com/gocrane/crane
+            logo: gocrane.svg
+            crunchbase: https://www.crunchbase.com/organization/tencent-cloud
           - item:
             name: Infracost
             description: >-
