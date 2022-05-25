@@ -2006,6 +2006,7 @@ landscape:
               incubation: '2022-03-21'
           - item:
             name: wasmCloud
+            second_path: "Wasm / Packaging, Registries & Application Delivery"
             homepage_url: https://wasmcloud.com
             project: sandbox
             repo_url: https://github.com/wasmCloud/wasmCloud
@@ -9002,7 +9003,9 @@ landscape:
             name: Boeing (member)
             homepage_url: https://www.boeing.com/
             logo: boeing.svg
+            enduser: true
             crunchbase: https://www.crunchbase.com/organization/boeing-7321
+            joined: '2022-04-22'
           - item:
             name: Cisco (member)
             homepage_url: https://www.cisco.com/
