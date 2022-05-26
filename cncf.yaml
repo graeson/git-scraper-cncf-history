@@ -1364,6 +1364,11 @@ landscape:
               blog_url: https://oras.land/blog/
               slack_url: https://cloud-native.slack.com/messages/oras
           - item:
+            name: Pengyun Network
+            homepage_url: https://www.pengyunnetwork.com/
+            logo: pengyun.svg
+            crunchbase: https://www.crunchbase.com/organization/pengyun-network
+          - item:
             name: Piraeus Datastore
             homepage_url: https://piraeus.io/
             project: sandbox
@@ -2006,7 +2011,9 @@ landscape:
               incubation: '2022-03-21'
           - item:
             name: wasmCloud
-            second_path: "Wasm / Packaging, Registries & Application Delivery"
+            second_path:
+              - Wasm / Runtime
+              - Wasm / Installable Platform
             homepage_url: https://wasmcloud.com
             project: sandbox
             repo_url: https://github.com/wasmCloud/wasmCloud
