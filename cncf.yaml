@@ -4818,6 +4818,14 @@ landscape:
             twitter: https://twitter.com/IBMcloud
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
+            name: InCloud OS
+            description: >-
+              InCloud OS, offering full lifecycle management services, is an application-centric platform which provides a High-available managed environment to
+              simplify the CI/CD, Deployment, Container Orchestration，ServiceMesh，scheduling and scaling of containerized applications.
+            homepage_url: https://www.inspur.com/lcjtww/2527835/2527836/2527854/index.html
+            logo: incloudos.svg
+            crunchbase: https://www.crunchbase.com/organization/inspur
+          - item:
             name: Inspur Cloud Container Engine and Inspur Open Platform
             description: >-
               Inspur Cloud Container Engine and Inpsur Open Platform is an application-oriented container management platform based on amd64 architecture. It
@@ -8610,6 +8618,14 @@ landscape:
             homepage_url: https://www.rails.cn/xian/zh-cn/train/?sign=train
             logo: cars.svg
             crunchbase: https://www.crunchbase.com/organization/china-academy-of-railway-sciences-cars
+          - item:
+            name: CINQ (KTP)
+            description: >-
+              CINQ ICT is a consultancy agency based in the Netherlands, working for enterprise level companies to design, build and manage container platforms,
+              CI/CD pipelines, cloud platforms and software solutions in public cloud and multi/hybrid environments.
+            homepage_url: https://www.cinqict.nl/kubernetes/trainingen
+            logo: cinq-ict.svg
+            crunchbase: https://www.crunchbase.com/organization/cinq
           - item:
             name: CloudIQ (KTP)
             description: CloudIQ delivers full-scale Kubernetes solutions from implementation to Kubernetes support & management to training in-house IT teams.
