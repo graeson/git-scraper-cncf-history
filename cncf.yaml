@@ -1142,13 +1142,14 @@ landscape:
           - item:
             name: CubeFS
             homepage_url: https://cubefs.io/
-            project: sandbox
+            project: incubating
             repo_url: https://github.com/cubeFS/cubefs
             logo: cubefs.svg
             twitter: https://twitter.com/ChubaoFS
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2019-12-17'
+              incubated: '2022-06-02'
               dev_stats_url: https://chubaofs.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#cubefs-logos
               slack_url: https://cubefs.slack.com/
@@ -1161,6 +1162,11 @@ landscape:
             repo_url: https://github.com/opencurve/curve
             logo: curve.svg
             crunchbase: https://www.crunchbase.com/organization/netease-com
+          - item:
+            name: DataCore Bolt
+            homepage_url: https://www.datacore.com/products/bolt-kubernetes-storage/
+            logo: datacore-bolt.svg
+            crunchbase: https://www.crunchbase.com/organization/datacore-software
           - item:
             name: Datera
             homepage_url: https://datera.io/
@@ -1299,12 +1305,6 @@ landscape:
               dev_stats_url: https://longhorn.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#longhorn-logos
           - item:
-            name: MayaData
-            homepage_url: https://mayadata.io/
-            logo: mayadata-stacked.svg
-            twitter: https://twitter.com/mayadata
-            crunchbase: https://www.crunchbase.com/organization/mayadata
-          - item:
             name: MinIO
             homepage_url: https://min.io/
             repo_url: https://github.com/minio/minio
@@ -1328,6 +1328,11 @@ landscape:
             homepage_url: https://www.nutanix.com/products/objects
             logo: nutanix.svg
             crunchbase: https://www.crunchbase.com/organization/nutanix
+          - item:
+            name: Ondat
+            homepage_url: https://www.ondat.io
+            logo: ondat.svg
+            crunchbase: https://www.crunchbase.com/organization/ondat
           - item:
             name: OpenEBS
             homepage_url: https://www.openebs.io/
@@ -1464,11 +1469,6 @@ landscape:
             open_source: false
             twitter: https://twitter.com/kubestash
             crunchbase: https://www.crunchbase.com/organization/appscode
-          - item:
-            name: StorageOS
-            homepage_url: https://www.ondat.io
-            logo: storage-os.svg
-            crunchbase: https://www.crunchbase.com/organization/storageos
           - item:
             name: StorPool
             homepage_url: https://www.storpool.com/
@@ -1934,6 +1934,13 @@ landscape:
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#karmada-logos
               mailing_list_url: https://groups.google.com/forum/#!forum/karmada
               slack_url: https://karmada-io.slack.com/
+          - item:
+            name: Koordinator
+            homepage_url: https://koordinator.sh
+            repo_url: https://github.com/koordinator-sh/koordinator
+            description: QoS based scheduling system for hybrid orchestration workloads on Kubernetes, bringing workloads the best layout and status.
+            logo: Koordinator.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
           - item:
             name: kube-rs
             description: kube-rs is the core Rust ecosystem for building applications against Kubernetes
@@ -3988,13 +3995,14 @@ landscape:
           - item:
             name: Keptn
             homepage_url: https://www.keptn.sh
-            project: sandbox
+            project: incubating
             repo_url: https://github.com/keptn/keptn
             logo: keptn.svg
             twitter: https://twitter.com/keptnproject
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2020-06-23'
+              incubated: '2022-06-03'
               dev_stats_url: https://keptn.devstats.cncf.io/
               youtube_url: https://www.youtube.com/channel/UCHMn9HyAMeb81bRlaOuZyuQ
           - item:
@@ -7787,7 +7795,7 @@ landscape:
             homepage_url: https://mayadata.io/
             logo: mayadata.svg
             twitter: https://twitter.com/mayadata
-            crunchbase: https://www.crunchbase.com/organization/mayadata
+            crunchbase: https://www.crunchbase.com/organization/datacore-software
           - item:
             name: Mia-Platform (KCSP)
             description: >-
@@ -9164,7 +9172,9 @@ landscape:
             name: Coinbase (member)
             homepage_url: https://www.coinbase.com/
             logo: coinbase.svg
+            enduser: true
             crunchbase: https://www.crunchbase.com/organization/coinbase
+            joined: '2022-02-17'
           - item:
             name: Cox Communications (member)
             homepage_url: https://www.cox.com/business/home.html
@@ -10288,6 +10298,11 @@ landscape:
             homepage_url: https://www.doit-intl.com
             logo: doi-t-international-member.svg
             crunchbase: https://www.crunchbase.com/organization/doit-international
+          - item:
+            name: DoK Community (member)
+            homepage_url: https://www.dok.community/
+            logo: dok-community.svg
+            crunchbase: https://www.crunchbase.com/organization/data-on-kubernetes-community
           - item:
             name: Doppler (member)
             homepage_url: https://www.doppler.com/
@@ -11413,6 +11428,11 @@ landscape:
             logo: okteto.svg
             crunchbase: https://www.crunchbase.com/organization/okteto
           - item:
+            name: Ondat (member)
+            homepage_url: https://www.ondat.io
+            logo: ondat.svg
+            crunchbase: https://www.crunchbase.com/organization/ondat
+          - item:
             name: OnGres (member)
             homepage_url: https://www.ongres.com/
             logo: ongres.svg
@@ -12024,11 +12044,6 @@ landscape:
             homepage_url: https://starkandwayne.com/
             logo: stark-and-wayne.svg
             crunchbase: https://www.crunchbase.com/organization/stark-wayne
-          - item:
-            name: StorageOS (member)
-            homepage_url: https://www.ondat.io
-            logo: storage-os-member.svg
-            crunchbase: https://www.crunchbase.com/organization/storageos
           - item:
             name: Storm Reply (member)
             homepage_url: https://reply.com/storm-reply/en/kubernetes
