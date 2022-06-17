@@ -1921,6 +1921,17 @@ landscape:
             logo: fluid.svg
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
+            name: iSSCloud
+            description: >-
+              iSoftStone Multi-cloud Management System is an enterprise-level cloud management platform applied in multiple public 
+              clouds and public-private hybrid cloud scenarios. It provides consistent self-service and operation management capabilities 
+              on heterogeneous resources which include centralized resource management and control, automated resource delivery, intelligent 
+              operation analysis and O&M management to reduce the costs of hybrid cloud management.
+            homepage_url: https://www.isoftstone.com/htmlsen/Cloudnativeservices/20220613/6acf55b26d0c4625b2fb8ca54cee58ab.html
+            logo: isscloud.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/isoftstone  
+          - item:
             name: Karmada
             homepage_url: https://karmada.io/
             project: sandbox
@@ -8763,7 +8774,7 @@ landscape:
           - item:
             name: Desotech (KTP)
             description: Desotech provides training and consulting services for the world’s leading containerization platform and can customize it to your business needs.
-            homepage_url: https://www.deso.tech/wp-admin/install.php
+            homepage_url: https://www.deso.tech/
             logo: desotech.svg
             crunchbase: https://www.crunchbase.com/organization/desotech
           - item:
@@ -9035,6 +9046,19 @@ landscape:
             homepage_url: https://www.whizus.com/
             logo: whizus.svg
             crunchbase: https://www.crunchbase.com/organization/whizus-gmbh
+      - subcategory:
+        name: Certified CNFs
+        items:
+          - item:
+            name: MATRIXX Digital Commerce
+            homepage_url: https://www.matrixx.com/
+            project: null
+            logo: matrixx.svg
+            crunchbase: https://www.crunchbase.com/organization/matrixx-software
+            description: >-
+              The MATRIXX Digital Commerce Platform (DCP) is a cloud-native, real-time monetization engine delivering industry-compliant rating and charging
+              functionality along with a rich array of digital commerce capabilities such as subscription management, event streaming and management,
+              personalization, and digital payments.
   - category:
     name: CNCF Members
     subcategories:
