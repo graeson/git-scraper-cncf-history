@@ -821,6 +821,15 @@ landscape:
               blog_url: https://www.rudder.io/blog/
               youtube_url: https://www.youtube.com/user/RudderProject
           - item:
+            name: sigstore
+            homepage_url: https://www.sigstore.dev/
+            logo: sigstore.svg
+            crunchbase: https://www.crunchbase.com/organization/sigstore
+            extra:
+              artwork_url: https://github.com/ossf/artwork/blob/master/sigstore/stacked/color/Sigstore-logo_stacked-color.svg
+              blog_url: https://blog.sigstore.dev/
+              youtube_url: https://www.youtube.com/channel/UCWPVc8glVGOODxsA_ep0VVw
+          - item:
             name: Snyk
             homepage_url: https://snyk.io/
             logo: snyk.svg
@@ -1923,14 +1932,14 @@ landscape:
           - item:
             name: iSSCloud
             description: >-
-              iSoftStone Multi-cloud Management System is an enterprise-level cloud management platform applied in multiple public 
-              clouds and public-private hybrid cloud scenarios. It provides consistent self-service and operation management capabilities 
-              on heterogeneous resources which include centralized resource management and control, automated resource delivery, intelligent 
-              operation analysis and O&M management to reduce the costs of hybrid cloud management.
+              iSoftStone Multi-cloud Management System is an enterprise-level cloud management platform applied in multiple public  clouds and public-private
+              hybrid cloud scenarios. It provides consistent self-service and operation management capabilities  on heterogeneous resources which include
+              centralized resource management and control, automated resource delivery, intelligent  operation analysis and O&M management to reduce the costs
+              of hybrid cloud management.
             homepage_url: https://www.isoftstone.com/htmlsen/Cloudnativeservices/20220613/6acf55b26d0c4625b2fb8ca54cee58ab.html
             logo: isscloud.svg
             twitter: null
-            crunchbase: https://www.crunchbase.com/organization/isoftstone  
+            crunchbase: https://www.crunchbase.com/organization/isoftstone
           - item:
             name: Karmada
             homepage_url: https://karmada.io/
@@ -2507,9 +2516,14 @@ landscape:
             name: Aeraki Mesh
             description: Aeraki Mesh allows you to manage any layer-7 traffic in a service mesh
             homepage_url: https://www.aeraki.net/
+            project: sandbox
             repo_url: https://github.com/aeraki-mesh/aeraki
             logo: aeraki-mesh.svg
-            crunchbase: https://www.crunchbase.com/organization/tencent-cloud
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              dev_stats_url: https://openservicemesh.devstats.cncf.io/
+              blog_url: https://www.aeraki.net/blog/
+              slack_url: https://cloud-native.slack.com/messages/aeraki-mesh
           - item:
             name: AWS App Mesh
             description: >-
@@ -2921,6 +2935,12 @@ landscape:
             twitter: https://twitter.com/rethinkdb
             crunchbase: https://www.crunchbase.com/organization/linux-foundation
           - item:
+            name: Scalar DB
+            homepage_url: https://scalar-labs.com/
+            repo_url: https://github.com/scalar-labs/scalardb
+            logo: scalardb.svg
+            crunchbase: https://www.crunchbase.com/organization/scalar
+          - item:
             name: SchemaHero
             homepage_url: https://schemahero.io
             project: sandbox
@@ -3139,6 +3159,13 @@ landscape:
             logo: beam.svg
             twitter: https://twitter.com/ApacheBeam
             crunchbase: https://www.crunchbase.com/organization/apache
+          - item:
+            name: CDEvents
+            homepage_url: https://cdevents.dev
+            repo_url: https://github.com/cdevents/spec
+            logo: cdevents.svg
+            twitter: https://twitter.com/_cdevents
+            crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
           - item:
             name: CloudEvents
             homepage_url: https://cloudevents.io/
@@ -9051,14 +9078,14 @@ landscape:
         items:
           - item:
             name: MATRIXX Digital Commerce
-            homepage_url: https://www.matrixx.com/
-            project: null
-            logo: matrixx.svg
-            crunchbase: https://www.crunchbase.com/organization/matrixx-software
             description: >-
               The MATRIXX Digital Commerce Platform (DCP) is a cloud-native, real-time monetization engine delivering industry-compliant rating and charging
               functionality along with a rich array of digital commerce capabilities such as subscription management, event streaming and management,
               personalization, and digital payments.
+            homepage_url: https://www.matrixx.com/
+            project: null
+            logo: matrixx.svg
+            crunchbase: https://www.crunchbase.com/organization/matrixx-software
   - category:
     name: CNCF Members
     subcategories:
