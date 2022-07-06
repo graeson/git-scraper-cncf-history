@@ -905,6 +905,18 @@ landscape:
             logo: terrascan.svg
             crunchbase: https://www.crunchbase.com/organization/tenable-network-security
           - item:
+            name: Tetragon
+            homepage_url: https://github.com/cilium/tetragon
+            project: incubating
+            repo_url: https://github.com/cilium/tetragon
+            logo: tetragon-logo-wormark.svg
+            twitter: https://twitter.com/ciliumproject
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2021-10-13'
+              dev_stats_url: https://cilium.devstats.cncf.io/
+              slack_url: https://cilium.herokuapp.com/
+          - item:
             name: The Update Framework (TUF)
             homepage_url: https://theupdateframework.github.io/
             project: graduated
@@ -4069,6 +4081,19 @@ landscape:
             logo: octopus-deploy.svg
             crunchbase: https://www.crunchbase.com/organization/octopus-deploy
           - item:
+            name: OpenFeature
+            description: Standardizing Feature Flagging for Everyone
+            homepage_url: https://openfeature.dev/
+            project: sandbox
+            repo_url: https://github.com/open-feature/community
+            logo: openfeature.svg
+            twitter: https://twitter.com/openfeature
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-06-14'
+              dev_stats_url: https://openfeature.devstats.cncf.io/
+              youtube_url: https://www.youtube.com/channel/UCHMn9HyAMeb81bRlaOuZyuQ
+          - item:
             name: OpenGitOps
             homepage_url: https://opengitops.dev/
             project: sandbox
@@ -6110,6 +6135,13 @@ landscape:
             logo: honeybadger.svg
             crunchbase: https://www.crunchbase.com/organization/honeybadger
           - item:
+            name: Hubble
+            homepage_url: https://github.com/cilium/hubble
+            project: incubating
+            repo_url: https://github.com/cilium/hubble
+            logo: hubble(rgb).svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+          - item:
             name: Icinga
             homepage_url: https://icinga.com/
             repo_url: https://github.com/Icinga/icinga2
@@ -6679,6 +6711,16 @@ landscape:
             repo_url: https://github.com/spring-cloud/spring-cloud-sleuth
             logo: spring-cloud-sleuth.svg
             crunchbase: https://www.crunchbase.com/organization/vmware
+          - item:
+            name: Tracetest
+            description: >-
+              Tracetest allows easy creation of end-to-end tests via a simple user interface. It leverages your current investment in OpenTelemetry based
+              tracing to make deep integration and E2E testing simple.
+            homepage_url: https://tracetest.io
+            repo_url: https://github.com/kubeshop/tracetest
+            logo: tracetest.svg
+            twitter: https://twitter.com/tracetest_io
+            crunchbase: https://www.crunchbase.com/organization/kubeshop
           - item:
             name: Zipkin
             homepage_url: https://zipkin.io/
