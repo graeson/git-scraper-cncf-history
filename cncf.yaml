@@ -342,6 +342,7 @@ landscape:
           - item:
             name: Distribution
             homepage_url: https://github.com/distribution/distribution
+            project: sandbox
             repo_url: https://github.com/distribution/distribution
             logo: distribution.svg
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -568,7 +569,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/datree-io
           - item:
             name: Dex
-            homepage_url: https://github.com/dexidp/dex
+            homepage_url: https://dexidp.io/
             project: sandbox
             repo_url: https://github.com/dexidp/dex
             logo: dex.svg
@@ -734,7 +735,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/nirmata
           - item:
             name: Notary
-            homepage_url: https://github.com/notaryproject/notary
+            homepage_url: https://notaryproject.dev/
             project: incubating
             repo_url: https://github.com/notaryproject/notary
             logo: notary.svg
@@ -783,7 +784,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/paladin-cloud
           - item:
             name: Parsec
-            homepage_url: https://github.com/parallaxsecond/parsec
+            homepage_url: https://parsec.community/
             project: sandbox
             repo_url: https://github.com/parallaxsecond/parsec
             logo: parsec.svg
@@ -1347,7 +1348,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/linbit
           - item:
             name: Longhorn
-            homepage_url: https://github.com/longhorn/longhorn
+            homepage_url: https://longhorn.io/
             project: incubating
             repo_url: https://github.com/longhorn/longhorn
             logo: longhorn.svg
@@ -1731,7 +1732,7 @@ landscape:
               slack_url: https://cilium.herokuapp.com/
           - item:
             name: CNI-Genie
-            homepage_url: https://github.com/cni-genie/CNI-Genie
+            homepage_url: https://cnigenie.netlify.app
             project: sandbox
             repo_url: https://github.com/cni-genie/CNI-Genie
             logo: cni-genie.svg
@@ -1741,7 +1742,7 @@ landscape:
               dev_stats_url: https://cnigenie.devstats.cncf.io/
           - item:
             name: Container Network Interface (CNI)
-            homepage_url: https://github.com/containernetworking
+            homepage_url: https://www.cni.dev/
             project: incubating
             repo_url: https://github.com/containernetworking/cni
             logo: container-network-interface-cni.svg
@@ -1803,7 +1804,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/kilo
           - item:
             name: Kube-OVN
-            homepage_url: https://github.com/kubeovn/kube-ovn
+            homepage_url: https://kubeovn.github.io/docs/en/
             project: sandbox
             repo_url: https://github.com/kubeovn/kube-ovn
             logo: kube-ovn.svg
@@ -2010,6 +2011,16 @@ landscape:
             logo: Koordinator.svg
             crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
           - item:
+            name: kube-green
+            homepage_url: https://kube-green.dev/
+            repo_url: https://github.com/kube-green/kube-green
+            logo: kube-green.svg
+            open_source: true
+            description: kube-green is a simple k8s addon that automatically shuts down (some of) your resources when you don't need them.
+            crunchbase: https://www.crunchbase.com/organization/mia-platform
+            extra:
+              blog_url: https://kube-green.dev/blog/
+          - item:
             name: kube-rs
             description: kube-rs is the core Rust ecosystem for building applications against Kubernetes
             homepage_url: https://kube.rs
@@ -2136,7 +2147,7 @@ landscape:
               youtube_url: https://www.youtube.com/channel/UCbWRJZxiaQ8twm6sh7UymoQ
           - item:
             name: etcd
-            homepage_url: https://github.com/etcd-io
+            homepage_url: https://etcd.io/
             project: graduated
             repo_url: https://github.com/etcd-io/etcd
             logo: etcd.svg
@@ -2271,7 +2282,7 @@ landscape:
           - item:
             name: BFE
             description: Open-source layer 7 load balancer derived from proprietary Baidu FrontEnd
-            homepage_url: https://github.com/bfenetworks/bfe
+            homepage_url: https://www.bfe-networks.net
             project: sandbox
             repo_url: https://github.com/bfenetworks/bfe
             logo: bfe.svg
@@ -3248,6 +3259,13 @@ landscape:
             twitter: https://twitter.com/apacheflink
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
+            name: Fluvio
+            homepage_url: https://fluvio.io/
+            repo_url: https://github.com/infinyon/fluvio
+            logo: fluvio.svg
+            twitter: https://twitter.com/InfinyOn
+            crunchbase: https://www.crunchbase.com/organization/infinyon
+          - item:
             name: Google Cloud Dataflow
             description: >-
               Cloud Dataflow is a fully-managed service for transforming and enriching data in stream (real time) and batch (historical) modes with equal
@@ -3452,13 +3470,6 @@ landscape:
               accepted: '2018-10-03'
               dev_stats_url: https://buildpacks.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#buildpacks-logos
-          - item:
-            name: CAPE
-            description: CAPE simplifies application deployments, backups & restores across multiple kuberentes clusters.
-            homepage_url: https://cape.sh/
-            logo: cape.svg
-            twitter: https://twitter.com/CapeSuperhero
-            crunchbase: https://www.crunchbase.com/organization/biqmind
           - item:
             name: Carvel
             description: >-
@@ -3890,6 +3901,12 @@ landscape:
             logo: aws-code-pipeline.svg
             crunchbase: https://www.crunchbase.com/organization/amazon-web-services
           - item:
+            name: CAPE
+            description: CAPE simplifies last mile Kubernetes application delivery, allowing teams to deploy frequently, consistently and confidently.
+            homepage_url: https://cape.sh/
+            logo: cape.svg
+            crunchbase: https://www.crunchbase.com/organization/biqmind            
+          - item:
             name: Azure Pipelines
             description: Continuously build, test, and deploy to any platform and cloud
             homepage_url: https://azure.microsoft.com/en-us/services/devops/pipelines/
@@ -4258,16 +4275,6 @@ landscape:
             logo: agorakube.svg
             crunchbase: https://www.crunchbase.com/organization/ilki
           - item:
-            name: Airship (Certified Kubernetes)
-            description: >-
-              Airship is a collection of loosely coupled but interoperable open source tools that declaratively automate cloud provisioning. Airship manages the
-              full lifecycle of data center infrastructure to deliver a production-grade Kubernetes cluster with Helm deployed artifacts, including
-              OpenStack-Helm.
-            homepage_url: https://www.airshipit.org/
-            repo_url: https://github.com/airshipit/airshipctl
-            logo: airship.svg
-            crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
-          - item:
             name: AIStation
             description: >-
               AIStation inference platform is a one-stop AI reasoning service platform developed by Inspur，it faces enterprise AI application deployment and
@@ -4491,14 +4498,6 @@ landscape:
             logo: harmonycloud.svg
             crunchbase: https://www.crunchbase.com/organization/harmony-cloud
           - item:
-            name: HPE Ezmeral Container Platform
-            description: >-
-              The HPE Ezmeral Container Platform is an enterprise-grade solution to deploy containerized environments at scale with open source Kubernetes, for
-              both cloud native and non cloud native applications.
-            homepage_url: https://www.hpe.com/us/en/solutions/cloud/containers.html
-            logo: hpe-storage.svg
-            crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
-          - item:
             name: Inspur AIStation Training Platform
             description: >-
               AIStation Training Platform, an AI development platform, provides container deployment and efficient distributed training. It enables unified
@@ -4555,13 +4554,6 @@ landscape:
             homepage_url: https://lionelpang.github.io/k8splus/
             logo: k8splus.svg
             crunchbase: https://www.crunchbase.com/organization/asiainfo
-          - item:
-            name: Kingsoft Container Engine
-            description: Highly reliable and scalable container management service with high performance.
-            homepage_url: https://www.ksyun.com/nv/KCE
-            logo: kingsoft.svg
-            twitter: null
-            crunchbase: https://www.crunchbase.com/organization/kingsoft-cloud
           - item:
             name: KubeCube
             description: >-
@@ -4631,12 +4623,6 @@ landscape:
             logo: microk8s.svg
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
           - item:
-            name: Mirantis Kubernetes Engine
-            description: Mirantis Kubernetes Engine includes Universal Control Plane (UCP) with built-in certified Kubernetes distribution.
-            homepage_url: https://www.mirantis.com/software/mirantis-kubernetes-engine/
-            logo: mirantis.svg
-            crunchbase: https://www.crunchbase.com/organization/mirantis
-          - item:
             name: Netease Qingzhou Microservice
             description: >-
               Netease Qingzhou Microservice is a one-stop PaaS platform built around applications and microservice, which helps users to quickly realize
@@ -4644,15 +4630,6 @@ landscape:
             homepage_url: https://sf.163.com/product-nsf
             logo: netease.svg
             crunchbase: https://www.crunchbase.com/organization/netease-com
-          - item:
-            name: Nokia Container Services
-            description: >-
-              Nokia Container Services is ready to use, pre-integrated, and based on open source toolsets and software services. Designed for Communication
-              Service Providers (CSPs), it enables deploying and managing cloud-native applications, whether inside a Virtual Machine (VM) or Bare Metal (BM).
-            homepage_url: https://www.nokia.com/networks/products/nokia-container-services
-            stock_ticker: NOK
-            logo: nokia-member.svg
-            crunchbase: https://www.crunchbase.com/organization/nokia
           - item:
             name: Oracle Cloud Native Environment
             description: >-
@@ -4867,6 +4844,14 @@ landscape:
             logo: civo.svg
             crunchbase: https://www.crunchbase.com/organization/civo-49db
           - item:
+            name: CloudLink
+            description: >-
+              CloudLink CMP is a kubernetes enabled enterprise-ready PaaS solution, consists of features like CICD、multi-tenant、rich micro-services and components
+              support, integrated with an easy-to-use operation/maintenance interface.
+            homepage_url: https://www.bessystem.com/product/31f9842c24e5441394b85bfdc7a9d7df/info
+            logo: cloudlink.svg
+            crunchbase: https://www.crunchbase.com/organization/bes-e58f
+          - item:
             name: Conoa Proact Managed Container Platform
             description: Full stack managed Kubernetes platform which lets you focus on your application, we'll do the rest!
             homepage_url: https://www.conoa.se/container-as-a-service/
@@ -4981,6 +4966,12 @@ landscape:
             homepage_url: https://portal.insuremo.com/
             logo: insuremo.svg
             crunchbase: https://www.crunchbase.com/organization/ebaotech
+          - item:
+            name: IXcloud Kubernetes Service
+            description: A quick and easy process to start a Kubernetes cluster in IXcloud.
+            homepage_url: https://www.kinx.net/service/cloud/kubernetes/intro/?lang=en
+            logo: ixcloud.svg
+            crunchbase: https://www.crunchbase.com/organization/kinx
           - item:
             name: JD Cloud JCS for Kubernetes
             description: >-
@@ -5133,15 +5124,6 @@ landscape:
             logo: stackit.svg
             crunchbase: https://www.crunchbase.com/organization/schwarz-dienstleistungen
           - item:
-            name: SysEleven MetaKube
-            description: >-
-              MetaKube offers carefree Multi Cloud Kubernetes as a Service on OpenStack Cloud, Amazon Web Services (AWS) and On-Premises. We provide you with
-              SaaS solutions like a load balancer as well as solutions for backup and recovery, monitoring, etc., and various types of support - detailed
-              documentation, tutorials and personal SRE-Support.
-            homepage_url: https://metakube.syseleven.de
-            logo: syseleven.svg
-            crunchbase: https://www.crunchbase.com/organization/syseleven
-          - item:
             name: Taikun
             description: Taikun is a hybrid cloud management orchestration platform.
             homepage_url: https://taikun.cloud
@@ -5156,19 +5138,6 @@ landscape:
             logo: tencent-cloud.svg
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/tencent
-          - item:
-            name: Ventus Cloud Kubernetes Service
-            description: Automate container deployment, scaling and management through the Ventus Cloud.
-            homepage_url: https://ventuscloud.eu/cloud-platform
-            logo: ventus-cloud.svg
-            crunchbase: https://www.crunchbase.com/organization/ventus-cloud
-          - item:
-            name: VEXXHOST Kubernetes Container Service
-            description: Fully managed Kubernetes fully integrated with OpenStack.
-            homepage_url: https://vexxhost.com/public-cloud/container-services-certified-kubernetes
-            repo_url: https://github.com/vexxhost/magnum
-            logo: vexxhost.svg
-            crunchbase: https://www.crunchbase.com/organization/vexxhost
           - item:
             name: Vultr Kubernetes Engine
             description: >-
@@ -5235,13 +5204,6 @@ landscape:
             homepage_url: http://harmonycloud.cn/products/rongqiyun/
             logo: harmonycloud.svg
             crunchbase: https://www.crunchbase.com/organization/harmony-cloud
-          - item:
-            name: kind
-            description: kind creates local multi-node Kubernetes clusters using Docker container nodes.
-            homepage_url: https://github.com/kubernetes-sigs/kind
-            repo_url: https://github.com/kubernetes-sigs/kind
-            logo: kind.svg
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: kops
             description: kops is open source, community-maintained tooling for production-grade kubernetes cluster installation, management and upgrades.
@@ -5967,7 +5929,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/vmware
           - item:
             name: Virtual Kubelet
-            homepage_url: https://github.com/virtual-kubelet
+            homepage_url: https://virtual-kubelet.io/
             project: sandbox
             repo_url: https://github.com/virtual-kubelet/virtual-kubelet
             logo: virtual-kubelet.svg
@@ -6086,7 +6048,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloudhealth-technologies
           - item:
             name: Cortex
-            homepage_url: https://github.com/cortexproject
+            homepage_url: https://cortexmetrics.io/
             project: incubating
             repo_url: https://github.com/cortexproject/cortex
             logo: cortex.svg
@@ -6127,7 +6089,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/flowmill
           - item:
             name: Fonio
-            homepage_url: https://github.com/foniod/project
+            homepage_url: https://ingraind.org/
             project: sandbox
             repo_url: https://github.com/foniod/foniod
             logo: fonio.svg
@@ -6405,7 +6367,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/splunk
           - item:
             name: Skooner
-            homepage_url: https://github.com/skooner-k8s/skooner
+            homepage_url: https://skooner.io/
             project: sandbox
             repo_url: https://github.com/skooner-k8s/skooner
             logo: skooner.svg
@@ -6451,7 +6413,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/tingyun
           - item:
             name: Trickster
-            homepage_url: https://github.com/trickstercache/trickster
+            homepage_url: https://trickstercache.org
             project: sandbox
             repo_url: https://github.com/trickstercache/trickster
             logo: trickster.svg
@@ -6792,7 +6754,7 @@ landscape:
         items:
           - item:
             name: Chaos Mesh
-            homepage_url: https://github.com/chaos-mesh/chaos-mesh
+            homepage_url: https://chaos-mesh.org/
             project: incubating
             repo_url: https://github.com/chaos-mesh/chaos-mesh
             logo: chaos-mesh.svg
@@ -6814,7 +6776,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/chaosiq
           - item:
             name: Chaosblade
-            homepage_url: https://github.com/chaosblade-io/chaosblade
+            homepage_url: https://chaosblade.io/
             project: sandbox
             repo_url: https://github.com/chaosblade-io/chaosblade
             logo: chaosblade.svg
