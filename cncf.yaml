@@ -5992,6 +5992,13 @@ landscape:
             twitter: https://twitter.com/AppOptics
             crunchbase: https://www.crunchbase.com/organization/solarwinds
           - item:
+            name: AppSignal
+            description: AppSignal is a powerful APM that works out-of-the-box for Elixir, Ruby, and Node.js.
+            homepage_url: https://www.appsignal.com/
+            logo: appsignal.svg
+            twitter: https://twitter.com/AppSignal
+            crunchbase: https://www.crunchbase.com/organization/appsignal
+          - item:
             name: Aternity
             description: Cloud-native, scalable, high-definition application performance monitoring (APM) for next gen apps.
             homepage_url: https://www.aternity.com/application-performance-monitoring/
@@ -8268,7 +8275,7 @@ landscape:
           - item:
             name: RX-M (KCSP)
             description: Market neutral Kubernetes Dev, DevOps and Production training and consulting services
-            homepage_url: http://rx-m.com/training/kubernetes-training/
+            homepage_url: http://rx-m.com/training/
             logo: rx-m.svg
             crunchbase: https://www.crunchbase.com/organization/rx-m
           - item:
@@ -9112,7 +9119,7 @@ landscape:
           - item:
             name: RX-M (KTP)
             description: Market neutral Kubernetes Dev, DevOps and Production training and consulting services
-            homepage_url: http://rx-m.com/training/kubernetes-training/
+            homepage_url: http://rx-m.com/training/
             logo: rx-m.svg
             crunchbase: https://www.crunchbase.com/organization/rx-m
             extra:
