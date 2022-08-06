@@ -496,6 +496,12 @@ landscape:
             logo: capsule8.svg
             crunchbase: https://www.crunchbase.com/organization/capsule8
           - item:
+            name: Cerbos
+            homepage_url: https://www.cerbos.dev/
+            repo_url: https://github.com/cerbos/cerbos
+            logo: cerbos.svg
+            crunchbase: https://www.crunchbase.com/organization/cerbos
+          - item:
             name: cert-manager
             homepage_url: https://www.jetstack.io/open-source/
             project: sandbox
@@ -3956,12 +3962,6 @@ landscape:
             logo: aws-code-pipeline.svg
             crunchbase: https://www.crunchbase.com/organization/amazon-web-services
           - item:
-            name: CAPE
-            description: CAPE automates delivery of enterprise Kubernetes applications and enables complex deployment strategies anywhere.
-            homepage_url: https://cape.sh/
-            logo: cape.svg
-            crunchbase: https://www.crunchbase.com/organization/biqmind
-          - item:
             name: Azure Pipelines
             description: Continuously build, test, and deploy to any platform and cloud
             homepage_url: https://azure.microsoft.com/en-us/services/devops/pipelines/
@@ -4002,6 +4002,12 @@ landscape:
             logo: bunnyshell.svg
             twitter: https://twitter.com/bunnyshell_eaas
             crunchbase: https://www.crunchbase.com/organization/bunnyshell
+          - item:
+            name: CAPE
+            description: CAPE automates delivery of enterprise Kubernetes applications and enables complex deployment strategies anywhere.
+            homepage_url: https://cape.sh/
+            logo: cape.svg
+            crunchbase: https://www.crunchbase.com/organization/biqmind
           - item:
             name: Cartographer
             description: Cartographer is a Kubernetes-native Choreographer providing higher modularity and scalability for the software supply chain.
@@ -5252,8 +5258,8 @@ landscape:
             logo: harmonycloud.svg
             crunchbase: https://www.crunchbase.com/organization/harmony-cloud
           - item:
-            name: kops
-            description: kops is open source, community-maintained tooling for production-grade kubernetes cluster installation, management and upgrades.
+            name: kOps
+            description: kOps is open source, community-maintained tooling for production-grade kubernetes cluster installation, management and upgrades.
             homepage_url: https://github.com/kubernetes/kops
             repo_url: https://github.com/kubernetes/kops
             logo: kops.svg
@@ -8793,6 +8799,12 @@ landscape:
               training_certifications: cka, cks
               training_type: e-learning, instructor-led
           - item:
+            name: acend (KTP)
+            description: acend offers the new Swiss way of training around cloud native technologies provided by trainers with a plenty of real life experience.
+            homepage_url: https://acend.ch/en/trainings/
+            logo: acend.svg
+            crunchbase: https://www.crunchbase.com/organization/acend
+          - item:
             name: Acornsoft (KTP)
             description: >-
               As a CNCF KCSP (Kubernetes Certified Service Provider) and a developer of Cocktail Cloud Kubernetes Orchestration Platform Product, Acornsoft
@@ -9914,7 +9926,7 @@ landscape:
             name: AtomicJar (member)
             homepage_url: https://www.atomicjar.com/
             logo: atomicjar.svg
-            crunchbase: https://www.crunchbase.com/organization/atomicjar-inc         
+            crunchbase: https://www.crunchbase.com/organization/atomicjar-inc
           - item:
             name: Atos (member)
             homepage_url: https://www.atos.net/en/
@@ -9924,7 +9936,7 @@ landscape:
             name: Authzed (member)
             homepage_url: https://www.authzed.com/
             logo: authzed.svg
-            crunchbase: https://www.crunchbase.com/organization/authzed           
+            crunchbase: https://www.crunchbase.com/organization/authzed
           - item:
             name: Automat-IT (member)
             homepage_url: https://www.automat-it.com/
@@ -10381,15 +10393,15 @@ landscape:
             logo: contrast-security.svg
             crunchbase: https://www.crunchbase.com/organization/contrast-security
           - item:
-            name: ControlPlane (member)
-            homepage_url: https://control-plane.io/
-            logo: controlplane.svg
-            crunchbase: https://www.crunchbase.com/organization/controlplane
-          - item:
             name: Control Plane (member)
             homepage_url: https://www.controlplane.com/
             logo: control-plane.svg
             crunchbase: https://www.crunchbase.com/organization/control-plane
+          - item:
+            name: ControlPlane (member)
+            homepage_url: https://control-plane.io/
+            logo: controlplane.svg
+            crunchbase: https://www.crunchbase.com/organization/controlplane
           - item:
             name: Core 24/7 (member)
             homepage_url: https://www.core247.io/
@@ -12039,7 +12051,7 @@ landscape:
             name: Qualys (member)
             homepage_url: https://www.qualys.com/
             logo: qualys.svg
-            crunchbase: https://www.crunchbase.com/organization/qualys         
+            crunchbase: https://www.crunchbase.com/organization/qualys
           - item:
             name: Quobyte (member)
             homepage_url: https://www.quobyte.com/
