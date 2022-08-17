@@ -1584,10 +1584,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/trilio-data
           - item:
             name: Triton Object Storage
-            homepage_url: https://www.joyent.com/triton/object-storage
+            homepage_url: https://www.tritondatacenter.com/triton/object-storage
             repo_url: https://github.com/TritonDataCenter/manta
             logo: triton-object-storage.svg
-            crunchbase: https://www.crunchbase.com/organization/joyent
+            crunchbase: https://www.crunchbase.com/organization/mnx-solutions
           - item:
             name: Velero
             homepage_url: https://velero.io
@@ -3118,6 +3118,13 @@ landscape:
             logo: stolon.svg
             twitter: https://twitter.com/sorintlab
             crunchbase: https://www.crunchbase.com/organization/sorint-lab
+          - item:
+            name: Tarantool
+            description: In-memory computing platform consisting of a database and an application server
+            homepage_url: https://www.tarantool.io/en/
+            repo_url: https://github.com/tarantool/tarantool
+            logo: tarantool.svg
+            crunchbase: https://www.crunchbase.com/organization/mail-ru
           - item:
             name: TDengine
             homepage_url: https://tdengine.com
@@ -8611,6 +8618,14 @@ landscape:
             logo: tidu.svg
             crunchbase: https://www.crunchbase.com/organization/tidu
           - item:
+            name: Tigera (KCSP)
+            description: >-
+              Calico helps solve complex use cases, accelerate your adoption process of microservices and bring your team up to speed in operating and
+              supporting your application modernization initiative. 
+            homepage_url: https://www.tigera.io/customer-success/
+            logo: tigera.svg
+            crunchbase: https://www.crunchbase.com/organization/tigera
+          - item:
             name: TL Consulting Group (KCSP)
             description: >-
               TL Consulting offers extensive Kubernetes capabilities, including solutions and services designed to baseline and further optimise your readiness
@@ -8816,6 +8831,9 @@ landscape:
             homepage_url: https://acend.ch/en/trainings/
             logo: acend.svg
             crunchbase: https://www.crunchbase.com/organization/acend
+            extra:
+              training_certifications: ckad
+              training_type: e-learning, instructor-led
           - item:
             name: Acornsoft (KTP)
             description: >-
