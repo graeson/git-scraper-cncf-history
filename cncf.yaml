@@ -2864,6 +2864,15 @@ landscape:
             twitter: https://twitter.com/juxtpro
             crunchbase: https://www.crunchbase.com/organization/juxt-8452
           - item:
+            name: Databend
+            description: >-
+              Databend is a modern Elasticity and Performance cloud data warehouse, activate your object storage for real-time analytics.  Databend Serverless
+              at https://app.databend.com/
+            homepage_url: https://databend.rs
+            repo_url: https://github.com/datafuselabs/databend
+            logo: databend.svg
+            crunchbase: https://www.crunchbase.com/organization/databend
+          - item:
             name: Dgraph
             homepage_url: https://dgraph.io/
             repo_url: https://github.com/dgraph-io/dgraph
@@ -5195,6 +5204,15 @@ landscape:
             homepage_url: https://www.stackit.de/de/
             logo: stackit.svg
             crunchbase: https://www.crunchbase.com/organization/schwarz-dienstleistungen
+          - item:
+            name: SysEleven MetaKube
+            description: >-
+              MetaKube offers carefree Multi Cloud Kubernetes as a Service on OpenStack Cloud, Amazon Web Services (AWS) and On-Premises. We provide you with
+              SaaS solutions like a load balancer as well as solutions for backup and recovery, monitoring, etc., and various types of support - detailed
+              documentation, tutorials and personal SRE-Support.
+            homepage_url: https://metakube.syseleven.de
+            logo: syseleven.svg
+            crunchbase: https://www.crunchbase.com/organization/syseleven
           - item:
             name: Taikun
             description: Taikun is a hybrid cloud management orchestration platform.
