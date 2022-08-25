@@ -1324,6 +1324,15 @@ landscape:
             logo: huawei.svg
             crunchbase: https://www.crunchbase.com/organization/huawei
           - item:
+            name: HwameiStor
+            description: Hwameistor is an HA local storage system for cloud-native stateful workloads
+            homepage_url: https://hwameistor.io/
+            repo_url: https://github.com/hwameistor/hwameistor
+            logo: hwameistor.svg
+            crunchbase: https://www.crunchbase.com/organization/daocloud
+            extra:
+              blog_url: https://hwameistor.io/blog
+          - item:
             name: IBM Storage
             description: >-
               IBM Storage for containers, Kubernetes, and Red Hat OpenShift delivers native cloud acceleration to help you build powerful, agile, and persistent
@@ -9352,6 +9361,15 @@ landscape:
       - subcategory:
         name: Certified CNFs
         items:
+          - item:
+            name: Juniper Networks
+            description: >-
+              The Junos® containerized routing protocol daemon (cRPD) offers deployment-hardened feature-rich routing functionality in a container for
+              cloud-native deployments.   
+            homepage_url: http://www.juniper.net/
+            project: null
+            logo: juniper-networks.svg
+            crunchbase: https://www.crunchbase.com/organization/juniper-networks
           - item:
             name: MATRIXX Digital Commerce
             description: >-
