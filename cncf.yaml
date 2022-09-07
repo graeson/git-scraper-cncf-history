@@ -674,6 +674,18 @@ landscape:
             twitter: https://twitter.com/Grafeasio
             crunchbase: https://www.crunchbase.com/organization/google
           - item:
+            name: Hexa
+            homepage_url: https://hexaorchestration.org/
+            project: sandbox
+            repo_url: https://github.com/hexa-org/policy-orchestrator
+            logo: hexa.svg
+            twitter: https://twitter.com/HexaPolicy
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-07-26'
+              dev_stats_url: https://hexapolicyorchestrator.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#hexa-logos
+          - item:
             name: in-toto
             homepage_url: https://in-toto.io
             project: incubating
@@ -4489,6 +4501,11 @@ landscape:
             logo: cloudboostr.svg
             crunchbase: https://www.crunchbase.com/organization/grape-up
           - item:
+            name: Cloudwise Synthetic Monitoring
+            homepage_url: https://www.jiankongbao.com/
+            logo: cloudwise-synthetic-monitoring.svg
+            crunchbase: https://www.crunchbase.com/organization/cloudwise
+          - item:
             name: Cocktail Cloud
             description: >-
               Cocktail Cloud is a container application management platform that provides a continuous development/deployment/operating environment for
@@ -4728,6 +4745,12 @@ landscape:
             logo: microk8s.svg
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
           - item:
+            name: Mirantis Kubernetes Engine
+            description: Mirantis Kubernetes Engine Kubernetes distribution.
+            homepage_url: https://www.mirantis.com/software/mirantis-kubernetes-engine/
+            logo: mirantis.svg
+            crunchbase: https://www.crunchbase.com/organization/mirantis
+          - item:
             name: Netease Qingzhou Microservice
             description: >-
               Netease Qingzhou Microservice is a one-stop PaaS platform built around applications and microservice, which helps users to quickly realize
@@ -4744,6 +4767,15 @@ landscape:
             logo: oracle.svg
             twitter: https://twitter.com/oraclelinux
             crunchbase: https://www.crunchbase.com/organization/oracle
+          - item:
+            name: Paas-TA Container Platform
+            description: >-
+              The PaaS-TA container platform provides an independent Kubernetes environment, and developers can easily deploy Kubernetes clusters to build and
+              manage the modern applications anywhere.
+            homepage_url: https://paas-ta.kr/eng/
+            repo_url: https://github.com/PaaS-TA/paas-ta-container-platform
+            logo: nia-paas-ta.svg
+            crunchbase: https://www.crunchbase.com/organization/national-information-society-agency
           - item:
             name: Palette
             description: >-
@@ -5318,6 +5350,13 @@ landscape:
             homepage_url: http://harmonycloud.cn/products/rongqiyun/
             logo: harmonycloud.svg
             crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+          - item:
+            name: kind
+            description: kind creates local multi-node Kubernetes clusters using Docker container nodes.
+            homepage_url: https://github.com/kubernetes-sigs/kind
+            repo_url: https://github.com/kubernetes-sigs/kind
+            logo: kind.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: kOps
             description: kOps is open source, community-maintained tooling for production-grade kubernetes cluster installation, management and upgrades.
@@ -10076,6 +10115,11 @@ landscape:
             logo: bc-cloud.svg
             crunchbase: https://www.crunchbase.com/organization/beijing-big-data
           - item:
+            name: BellSoft (member)
+            homepage_url: https://www.bell-sw.com/
+            logo: bellsoft.svg
+            crunchbase: https://www.crunchbase.com/organization/bellsoft-156e
+          - item:
             name: BeOpenIT (member)
             homepage_url: https://www.beopenit.com/
             logo: beopenit.svg
@@ -10403,6 +10447,11 @@ landscape:
             logo: clyso-member.svg
             crunchbase: https://www.crunchbase.com/organization/clyso-gmbh
           - item:
+            name: CNO (member)
+            homepage_url: https://www.gocno.io/
+            logo: cno.svg
+            crunchbase: https://www.crunchbase.com/organization/cno
+          - item:
             name: Cockroach Labs (member)
             homepage_url: https://www.cockroachlabs.com/
             logo: cockroach-labs.svg
@@ -10672,6 +10721,11 @@ landscape:
             homepage_url: https://www.dg-i.net
             logo: dgi.svg
             crunchbase: https://www.crunchbase.com/organization/dg-i
+          - item:
+            name: Diagrid (member)
+            homepage_url: https://www.diagrid.io/
+            logo: diagrid.svg
+            crunchbase: https://www.crunchbase.com/organization/diagrid
           - item:
             name: Diamanti (member)
             homepage_url: https://diamanti.com
@@ -11859,6 +11913,11 @@ landscape:
             logo: ogis-ri.svg
             crunchbase: https://www.crunchbase.com/organization/ogis-ri
           - item:
+            name: OKESTRO (member)
+            homepage_url: http://www.okestro.com/
+            logo: okestro.svg
+            crunchbase: https://www.crunchbase.com/organization/okestro
+          - item:
             name: Okteto (member)
             homepage_url: https://www.okteto.com/
             logo: okteto.svg
@@ -12119,6 +12178,11 @@ landscape:
             homepage_url: https://www.qaware.de
             logo: q-aware-member.svg
             crunchbase: https://www.crunchbase.com/organization/qaware
+          - item:
+            name: Qiming (member)
+            homepage_url: http://www.qm.cn/
+            logo: qiming.svg
+            crunchbase: https://www.crunchbase.com/organization/qm
           - item:
             name: Qingteng (member)
             description: >-
@@ -12536,6 +12600,11 @@ landscape:
             logo: storpool.svg
             crunchbase: https://www.crunchbase.com/organization/storpool
           - item:
+            name: Strata Identity (member)
+            homepage_url: https://www.strata.io/
+            logo: strata-identity.svg
+            crunchbase: https://www.crunchbase.com/organization/strata-identity
+          - item:
             name: Stratox (member)
             homepage_url: https://www.stratox.cz
             logo: stratox.svg
@@ -12805,6 +12874,11 @@ landscape:
             homepage_url: https://upbound.io
             logo: upbound-member.svg
             crunchbase: https://www.crunchbase.com/organization/upbound
+          - item:
+            name: UpCloud (member)
+            homepage_url: https://www.upcloud.com/
+            logo: upcloud.svg
+            crunchbase: https://www.crunchbase.com/organization/upcloud
           - item:
             name: UWS (member)
             homepage_url: http://www.uws.co.kr/
