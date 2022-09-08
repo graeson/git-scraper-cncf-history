@@ -195,6 +195,12 @@ landscape:
             twitter: https://twitter.com/kubefirst
             crunchbase: https://www.crunchbase.com/organization/kubeshop
           - item:
+            name: KubeZoo
+            homepage_url: https://kubewharf.github.io
+            repo_url: https://github.com/kubewharf/kubezoo
+            logo: kubezoo.svg
+            crunchbase: https://www.crunchbase.com/organization/bytedance
+          - item:
             name: LinuxKit
             homepage_url: https://github.com/linuxkit/linuxkit
             repo_url: https://github.com/linuxkit/linuxkit
@@ -902,6 +908,14 @@ landscape:
               artwork_url: https://github.com/Normation/rudder/tree/master/logo
               blog_url: https://www.rudder.io/blog/
               youtube_url: https://www.youtube.com/user/RudderProject
+          - item:
+            name: Scribe Security Platform
+            homepage_url: https://scribesecurity.com
+            logo: scribe-logo.svg
+            twitter: https://twitter.com/ScribeSecurity
+            crunchbase: https://www.crunchbase.com/organization/scribe-security
+            extra:
+              blog_url: https://scribesecurity.com/blog/
           - item:
             name: sigstore
             homepage_url: https://www.sigstore.dev/
@@ -4359,6 +4373,12 @@ landscape:
             logo: travis-ci.svg
             crunchbase: https://www.crunchbase.com/organization/travis-ci
           - item:
+            name: Weave GitOps
+            description: Weave GitOps enables the management of clusters and applications on scale with GitOps.
+            homepage_url: https://www.weave.works/product/gitops-enterprise/
+            logo: weaveworks.svg
+            crunchbase: https://www.crunchbase.com/organization/weaveworks
+          - item:
             name: werf
             description: >-
               werf is a GitOps CLI tool designed to simplify and speed up the delivery of applications in your CI/CD pipelines. It makes your Git repo a single
@@ -6622,14 +6642,6 @@ landscape:
             twitter: https://twitter.com/WavefrontHQ
             crunchbase: https://www.crunchbase.com/organization/vmware
           - item:
-            name: Weave Cloud
-            description: >-
-              Weave Cloud is an automation and management platform for development and DevOps teams. Built-in GitOps workflows are the foundation for improved
-              development velocity through continuous delivery and increased reliability through observability.
-            homepage_url: https://www.weave.works/product/cloud/
-            logo: weave-cloud.svg
-            crunchbase: https://www.crunchbase.com/organization/weaveworks
-          - item:
             name: Weave Scope
             homepage_url: https://www.weave.works/oss/scope/
             repo_url: https://github.com/weaveworks/scope
@@ -8404,12 +8416,6 @@ landscape:
             logo: raft.svg
             crunchbase: https://www.crunchbase.com/organization/raft-2599
           - item:
-            name: Rancher (KCSP)
-            description: Rancher is enterprise management for Kubernetes. Every distro. Every cluster. Every cloud.
-            homepage_url: https://rancher.com
-            logo: rancher.svg
-            crunchbase: https://www.crunchbase.com/organization/rancher-labs
-          - item:
             name: Red Kubes (KCSP)
             description: >-
               Red Kubes helps organizations take advantage of Kubernetes in a fast, reliable and secure way. We build and manage Kubernetes on every Cloud with
@@ -8614,6 +8620,11 @@ landscape:
             homepage_url: https://superorbital.io/
             logo: superorbital.svg
             crunchbase: https://www.crunchbase.com/organization/superorbital
+          - item:
+            name: SUSE (KCSP)
+            homepage_url: https://www.suse.com/products/suse-rancher/
+            logo: suse.svg
+            crunchbase: https://www.crunchbase.com/organization/suse
           - item:
             name: SVA (KCSP)
             description: >-
