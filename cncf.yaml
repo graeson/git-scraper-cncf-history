@@ -90,13 +90,14 @@ landscape:
           - item:
             name: Cloud Custodian
             homepage_url: https://cloudcustodian.io/
-            project: sandbox
+            project: incubating
             repo_url: https://github.com/cloud-custodian/cloud-custodian
             logo: cloud-custodian.svg
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2020-06-23'
-              dev_stats_url: https://cnigenie.devstats.cncf.io/
+              dev_stats_url: https://cloudcustodian.devstats.cncf.io/
+              incubation: '2022-09-14'
           - item:
             name: Cloudify
             homepage_url: https://cloudify.co
@@ -3177,7 +3178,6 @@ landscape:
             homepage_url: https://tdengine.com
             repo_url: https://github.com/taosdata/TDengine
             logo: TDengine.svg
-            twitter: https://twitter.com/TaosData
             crunchbase: https://www.crunchbase.com/organization/taos-data
           - item:
             name: TiDB
@@ -5469,19 +5469,19 @@ landscape:
             logo: rancher.svg
             crunchbase: https://www.crunchbase.com/organization/suse
           - item:
+            name: Sidero Talos Linux
+            description: Talos is a modern Kubernetes-focused OS designed to be secure, immutable, and minimal.
+            homepage_url: https://www.sideroLabs.com
+            repo_url: https://github.com/siderolabs/talos
+            logo: sidero.svg
+            crunchbase: https://www.crunchbase.com/organization/talos-systems-inc
+          - item:
             name: Symplegma
             description: Symplegma (from greek σύμπλεγμα) is a simple set of Ansible playbooks to deploy Kubernetes with Kubeadm
             homepage_url: https://particuleio.github.io/symplegma/
             repo_url: https://github.com/particuleio/symplegma
             logo: symplegma.svg
             crunchbase: https://www.crunchbase.com/organization/particule
-          - item:
-            name: Talos
-            description: Talos is a modern Kubernetes-focused OS designed to be secure, immutable, and minimal.
-            homepage_url: https://www.sideroLabs.com
-            repo_url: https://github.com/siderolabs/talos
-            logo: talos.svg
-            crunchbase: https://www.crunchbase.com/organization/talos-systems-inc
           - item:
             name: Weave GitOps Enterprise
             description: Weave GitOps Enterprise enables the management of clusters and applications on scale with GitOps.
