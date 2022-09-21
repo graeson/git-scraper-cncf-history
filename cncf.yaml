@@ -511,13 +511,14 @@ landscape:
           - item:
             name: cert-manager
             homepage_url: https://www.jetstack.io/open-source/
-            project: sandbox
+            project: incubating
             repo_url: https://github.com/cert-manager/cert-manager
             logo: jetstack-cert-manager.svg
             twitter: https://twitter.com/JetstackHQ
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2020-11-10'
+              incubating: '2022-09-19'
               dev_stats_url: https://certmanager.devstats.cncf.io/
           - item:
             name: Check Point
@@ -818,6 +819,20 @@ landscape:
               stack_overflow_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#opa-logos
               blog_url: https://blog.openpolicyagent.org/
               slack_url: http://slack.openpolicyagent.org/
+          - item:
+            name: OpenFGA
+            description: OpenFGA is high performance and flexible authorization/permission system built for developers and inspired by Google Zanzibar
+            homepage_url: https://openfga.dev
+            project: sandbox
+            repo_url: https://github.com/openfga/openfga
+            logo: openfga.svg
+            twitter: https://twitter.com/OpenFGA
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-09-13'
+              dev_stats_url: https://openfga.devstats.cncf.io/
+              artwork_url: https://github.com/openfga/community/tree/main/brand-assets
+              slack_url: https://discord.gg/8naAwJfWN6
           - item:
             name: OpenSCAP
             homepage_url: https://www.open-scap.org/
