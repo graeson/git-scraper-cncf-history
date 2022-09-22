@@ -1694,7 +1694,7 @@ landscape:
               dev_stats_url: https://containerd.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#containerd-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/containerd
-              slack_url: https://slack.containerd.io/
+              slack_url: https://slack.cncf.io/
               chat_channel: '#containerd'
           - item:
             name: CRI-O
@@ -2829,6 +2829,12 @@ landscape:
             logo: Slime.svg
             twitter: https://twitter.com/NetEase_Global
             crunchbase: https://www.crunchbase.com/organization/netease-com
+          - item:
+            name: Tetrate Service Bridge (TSB)
+            description: Application connectivity platform.
+            homepage_url: https://www.tetrate.io/tetrate-service-bridge/
+            logo: tsb.svg
+            crunchbase: https://www.crunchbase.com/organization/tetrate
           - item:
             name: Traefik Mesh
             homepage_url: https://traefik.io/traefik-mesh
@@ -5608,12 +5614,6 @@ landscape:
             logo: workflow.svg
             crunchbase: https://www.crunchbase.com/organization/sogou
           - item:
-            name: Tetrate Service Bridge(TSB)
-            description: Application connectivity platform.
-            homepage_url: https://www.tetrate.io/tetrate-service-bridge/
-            logo: tsb.svg
-            crunchbase: https://www.crunchbase.com/organization/tetrate
-          - item:
             name: Tsuru
             homepage_url: https://tsuru.io/
             repo_url: https://github.com/tsuru/tsuru
@@ -5686,6 +5686,7 @@ landscape:
           - item:
             name: Serverless Devs
             homepage_url: https://www.serverless-devs.com/
+            project: sandbox
             repo_url: https://github.com/serverless-devs/serverless-devs
             logo: serverless-devs.svg
             crunchbase: https://www.crunchbase.com/organization/alibaba
