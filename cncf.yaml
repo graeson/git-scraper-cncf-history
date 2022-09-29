@@ -528,6 +528,11 @@ landscape:
               incubating: '2022-09-19'
               dev_stats_url: https://certmanager.devstats.cncf.io/
           - item:
+            name: Chaitin Tech
+            homepage_url: https://www.chaitin.cn/en/
+            logo: ChaitinTech LOGO.svg
+            crunchbase: https://www.crunchbase.com/organization/chaitin-tech
+          - item:
             name: Check Point
             description: >-
               Check Point Software Technologies Ltd. is a leading provider of cyber security solutions to corporate enterprises and governments globally. Check
@@ -3306,10 +3311,10 @@ landscape:
             logo: yellowbrick.svg
             crunchbase: https://www.crunchbase.com/organization/yellowbrick-data
           - item:
-            name: YugaByte DB
+            name: YugabyteDB
             homepage_url: https://www.yugabyte.com/yugabytedb/
             repo_url: https://github.com/YugaByte/yugabyte-db
-            logo: yugabyte.svg
+            logo: yugabytedb.svg
             crunchbase: https://www.crunchbase.com/organization/yugabyte
       - subcategory:
         name: Streaming & Messaging
@@ -8102,13 +8107,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/kbsys
             joined: '2021-01-23'
           - item:
-            name: Kingsoft Cloud (KCSP)
-            description: Kingsoft Cloud provides professional cloud native technologies, training and consulting, such as Kubernetes and KCE, our certified offering.
-            homepage_url: https://www.ksyun.com/nv/product/KCE.html
-            logo: kingsoft.svg
-            twitter: null
-            crunchbase: https://www.crunchbase.com/organization/kingsoft-cloud
-          - item:
             name: KINX (KCSP)
             description: No cluster setup. No capacity planning. All you need to do is deploying helm-based applications on a shared k8s cluster via Web UI.
             homepage_url: https://www.kinx.net/
@@ -8776,7 +8774,7 @@ landscape:
             name: Tigera (KCSP)
             description: >-
               Calico helps solve complex use cases, accelerate your adoption process of microservices and bring your team up to speed in operating and
-              supporting your application modernization initiative. 
+              supporting your application modernization initiative.
             homepage_url: https://www.tigera.io/customer-success/
             logo: tigera.svg
             crunchbase: https://www.crunchbase.com/organization/tigera
@@ -9491,7 +9489,7 @@ landscape:
             name: Containerized Routing Protocol Daemon
             description: >-
               The Junos® containerized routing protocol daemon (cRPD) offers deployment-hardened feature-rich routing functionality in a container for
-              cloud-native deployments.   
+              cloud-native deployments.
             homepage_url: http://www.juniper.net/
             project: null
             logo: juniper-networks.svg
@@ -9753,12 +9751,6 @@ landscape:
             homepage_url: https://jfrog.com/
             logo: jfrog.svg
             crunchbase: https://www.crunchbase.com/organization/jfrog-ltd
-          - item:
-            name: Kingsoft (member)
-            homepage_url: https://en.ksyun.com/
-            logo: kingsoft.svg
-            twitter: null
-            crunchbase: https://www.crunchbase.com/organization/kingsoft-cloud
           - item:
             name: NEC (member)
             homepage_url: https://www.nec.com/
@@ -10621,6 +10613,11 @@ landscape:
             logo: controlplane.svg
             crunchbase: https://www.crunchbase.com/organization/controlplane
           - item:
+            name: Convox (member)
+            homepage_url: https://www.convox.com/
+            logo: convox.svg
+            crunchbase: https://www.crunchbase.com/organization/convox
+          - item:
             name: Core 24/7 (member)
             homepage_url: https://www.core247.io/
             logo: core247.svg
@@ -11281,11 +11278,6 @@ landscape:
             logo: humio.svg
             crunchbase: https://www.crunchbase.com/organization/humio
           - item:
-            name: Huoxian Security (member)
-            homepage_url: https://www.huoxian.cn/
-            logo: huoxian-security.svg
-            crunchbase: https://www.crunchbase.com/organization/hx-security
-          - item:
             name: HyScale (member)
             homepage_url: https://www.hyscale.io/
             logo: hyscale.svg
@@ -11436,13 +11428,6 @@ landscape:
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/jiangxi-yumin-bank
             joined: '2020-11-17'
-          - item:
-            name: Jimdo (member)
-            homepage_url: https://www.jimdo.com/
-            logo: jimdo.svg
-            enduser: true
-            crunchbase: https://www.crunchbase.com/organization/jimdo
-            joined: '2021-08-26'
           - item:
             name: JPMorgan Chase (member)
             homepage_url: https://www.jpmorganchase.com
@@ -11878,11 +11863,6 @@ landscape:
             logo: nethopper.svg
             crunchbase: https://www.crunchbase.com/organization/nethopper-io
           - item:
-            name: Netis (member)
-            homepage_url: https://wordpress.com/browsehappy
-            logo: netis.svg
-            crunchbase: https://www.crunchbase.com/organization/netis-technologies-c590
-          - item:
             name: Netris (member)
             homepage_url: https://www.netris.ai/
             logo: netris.svg
@@ -12285,11 +12265,6 @@ landscape:
             homepage_url: https://qingteng.cn/
             logo: qingteng.svg
             crunchbase: https://www.crunchbase.com/organization/qingteng-cloud-security
-          - item:
-            name: Qiniu (member)
-            homepage_url: https://www.qiniu.com/
-            logo: qiniu.svg
-            crunchbase: https://www.crunchbase.com/organization/qiniu
           - item:
             name: QualitySoft (member)
             homepage_url: https://www.qualitysoft.com/
