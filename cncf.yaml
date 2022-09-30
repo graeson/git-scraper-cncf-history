@@ -590,6 +590,23 @@ landscape:
               slack_url: https://cloud-native.slack.com/
               chat_channel: '#confidential-containers'
           - item:
+            name: ContainerSSH
+            description: >-
+              ContainerSSH launches a new container for each SSH connection in Kubernetes, Podman or Docker. The user is transparently dropped in the container
+              and the container is removed when the user disconnects. Authentication and container configuration are dynamic using webhooks, no system users
+              required.
+            homepage_url: https://containerssh.io
+            project: sandbox
+            repo_url: https://github.com/containerssh/containerssh
+            logo: containerssh.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-09-13'
+              dev_stats_url: https://containerssh.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/tree/master/projects/containerssh
+              slack_url: https://cloud-native.slack.com/
+              chat_channel: '#containerssh'
+          - item:
             name: Curiefense
             homepage_url: https://www.curiefense.io/
             project: sandbox
@@ -2750,10 +2767,15 @@ landscape:
           - item:
             name: Istio
             homepage_url: https://istio.io/
+            project: incubating
             repo_url: https://github.com/istio/istio
             logo: istio.svg
             twitter: https://twitter.com/IstioMesh
-            crunchbase: https://www.crunchbase.com/organization/google
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-09-28'
+              incubating: '2022-09-28'
+              dev_stats_url: https://istio.devstats.cncf.io/
           - item:
             name: Kuma
             homepage_url: https://kuma.io
@@ -5814,12 +5836,6 @@ landscape:
             logo: serverless.svg
             crunchbase: https://www.crunchbase.com/organization/serverless
           - item:
-            name: Serverless Stack
-            homepage_url: https://serverless-stack.com/
-            repo_url: https://github.com/serverless-stack/serverless-stack
-            logo: serverless-stack.svg
-            crunchbase: https://www.crunchbase.com/organization/sst-c030
-          - item:
             name: Sparta
             homepage_url: https://gosparta.io/
             repo_url: https://github.com/mweagle/Sparta
@@ -5832,6 +5848,13 @@ landscape:
             repo_url: https://github.com/spring-cloud/spring-cloud-function
             logo: spring-cloud-function.svg
             crunchbase: https://www.crunchbase.com/organization/vmware
+          - item:
+            name: SST
+            homepage_url: https://sst.dev/
+            repo_url: https://github.com/serverless-stack/sst
+            logo: sst.svg
+            twitter: https://twitter.com/SST_dev
+            crunchbase: https://www.crunchbase.com/organization/sst-c030
           - item:
             name: Stateful Functions
             homepage_url: https://statefun.io
@@ -7368,6 +7391,14 @@ landscape:
             logo: automat-it.svg
             crunchbase: https://www.crunchbase.com/organization/automat-it
           - item:
+            name: Avisi (KCSP)
+            description: >-
+              Avisi Cloud provides Managed Kubernetes for enterprises and helps them with challenges around compliance, implementation and support for hosting
+              mission critical software on Kubernetes.
+            homepage_url: https://www.avisi.nl/en/kubernetes-service-provider
+            logo: avisi.svg
+            crunchbase: https://www.crunchbase.com/organization/avisi
+          - item:
             name: b-nova (KCSP)
             description: >-
               b-nova is a Swiss consulting company based in Basel that is specialised in enabling and crafting innovative cloud driven solutions and efficient
@@ -7955,6 +7986,14 @@ landscape:
             homepage_url: https://www.giantswarm.io/
             logo: giant-swarm-cncf.svg
             crunchbase: https://www.crunchbase.com/organization/giant-swarm
+          - item:
+            name: GienTech (KCSP)
+            description: >-
+              Gientech can help customers understand and deploy Kubernetes container technology deeply. We provides customized Kubernetes services including
+              consulting, training, implementation and technical support.
+            homepage_url: https://en.gientech.com/consulting/Kubernetes.html
+            logo: gientech.svg
+            crunchbase: https://www.crunchbase.com/organization/gientech
           - item:
             name: GitLab (KCSP)
             description: GitLab provides DevOps fundamentals training using Kubernetes. Implement GitOps using GitLab to establish declarative application delivery to K8s.
