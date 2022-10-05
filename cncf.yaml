@@ -801,6 +801,20 @@ landscape:
               slack_url: https://kubernetes.slack.com/
               chat_channel: '#kyverno'
           - item:
+            name: Kubewarden
+            homepage_url: https://www.kubewarden.io
+            project: sandbox
+            repo_url: https://github.com/kubewarden/kubewarden-controller
+            logo: kubewarden.svg
+            twitter: https://twitter.com/kubewarden
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-07-15'
+              blog_url: https://kubewarden.io/blog
+              slack_url: https://kubernetes.slack.com/
+              dev_stats_url: https://kubewarden.devstats.cncf.io/
+              chat_channel: '#kubewarden'
+          - item:
             name: Mondoo
             description: Cloud native infrastructure security for your entire fleet
             homepage_url: https://mondoo.com
@@ -1806,10 +1820,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/sylabs
           - item:
             name: SmartOS
-            homepage_url: https://www.joyent.com/smartos
+            homepage_url: https://www.TritonDataCenter.com/smartos
             repo_url: https://github.com/TritonDataCenter/smartos-live
             logo: smartos.svg
-            crunchbase: https://www.crunchbase.com/organization/joyent
+            crunchbase: https://www.crunchbase.com/organization/mnx-solutions
           - item:
             name: Sysbox
             homepage_url: https://github.com/nestybox/sysbox
@@ -1829,6 +1843,20 @@ landscape:
               accepted: '2021-04-28'
               dev_stats_url: https://wasmedge.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#wasmedgeruntime-logos
+          - item:
+            name: Lima
+            homepage_url: https://github.com/lima-vm/lima
+            description: Linux virtual machines, typically on macOS, for running containerd
+            project: sandbox
+            repo_url: https://github.com/lima-vm/lima
+            logo: lima.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-09-13'
+              dev_stats_url: https://lima.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#lima-logos
+              slack_url: https://slack.cncf.io/
+              chat_channel: '#lima'
       - subcategory:
         name: Cloud Native Network
         items:
@@ -2176,6 +2204,23 @@ landscape:
               slack_url: http://slack.k8s.io/
               youtube_url: https://www.youtube.com/channel/UCZ2bu0qutTOM0tHYa_jkIwg
           - item:
+            name: Kured
+            description: >-
+              Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the
+              package management system of the underlying OS
+            project: sandbox
+            repo_url: https://github.com/kubereboot/kured
+            homepage_url: https://kured.dev
+            logo: kured.svg
+            twitter: https://twitter.com/kubereboot
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-09-13'
+              dev_stats_url: https://kured.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kured-logos
+              slack_url: http://slack.cncf.io/
+              youtube_url: https://www.youtube.com/playlist?list=PLbx4FZ4kOKnurkfQy-tbxYHySHSqq0LbX
+          - item:
             name: Nomad
             homepage_url: https://www.nomadproject.io/
             repo_url: https://github.com/hashicorp/nomad
@@ -2201,6 +2246,12 @@ landscape:
             repo_url: https://github.com/OpenNebula/one
             logo: open-nebula.svg
             crunchbase: https://www.crunchbase.com/organization/opennebula
+          - item:
+            name: Prefect
+            homepage_url: https://docs.prefect.io/
+            repo_url: https://github.com/PrefectHQ/prefect
+            logo: prefect.svg
+            crunchbase: https://www.crunchbase.com/organization/prefect-technologies-inc
           - item:
             name: Volcano
             homepage_url: https://volcano.sh/
@@ -6876,6 +6927,20 @@ landscape:
             logo: pandora.svg
             crunchbase: https://www.crunchbase.com/organization/qiniu
           - item:
+            name: Parseable
+            description: >-
+              Parseable is a free and open source log storage and observability platform. Written in Rust, Parseable can be deployed on natively on Kubernetes.
+              It ingests log data via HTTP POST calls and exposes a query API to search and analyze logs. It is compatible with logging agents like FluentBit,
+              LogStash, FileBeat among others.
+            homepage_url: https://www.parseable.io
+            repo_url: https://github.com/parseablehq/parseable
+            logo: parseable.svg
+            open_source: true
+            twitter: https://twitter.com/parseableio
+            crunchbase: https://www.crunchbase.com/organization/parseable
+            extra:
+              blog_url: https://www.parseable.io/blog/
+          - item:
             name: Rizhiyi
             homepage_url: https://www.rizhiyi.com/
             logo: rizhiyi.svg
@@ -8751,6 +8816,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/superorbital
           - item:
             name: SUSE (KCSP)
+            description: >-
+              SUSE is here to help simplify your business modernization journey offering reliable and interoperable cloud native solutions with consulting,
+              training and support services to keep up with the pace of change and your expectations.
             homepage_url: https://www.suse.com/products/suse-rancher/
             logo: suse.svg
             crunchbase: https://www.crunchbase.com/organization/suse
@@ -8913,12 +8981,6 @@ landscape:
             homepage_url: https://www.valinux.co.jp
             logo: va-linux-systems-japan.svg
             crunchbase: https://www.crunchbase.com/organization/va-linux-systems-japan
-          - item:
-            name: Ventus Cloud (KCSP)
-            description: Increase software delivery performance and generate powerful business outcomes by leveraging the Ventus Cloud Kubernetes Services.
-            homepage_url: https://ventuscloud.eu/integration
-            logo: ventus-cloud.svg
-            crunchbase: https://www.crunchbase.com/organization/ventus-cloud
           - item:
             name: VMware (KCSP)
             description: VMware helps businesses of all sizes get closer to the vibrant Kubernetes community.
@@ -9573,15 +9635,19 @@ landscape:
             logo: matrixx.svg
             crunchbase: https://www.crunchbase.com/organization/matrixx-software
           - item:
-            name: Non-Public Organization Bear (Certified CNF)
-            homepage_url: https://www.cncf.io/
-            logo: bear.svg
-            unnamed_organization: true
+            name: lighty RESTCONF-NETCONF APP
+            description: >-
+              The lighty.io RESTCONF-NETCONF application allows to easily initialize, start and utilize the most used OpenDaylight services and optionally add
+              custom business logic.
+            homepage_url: https://lighty.io/
+            logo: lighty.svg
+            crunchbase: https://www.crunchbase.com/organization/pantheon-technologies
           - item:
-            name: Non-Public Organization Dog (Certified CNF)
-            homepage_url: https://www.cncf.io/
-            logo: dog.svg
-            unnamed_organization: true
+            name: lighty gNMI APP
+            description: The lighty.io gNMI RESTCONF plugin allows for easy manipulation of gNMI devices.
+            homepage_url: https://lighty.io/
+            logo: lighty.svg
+            crunchbase: https://www.crunchbase.com/organization/pantheon-technologies
           - item:
             name: Non-Public Organization Elephant (Certified CNF)
             homepage_url: https://www.cncf.io/
@@ -11063,6 +11129,11 @@ landscape:
             logo: env0.svg
             crunchbase: https://www.crunchbase.com/organization/env0
           - item:
+            name: EPAM Systems (member)
+            homepage_url: https://www.epam.com/
+            logo: epam-systems.svg
+            crunchbase: https://www.crunchbase.com/organization/epam-systems
+          - item:
             name: Era Software (member)
             homepage_url: https://www.era.co/
             logo: era-software.svg
@@ -11452,11 +11523,6 @@ landscape:
             homepage_url: https://www.inwinstack.com
             logo: inwin-stack-member.svg
             crunchbase: https://www.crunchbase.com/organization/inwinstack
-          - item:
-            name: IOMesh (member)
-            homepage_url: https://iomesh.com/
-            logo: iomesh.svg
-            crunchbase: https://www.crunchbase.com/organization/smartx
           - item:
             name: Isovalent (member)
             homepage_url: https://isovalent.com/
@@ -12170,6 +12236,11 @@ landscape:
             logo: paladin-cloud.svg
             crunchbase: https://www.crunchbase.com/organization/paladin-cloud
           - item:
+            name: PANTHEON.tech (member)
+            homepage_url: https://www.pantheon.tech/
+            logo: pantheon.svg
+            crunchbase: https://www.crunchbase.com/organization/pantheon-technologies
+          - item:
             name: Particule (member)
             homepage_url: https://particule.io/
             logo: particule.svg
@@ -12333,6 +12404,11 @@ landscape:
             homepage_url: https://qingteng.cn/
             logo: qingteng.svg
             crunchbase: https://www.crunchbase.com/organization/qingteng-cloud-security
+          - item:
+            name: Quali (member)
+            homepage_url: https://www.quali.com/
+            logo: quali.svg
+            crunchbase: https://www.crunchbase.com/organization/qualisystems
           - item:
             name: QualitySoft (member)
             homepage_url: https://www.qualitysoft.com/
@@ -12882,6 +12958,11 @@ landscape:
             logo: the-scale-factory-member.svg
             crunchbase: https://www.crunchbase.com/organization/the-scale-factory
           - item:
+            name: Thnk Big (member)
+            homepage_url: https://www.thnkbig.com/
+            logo: thnk-big.svg
+            crunchbase: https://www.crunchbase.com/organization/thnkbig
+          - item:
             name: Thought Machine (member)
             homepage_url: https://www.thoughtmachine.net/
             logo: thought-machine.svg
@@ -13045,11 +13126,6 @@ landscape:
             logo: velocity.svg
             crunchbase: https://www.crunchbase.com/organization/velocity-b933
           - item:
-            name: Ventus Cloud (member)
-            homepage_url: https://ventuscloud.eu/
-            logo: ventus-cloud.svg
-            crunchbase: https://www.crunchbase.com/organization/ventus-cloud
-          - item:
             name: VEXXHOST (member)
             homepage_url: https://vexxhost.com
             logo: vexxhost.svg
@@ -13208,13 +13284,6 @@ landscape:
             homepage_url: https://www.yld.io
             logo: yld-member.svg
             crunchbase: https://www.crunchbase.com/organization/yld
-          - item:
-            name: Zafin (member)
-            homepage_url: https://zafin.com
-            logo: zafin.svg
-            enduser: true
-            crunchbase: https://www.crunchbase.com/organization/zafin
-            joined: '2020-09-21'
           - item:
             name: Zebrium (member)
             homepage_url: https://www.zebrium.com/
@@ -13381,12 +13450,6 @@ landscape:
             homepage_url: https://www.tno.nl/en/
             logo: tno.svg
             crunchbase: https://www.crunchbase.com/organization/tno
-          - item:
-            name: UPchieve (member)
-            homepage_url: https://www.upchieve.org/
-            logo: upchieve.svg
-            crunchbase: https://www.crunchbase.com/organization/upchieve
-            joined: '2021-01-07'
           - item:
             name: UPMC Enterprises (member)
             homepage_url: https://enterprises.upmc.com/
