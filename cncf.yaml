@@ -6023,6 +6023,15 @@ landscape:
             twitter: https://twitter.com/GCPcloud
             crunchbase: https://www.crunchbase.com/organization/google
           - item:
+            name: Google Cloud Run
+            description: >-
+              Cloud Run allows you to build and deploy scalable containerized apps written in any language (including Go, Python, Java, Node.js, .NET, and Ruby)
+              on a fully managed serverless platform. 
+            homepage_url: https://cloud.google.com/run/
+            logo: google-cloud-run.svg
+            twitter: https://twitter.com/GoogleCloudTech
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
             name: Huawei FunctionStage
             description: >-
               FunctionStage is an event-driven function hosting and computing service, that compiles function code and configures running conditions without
