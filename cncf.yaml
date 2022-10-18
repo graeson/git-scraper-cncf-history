@@ -4214,6 +4214,15 @@ landscape:
             twitter: https://twitter.com/bunnyshell_eaas
             crunchbase: https://www.crunchbase.com/organization/bunnyshell
           - item:
+            name: Bytebase
+            description: Reliable Database CI/CD for Developers and DBAs
+            homepage_url: https://www.bytebase.com/
+            repo_url: https://github.com/bytebase/bytebase
+            logo: bytebase.svg
+            crunchbase: https://www.crunchbase.com/organization/bytebase
+            extra:
+              slack_url: https://discord.gg/huyw7gRsyA
+          - item:
             name: CAPE
             description: CAPE automates delivery of enterprise Kubernetes applications and enables complex deployment strategies anywhere.
             homepage_url: https://cape.sh/
@@ -4264,6 +4273,14 @@ landscape:
             homepage_url: https://d2iq.com/kubernetes-platform
             logo: d2iq-dispatch.svg
             crunchbase: https://www.crunchbase.com/organization/D2iQ
+          - item:
+            name: Devtron
+            description: Open source Software delivery workflow for Kubernetes
+            homepage_url: https://devtron.ai
+            repo_url: https://github.com/devtron-labs/devtron
+            logo: devtron.svg
+            twitter: https://twitter.com/DevtronL
+            organization: https://www.crunchbase.com/organization/devtron-labs
           - item:
             name: DolphinScheduler
             homepage_url: https://dolphinscheduler.apache.org/
@@ -13691,9 +13708,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/huifu-payment
             joined: '2020-09-02'
           - item:
-            name: i3 Systems (supporter)
+            name: i Cubed Systems, Inc. (supporter)
             homepage_url: https://www.i3-systems.com/
-            logo: i3-systems-supporter.svg
+            logo: i-cubed-systems-supporter.svg
             crunchbase: https://www.crunchbase.com/organization/i3systems
           - item:
             name: iHerb (supporter)
