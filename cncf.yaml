@@ -3073,6 +3073,15 @@ landscape:
               blog_url: https://smi-spec.io/blog/
               slack_url: https://cloud-native.slack.com/messages/smi
               youtube_url: https://www.youtube.com/playlist?list=PLj6h78yzYM2N5upvsCMVbct4WSrKJo49p
+          - item:
+            name: Sermant
+            description: Sermant a proxyless service mesh solution based on Javaagent.
+            homepage_url: https://sermant.io/
+            repo_url: https://github.com/huaweicloud/Sermant
+            logo: sermant.svg
+            open_source: true
+            twitter: https://twitter.com/Huawei_Cloud
+            crunchbase: https://www.crunchbase.com/organization/huawei    
   - category:
     name: App Definition and Development
     subcategories:
@@ -6817,6 +6826,14 @@ landscape:
             logo: leanix.svg
             crunchbase: https://www.crunchbase.com/organization/leanix
           - item:
+            name: LinDB
+            description: >-
+              LinDB is a scalable, high performance, high availability distributed time series database.
+            homepage_url: https://www.lindb.io/
+            logo: lindb.svg
+            repo_url: https://github.com/lindb/lindb
+            crunchbase: https://www.crunchbase.com/organization/lindata
+          - item:
             name: LogicMonitor
             homepage_url: https://www.logicmonitor.com/
             logo: logicmonitor.svg
@@ -9092,6 +9109,15 @@ landscape:
             logo: spectro-cloud.svg
             crunchbase: https://www.crunchbase.com/organization/spectro-cloud
           - item:
+            name: Speedyrails (KCSP)
+            description: >-
+              Speedyrails is an AWS Advanced Consulting Partner and Amazon EKS Service Delivery Launch Partner helping clients architect, deploy and operate
+              Kubernetes clusters on AWS EKS. Our service enables your teams to focus on developing your applications and business with Speedyrails support on best
+              practices, compliance, security, cloud-native architectures, and operational excellence.
+            homepage_url: https://www.speedyrails.com/managed-kubernetes/
+            logo: speedyrails.svg
+            crunchbase: https://www.crunchbase.com/organization/speedyrails-inc
+          - item:
             name: stackgenie (KCSP)
             description: >-
               As a Kubernetes Certified Service Provider, StackGenie offers Kubernetes support, consulting and professional services for businesses and
@@ -9662,7 +9688,7 @@ landscape:
             description: >-
               The world's top software experts, core code maintainers of the Docker project, and DaoCloud senior architects bring you in-depth training on the
               core technologies of the next generation of cloud computing, and easily master the knowledge and practice of Docker containers, microservices,
-              DevOps, and lean R&D. experience.
+              DevOps, and lean R&D experience.
             homepage_url: https://www.daocloud.io/training
             logo: daocloud.svg
             crunchbase: https://www.crunchbase.com/organization/daocloud
@@ -9877,7 +9903,7 @@ landscape:
           - item:
             name: Shinesoft (KTP)
             description: We provide design, development and tech support include; Cloud/Cluster, Network, Server, Security, Monitoring, Data analysis, and AI/IoT
-            homepage_url: http://shinesoft.co.jp/download/shinesoft-icon.svg
+            homepage_url: https://www.shinesoft.co.jp/business/#training
             logo: shinesoft.svg
             crunchbase: https://www.crunchbase.com/organization/shinesoft-co-ltd
           - item:
