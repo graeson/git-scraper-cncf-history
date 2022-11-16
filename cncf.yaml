@@ -1988,7 +1988,8 @@ landscape:
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#cni-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/cni
               mailing_list_url: https://groups.google.com/forum/#!forum/cni-dev
-              slack_url: https://containernetworking.slack.com/
+              slack_url: https://containernetworking.slack.com
+              specification: true
           - item:
             name: Cumulus
             homepage_url: https://www.nvidia.com/en-us/networking/ethernet-switching
@@ -4620,6 +4621,7 @@ landscape:
               blog_url: https://docs.openfeature.dev/blog
               slack_url: https://cloud-native.slack.com/messages/openfeature
               youtube_url: https://www.youtube.com/channel/UCXSFt-dT2HORGXz1-ksxtxw
+              specification: true
           - item:
             name: OpenGitOps
             homepage_url: https://opengitops.dev/
@@ -6915,6 +6917,7 @@ landscape:
               dev_stats_url: https://openmetrics.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#openmetrics-logos
               slack_url: https://cloud-native.slack.com/messages/openmetrics
+              specification: true
           - item:
             name: OpenTSDB
             homepage_url: http://opentsdb.net/
@@ -7376,6 +7379,7 @@ landscape:
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#opentelemetry-logos
               slack_url: https://cloud-native.slack.com/messages/opentelemetry
               gitter_url: https://gitter.im/open-telemetry/community
+              specification: true
           - item:
             name: OpenTracing
             homepage_url: https://opentracing.io/
@@ -7393,6 +7397,7 @@ landscape:
               blog_url: https://medium.com/opentracing
               mailing_list_url: https://groups.google.com/forum/#!forum/opentracing
               gitter_url: https://gitter.im/opentracing/public
+              specification: true
           - item:
             name: Pinpoint
             homepage_url: https://naver.github.io/pinpoint/
@@ -10208,6 +10213,11 @@ landscape:
             logo: charter.svg
             crunchbase: https://www.crunchbase.com/organization/charter-communications
           - item:
+            name: China Telecom Cloud (member)
+            homepage_url: https://www.ctyun.cn/
+            logo: china-telecom.svg
+            crunchbase: https://www.crunchbase.com/organization/china-telecom-cloud-technology          
+          - item:
             name: Coinbase (member)
             homepage_url: https://www.coinbase.com/
             logo: coinbase.svg
@@ -10799,6 +10809,11 @@ landscape:
             homepage_url: https://www.btech.id/
             logo: boer-technology.svg
             crunchbase: https://www.crunchbase.com/organization/btech-d630
+          - item:
+            name: BONC (member)
+            homepage_url: https://www.bonc.com.cn/
+            logo: bonc.svg
+            crunchbase: https://www.crunchbase.com/organization/bonc            
           - item:
             name: Booz Allen Hamilton (member)
             homepage_url: https://www.boozallen.com/
@@ -11550,6 +11565,11 @@ landscape:
             logo: ericsson-member.svg
             crunchbase: https://www.crunchbase.com/organization/ericsson
           - item:
+            name: Evolvere Technologies (member)
+            homepage_url: https://www.evolvere-tech.co.uk/
+            logo: evolvere.svg
+            crunchbase: https://www.crunchbase.com/organization/evolvere-technologies            
+          - item:
             name: Exein (member)
             homepage_url: https://www.exein.io/
             logo: exein.svg
@@ -11593,6 +11613,11 @@ landscape:
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/fannie-mae
             joined: '2021-10-23'
+          - item:
+            name: Fiberplane (member)
+            homepage_url: https://www.fiberplane.dev/
+            logo: fiberplane.svg
+            crunchbase: https://www.crunchbase.com/organization/fiberplane           
           - item:
             name: Finout (member)
             homepage_url: https://www.finout.io/
