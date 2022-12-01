@@ -4368,10 +4368,11 @@ landscape:
           - item:
             name: Akuity
             description: >-
-              The Argo enterprise company modernizing the cloud-native toolchain with Argo, the industry-leading open-source suite of Kubernetes-native
-              application delivery software.
+              Akuity is the enterprise-grade company for Argo, the open source suite of cloud native application delivery tools. Akuity was founded
+              by                 Argo originators Hong Wang, Jesse Suen and Alexander Matyushentsev, and its mission is to empower DevOps teams to deliver their
+              apps in a               simpler, safer, and faster way. The Akuity Platform provides a best-in-class developer experience with enterprise
+              readiness, and enables                 organizations to modernize their toolchain for the cloud-native era. 
             homepage_url: https://akuity.io
-            repo_url: https://github.com/argoproj/argo-cd
             logo: akuity.svg
             crunchbase: https://www.crunchbase.com/organization/akuity
           - item:
@@ -4381,9 +4382,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/appveyor-systems-inc
           - item:
             name: Argo
+            description: Kubernetes-native tools to run workflows, manage clusters, and do GitOps right.
             homepage_url: https://argoproj.github.io/
             project: incubating
-            repo_url: https://github.com/argoproj/argo-workflows
+            repo_url: https://github.com/argoproj/argo-cd
             logo: argo.svg
             twitter: https://twitter.com/argoproj
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -4394,7 +4396,7 @@ landscape:
               artwork_url: https://github.com/cncf/artwork/tree/master/projects/argo
               stack_overflow_url: https://stackoverflow.com/questions/tagged/argoproj+or+argo
               blog_url: https://blog.argoproj.io/
-              slack_url: https://argoproj.slack.com/
+              slack_url: https://argoproj.github.io/community/join-slack
               youtube_url: https://www.youtube.com/channel/UCOvYmppcbOPm1viN6ust3lA
           - item:
             name: AWS CodePipeline
@@ -4540,7 +4542,7 @@ landscape:
           - item:
             name: Flux
             homepage_url: https://fluxcd.io/
-            project: incubating
+            project: graduated
             repo_url: https://github.com/fluxcd/flux2
             logo: flux.svg
             twitter: https://twitter.com/fluxcd
@@ -4548,6 +4550,7 @@ landscape:
             extra:
               accepted: '2019-07-15'
               incubating: '2021-03-12'
+              graduated: '2022-11-30'
               dev_stats_url: https://flux.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#flux-logos
               blog_url: https://fluxcd.io/blog/
@@ -7012,6 +7015,13 @@ landscape:
               youtube_url: https://www.youtube.com/channel/UC4pLFely0-Odea4B2NL1nWA
               slack_url: https://freenode.net/
               chat_channel: '#prometheus'
+              summary_personas: Cluster Administrators, Developers, SREs, Platform Engineers, Network Engineers
+              summary_tags: monitoring, alerting, observability, instrumentation
+              summary_use_case: metrics-based monitoring and alerting
+              summary_business_use_case: ''
+              summary_release_rate: every 6 weeks for prometheus/prometheus
+              summary_integrations: See https://prometheus.io/docs/instrumenting/exporters/ and https://prometheus.io/docs/instrumenting/clientlibs/ plus many service discoveries.
+              summary_intro_url: ''
           - item:
             name: Promscale
             description: 'The observability backend powered by SQL built on PostgreSQL and TimescaleDB. '
@@ -7452,7 +7462,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/vmware
           - item:
             name: TelemetryHub by Scout APM
-            homepage_url: https://www.scoutapm.com/
+            homepage_url: https://www.telemetryhub.com/
             logo: telemetryhub-scoutapm.svg
             crunchbase: https://www.crunchbase.com/organization/Scout-APM
           - item:
@@ -8391,6 +8401,15 @@ landscape:
             logo: entigo.svg
             crunchbase: https://www.crunchbase.com/organization/entigo-0301
           - item:
+            name: EXEM (KCSP)
+            description: >-
+              EXEM is a specialist in IT performance management, big data, AI and cloud. We are innovating into a global software company beyond the Korean
+              standard. Our cloud consulting services support your business with expertise in cloud computing. EXEM provide Kubernetes technical support to help
+              our clients pursue efficient IT operations.
+            homepage_url: http://saas.ex-em.com/
+            logo: exem.svg
+            crunchbase: https://www.crunchbase.com/organization/exem-4a38
+          - item:
             name: Expert Thinking (KCSP)
             description: >-
               Expert Thinking provides the right mix of consulting, hands-on delivery, training and support to build dynamic, scalable, cost-optimised
@@ -9159,6 +9178,14 @@ landscape:
             homepage_url: https://www.speedyrails.com/managed-kubernetes/
             logo: speedyrails.svg
             crunchbase: https://www.crunchbase.com/organization/speedyrails-inc
+          - item:
+            name: stack.io (KCSP)
+            description: >-
+              At stack.io, we are able to implement your basic instance-by-instance configurations all the way through to Kubernetes, dockerize your
+              applications and migrate them to Kubernetes, as well as set up Kubernetes clusters.
+            homepage_url: https://www.stack.io/kubernetes-certified-services-provider
+            logo: stack.io.svg
+            crunchbase: https://www.crunchbase.com/organization/stack-io
           - item:
             name: stackgenie (KCSP)
             description: >-
@@ -11260,11 +11287,6 @@ landscape:
             logo: crunchy-data.svg
             crunchbase: https://www.crunchbase.com/organization/crunchy-data-solutions-inc-
           - item:
-            name: Cryptosense (member)
-            homepage_url: https://cryptosense.com/
-            logo: cryptosense.svg
-            crunchbase: https://www.crunchbase.com/organization/cryptosense
-          - item:
             name: CTO.ai (member)
             homepage_url: https://www.cto.ai/
             logo: cto.ai.svg
@@ -11676,6 +11698,11 @@ landscape:
             logo: firehydrant.svg
             crunchbase: https://www.crunchbase.com/organization/firehydrant
           - item:
+            name: Firetail (member)
+            homepage_url: https://www.firetail.io/
+            logo: firetail.svg
+            crunchbase: https://www.crunchbase.com/organization/firetail
+          - item:
             name: FIT2CLOUD (member)
             homepage_url: https://www.fit2cloud.com/
             logo: fit2cloud.svg
@@ -11991,6 +12018,11 @@ landscape:
             homepage_url: https://www.instana.com
             logo: instana.svg
             crunchbase: https://www.crunchbase.com/organization/instana
+          - item:
+            name: Instruqt (member)
+            homepage_url: https://www.instruqt.com/
+            logo: instruqt.svg
+            crunchbase: https://www.crunchbase.com/organization/instruqt
           - item:
             name: Intercloud (member)
             homepage_url: https://www.intercloud.com/
@@ -13281,6 +13313,11 @@ landscape:
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/squarespace
           - item:
+            name: stack.io (member)
+            homepage_url: https://www.stack.io/
+            logo: stack.io.svg
+            crunchbase: https://www.crunchbase.com/organization/stack-io
+          - item:
             name: stackgenie (member)
             homepage_url: https://www.stackgenie.io/
             logo: stackgenie.svg
@@ -13422,7 +13459,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/teamsun-technology-co
           - item:
             name: TelemetryHub by Scout APM (member)
-            homepage_url: https://www.scoutapm.com/
+            homepage_url: https://www.telemetryhub.com/
             logo: telemetryhub-scoutapm.svg
             crunchbase: https://www.crunchbase.com/organization/Scout-APM
           - item:
@@ -14514,11 +14551,6 @@ landscape:
             homepage_url: https://www.zendesk.com/
             logo: zendesk-supporter.svg
             crunchbase: https://www.crunchbase.com/organization/zendesk
-          - item:
-            name: Zuora (supporter)
-            homepage_url: https://www.zuora.com/
-            logo: zuora.svg
-            crunchbase: https://www.crunchbase.com/organization/zuora
   - category:
     name: Wasm
     subcategories:
