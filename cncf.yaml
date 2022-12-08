@@ -41,6 +41,7 @@ landscape:
             repo_url: https://github.com/apolloconfig/apollo
             logo: apollo.svg
             crunchbase: https://www.crunchbase.com/organization/ctrip
+            twitter: null
           - item:
             name: AWS CloudFormation
             description: AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment.
@@ -873,6 +874,17 @@ landscape:
             logo: mondoo.svg
             twitter: https://twitter.com/MondooHQ
             crunchbase: https://www.crunchbase.com/organization/mondoo
+          - item:
+            name: MoreSec
+            description: >-
+              Moresec Shangfu Cloud Native Protection Platform is a security protection model based on the concept of cloud native. In view of the characteristics 
+              of cloud native application life-cycle, it involves in many stages of security protection, including R&D construction, security testing, image 
+              control, container deployment, container operation, etc. Shangfu also integrates security with development which means providing feedback of the 
+              application security condition through correlating operation asset, and promoting the iteration and upgrade of application. Whereupon, a closed 
+              loop of efficient cloud native application security risk is created, covering the whole stages of DevSecOps.
+            homepage_url: https://www.moresec.cn/
+            logo: moresec logo.svg
+            crunchbase: https://www.crunchbase.com/organization/meran-technology
           - item:
             name: NeuVector
             homepage_url: https://neuvector.com/
@@ -4394,7 +4406,7 @@ landscape:
             name: Argo
             description: Kubernetes-native tools to run workflows, manage clusters, and do GitOps right.
             homepage_url: https://argoproj.github.io/
-            project: incubating
+            project: graduated
             repo_url: https://github.com/argoproj/argo-cd
             logo: argo.svg
             twitter: https://twitter.com/argoproj
@@ -4402,6 +4414,7 @@ landscape:
             extra:
               accepted: '2020-03-26'
               incubating: '2020-03-26'
+              graduated: '2022-12-06'
               dev_stats_url: https://argo.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/tree/master/projects/argo
               stack_overflow_url: https://stackoverflow.com/questions/tagged/argoproj+or+argo
@@ -10658,6 +10671,11 @@ landscape:
             logo: apiiro.svg
             crunchbase: https://www.crunchbase.com/organization/apiiro-ltd
           - item:
+            name: Apono (member)
+            homepage_url: https://www.apono.io/
+            logo: apono.svg
+            crunchbase: https://www.crunchbase.com/organization/apono            
+          - item:
             name: Appaegis (member)
             homepage_url: https://www.appaegis.com
             logo: appaegis.svg
@@ -12712,6 +12730,11 @@ landscape:
             logo: open-source-consulting.svg
             crunchbase: https://www.crunchbase.com/organization/open-source-consulting
           - item:
+            name: OPENFLAME (member)
+            homepage_url: https://www.openfla.me/
+            logo: openflame.svg
+            crunchbase: https://www.crunchbase.com/organization/openflame-inc         
+          - item:
             name: OpenNebula (member)
             homepage_url: https://opennebula.io/
             logo: opennebula.svg
@@ -12752,6 +12775,11 @@ landscape:
             logo: orca-security.svg
             crunchbase: https://www.crunchbase.com/organization/orca-security
           - item:
+            name: ORCASIO (member)
+            homepage_url: https://www.orcasio.com/
+            logo: orcasio.svg
+            crunchbase: https://www.crunchbase.com/organization/orcasio-inc        
+          - item:
             name: Ori (member)
             homepage_url: https://www.ori.co/
             logo: ori.svg
@@ -12771,6 +12799,11 @@ landscape:
             homepage_url: https://oteemo.com
             logo: oteemo-member.svg
             crunchbase: https://www.crunchbase.com/organization/oteemo
+          - item:
+            name: Otterize (member)
+            homepage_url: https://www.otterize.com/
+            logo: otterize.svg
+            crunchbase: https://www.crunchbase.com/organization/otterize          
           - item:
             name: OVHcloud (member)
             homepage_url: https://us.ovhcloud.com/
@@ -12920,6 +12953,11 @@ landscape:
             homepage_url: https://www.prisma.io/
             logo: prisma.svg
             crunchbase: https://www.crunchbase.com/organization/prisma-io
+          - item:
+            name: Privado (member)
+            homepage_url: https://www.privado.ai/
+            logo: privado.svg
+            crunchbase: https://www.crunchbase.com/organization/privado           
           - item:
             name: Prodigy Education (member)
             homepage_url: https://www.prodigygame.com/main-en/
@@ -13487,7 +13525,7 @@ landscape:
             name: TelemetryHub by Scout APM (member)
             homepage_url: https://www.telemetryhub.com/
             logo: telemetryhub-scoutapm.svg
-            crunchbase: https://www.crunchbase.com/organization/Scout-APM
+            crunchbase: https://www.crunchbase.com/organization/TelemetryHub-ScoutAPM
           - item:
             name: Teleport (member)
             homepage_url: https://goteleport.com/
