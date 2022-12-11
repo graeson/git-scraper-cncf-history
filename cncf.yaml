@@ -839,6 +839,17 @@ landscape:
               github_discussions_url: https://github.com/kubearmor/KubeArmor/discussions
               slack_url: http://kubearmor.slack.com/
               chat_channel: '#kubearmor-project'
+              summary_personas: DevSecOps,Developers,CISO,Security Admin,System Admin
+              summary_tags: runtime,security,application firewall,microsegmentation
+              summary_use_case: |-
+                Secure workloads at runtime.
+              summary_business_use_case: |-
+                1. Application Hardening
+                2. Continuous Monitoring
+                3. Inline Remediation, Attack Surface reduction
+                4. Network Segmentation
+              summary_release_rate: once every month and half
+              summary_intro_url: https://www.youtube.com/watch?v=NS8XC78wSME
           - item:
             name: Kubewarden
             homepage_url: https://www.kubewarden.io
@@ -6187,6 +6198,13 @@ landscape:
               blog_url: https://blog.dapr.io/posts
               slack_url: https://discord.com/invite/ptHhX6jc34
           - item:
+            name: Encore
+            homepage_url: https://encore.dev
+            repo_url: https://github.com/encoredev/encore
+            logo: encore.svg
+            twitter: https://twitter.com/encoredotdev
+            crunchbase: https://www.crunchbase.com/organization/encore-ae44
+          - item:
             name: EventMesh
             description: EventMesh is a dynamic cloud-native eventing infrastruture used to decouple the application and backend middleware layer.
             homepage_url: https://eventmesh.apache.org/
@@ -8435,8 +8453,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/engineerbetter
           - item:
             name: Entigo (KCSP)
-            description: Simplify your software delivery and operations.
-            homepage_url: https://www.entigo.com/
+            description: Improve your software delivery and operations by standardising and automating with Kubernetes.
+            homepage_url: https://www.entigo.com/kubernetes-implementation
             logo: entigo.svg
             crunchbase: https://www.crunchbase.com/organization/entigo-0301
           - item:
