@@ -701,7 +701,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2022-07-26'
-              dev_stats_url: https://external-secrets.devstats.cncf.io/
+              dev_stats_url: https://externalsecretsoperator.devstats.cncf.io/
           - item:
             name: Fairwinds Insights
             homepage_url: https://fairwinds.com/insights
@@ -721,6 +721,21 @@ landscape:
               dev_stats_url: https://falco.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#falco-logos
               slack_url: https://kubernetes.slack.com/messages/falco
+              summary_personas: SREs, Cloud Architects, Platform Engineers, DevOps Engineer, DevOps practitioners, DevSecOps practitioners
+              summary_tags: Security, Go, C++, DevOps, DevSecOps, Container, Cloud native, Kubernetes, Runtime, Threat detection, Syscalls, Monitoring, Observability, Anomaly detection, Kubernetes
+              summary_use_case: >-
+                Falco is a cloud-native runtime security project that makes it easy to consume kernel events.
+                Falco enriches these events with additional information from the Kubernetes platform and ecosystem as well as the rest of the cloud native stack.
+                Falco can also be extended to other data sources through the use of plugins. Falco offers a rich set of security rules designed for Kubernetes,
+                Linux, and cloud native environments. When a rule is violated in the system, Falco alerts users with details about the violation and severity.
+              summary_business_use_case: >-
+                You can think about Falco as a security camera for containers, Kubernetes and the cloud:
+                it collects signals from hosts, containers, orchestrators and cloud logs, and it reports suspicious or anomalous behavior.
+                Falco provides kernel instrumentation mechanisms to detect security events. It then enriches them with metadata pulled from the node, the container runtime and Kubernetes.
+                This metadata is then used to dynamically apply Falco rules based on the container name, image, orchestrator labels, orchestrator resource type, etc. 
+              summary_release_rate: 3 times per year (end of Jan, June, Sept)
+              summary_integrations: Kubernetes Audit Logs, AWS Cloudtrail, GitHub Audit Events, and the 40+ outputs supported by Falcosidekick (e.g. Slack, AWS Lambda, etc)
+              summary_intro_url: null
           - item:
             name: FOSSA
             homepage_url: https://fossa.com/
@@ -3154,6 +3169,21 @@ landscape:
               blog_url: https://openservicemesh.io/blog/
               mailing_list_url: https://groups.google.com/g/openservicemesh
               slack_url: https://cloud-native.slack.com/messages/openservicemesh
+          - item:
+            name: Paralus
+            description: Paralus is a free, open source tool that enables controlled, audited access to Kubernetes infrastructure and Zero trust Kubernetes with zero friction.
+            homepage_url: https://www.paralus.io/
+            project: sandbox
+            repo_url: https://github.com/paralus/paralus
+            twitter: https://twitter.com/paralus_
+            logo: paralus.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              blog_url: https://www.paralus.io/blog
+              accepted: '2022-12-14'
+              dev_stats_url: https://paralus.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/tree/master/projects/paralus
+              slack_url: https://kubernetes.slack.com/messages/paralus
           - item:
             name: Sermant
             description: Sermant a proxyless service mesh solution based on Javaagent.
@@ -8505,9 +8535,11 @@ landscape:
           - item:
             name: Elastisys (KCSP)
             description: >-
-              Elastisys is a Kubernetes partner that designs, builds, and operates Kubernetes clusters. We excel in creation of self-healing, self-managing, and
-              self-optimizing infrastructures based on Kubernetes and related cloud native projects.
-            homepage_url: https://elastisys.com/
+              Elastisys is your partner in all things Kubernetes. For companies that would rather have a fully-managed Kubernetes platform, we operate a fully-managed
+              Kubernetes service based on the security-hardened distribution Compliant Kubernetes. By using this service, you do not need a platform team inhouse, because
+              your Kubernetes platform is all taken care of by experts. In addition, we offer Kubernetes training, on-premise implementation and support, and consulting
+              services around all things cloud native and Kubernetes.
+            homepage_url: https://elastisys.com/consulting/
             logo: elastisys.svg
             crunchbase: https://www.crunchbase.com/organization/elastisys
           - item:
@@ -9926,9 +9958,10 @@ landscape:
           - item:
             name: Elastisys (KTP)
             description: >-
-              Elastisys training builds on our experience of setting up and operating highly available and secure Kubernetes clusters for companies all over the
-              world.
-            homepage_url: https://elastisys.com/
+              Elastisys is a Kubernetes Training Partner as well as a Linux Foundation Authorized Training Partner. We offer the official Linux Foundation courses
+              in Kubernetes Administration (LFS458) and Kubernetes for App Developers (LFD459) courses, both on-site and remotely. These are recommended if you want
+              to complete the CKA or CKAD certifications. Additionally, we offer custom courses in cloud native technology fundamentals to suit your organization's needs.
+            homepage_url: https://elastisys.com/training/
             logo: elastisys.svg
             crunchbase: https://www.crunchbase.com/organization/elastisys
             extra:
@@ -10145,6 +10178,14 @@ landscape:
             homepage_url: https://superorbital.io/workshops/
             logo: superorbital.svg
             crunchbase: https://www.crunchbase.com/organization/superorbital
+          - item:
+            name: SVA (KTP)
+            description: >-
+              The services of the SVA include consulting, conception, implementation and operation of Kubernetes-based solutions as well as solution-specific
+              and tailor-made trainings and exam preparations.
+            homepage_url: https://www.sva.de/de/services/devops-academy
+            logo: sva.svg
+            crunchbase: https://www.crunchbase.com/organization/sva
           - item:
             name: TenxCloud (KTP)
             description: >-
@@ -11713,7 +11754,7 @@ landscape:
           - item:
             name: Elastisys (member)
             homepage_url: https://elastisys.com
-            logo: elastisys-member.svg
+            logo: elastisys.svg
             crunchbase: https://www.crunchbase.com/organization/elastisys
           - item:
             name: Elastx (member)
