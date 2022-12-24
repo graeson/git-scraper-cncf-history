@@ -425,6 +425,16 @@ landscape:
               stack_overflow_url: https://stackoverflow.com/questions/tagged/harbor
               mailing_list_url: https://lists.cncf.io/g/harbor-users/topics
               slack_url: https://cloud-native.slack.com/messages/harbor/
+              summary_personas: SREs, Cloud Architects, Platform Engineers, DevOps Engineer, DevOps practitioners, DevSecOps practitioners
+              summary_tags: registry, images, OCI, container, artefacts, vulnerability scanning, self-hosted, harbor, edge, replication
+              summary_use_case: >-
+                Harbor is an open source registry that secures artifacts with policies and role-based access control, 
+                ensures images are scanned and free from vulnerabilities, and signs images as trusted.
+                Can be installed on any Kubernetes environment or on a system with Docker support.
+              summary_business_use_case: Self-hosted container registry with multiple integrations for security and validation.
+              summary_release_rate: We aim to have 3 big releases per year with many patch releases in between.
+              summary_integrations: trivy, cosing, notary, github, gce, jfrog, snyk, clair, sysdig, oidc, ldap, ecr, acr, docker, quay, helm
+              summary_intro_url: https://www.youtube.com/watch?v=adfPZAyozwc
           - item:
             name: IBM Cloud Container Registry
             description: Detect vulnerabilities before images are ever deployed to containers. Store and distribute Docker images in your managed private registry.
@@ -924,6 +934,17 @@ landscape:
               dev_stats_url: https://kyverno.devstats.cncf.io/
               slack_url: https://kubernetes.slack.com/
               chat_channel: '#kyverno'
+              summary_personas: Platform engineering,DevOps engineers,Security admins,Cluster admins,Policy authors
+              summary_tags: policy,policy-as-code,governance,software supply chain
+              summary_use_case: Pod security,Policy-as-code,Governance,Software supply chain
+              summary_business_use_case: >-
+                Policy and governance with Kyverno improves security posture by eliminating misconfigurations and promotes security best practices.
+                It also enables business agility by separating developer, security, and operations concerns and enables self-service automation.
+                Finally, it increases operational efficiency by managing and optimizing for cloud costs.
+              summary_release_rate: >-
+                Approximately monthly for patches and quarterly for minor releases.
+              summary_integrations: Sigstore Cosign
+              summary_intro_url: https://kyverno.io/docs/introduction/
           - item:
             name: Mondoo
             description: Cloud native infrastructure security for your entire fleet
@@ -1037,6 +1058,21 @@ landscape:
               accepted: '2020-06-25'
               dev_stats_url: https://parsec.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#parsec-logos
+          - item:
+            name: Paralus
+            description: Paralus is a free, open source tool that enables controlled, audited access to Kubernetes infrastructure and Zero trust Kubernetes with zero friction.
+            homepage_url: https://www.paralus.io/
+            project: sandbox
+            repo_url: https://github.com/paralus/paralus
+            twitter: https://twitter.com/paralus_
+            logo: paralus.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              blog_url: https://www.paralus.io/blog
+              accepted: '2022-12-14'
+              dev_stats_url: https://paralus.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/tree/master/projects/paralus
+              slack_url: https://kubernetes.slack.com/messages/paralus
           - item:
             name: Passage
             description: Passage makes it easy for developers to implement passwordless customer identity in any application.
@@ -3170,21 +3206,6 @@ landscape:
               mailing_list_url: https://groups.google.com/g/openservicemesh
               slack_url: https://cloud-native.slack.com/messages/openservicemesh
           - item:
-            name: Paralus
-            description: Paralus is a free, open source tool that enables controlled, audited access to Kubernetes infrastructure and Zero trust Kubernetes with zero friction.
-            homepage_url: https://www.paralus.io/
-            project: sandbox
-            repo_url: https://github.com/paralus/paralus
-            twitter: https://twitter.com/paralus_
-            logo: paralus.svg
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            extra:
-              blog_url: https://www.paralus.io/blog
-              accepted: '2022-12-14'
-              dev_stats_url: https://paralus.devstats.cncf.io/
-              artwork_url: https://github.com/cncf/artwork/tree/master/projects/paralus
-              slack_url: https://kubernetes.slack.com/messages/paralus
-          - item:
             name: Sermant
             description: Sermant a proxyless service mesh solution based on Javaagent.
             homepage_url: https://sermant.io/
@@ -3790,6 +3811,17 @@ landscape:
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#cloudevents-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/cloudevents
               slack_url: https://cloud-native.slack.com/messages/cloudevents
+              summary_personas: ''
+              summary_tags: events,eventing,serverless
+              summary_use_case: Standardizing common eventing metadata and their location to help with event identification and routing.
+              summary_business_use_case: ''
+              summary_release_rate: '2019-10-24'
+              summary_integration: ''
+              summary_intro_url: ''
+            project_org: https://github.com/cloudevents
+            description: Standardizing common eventing metadata and their location to help with event identification and routing.
+            url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/6770
+            joined: '2018-05-15'
           - item:
             name: deepstream
             homepage_url: https://deepstream.io/
