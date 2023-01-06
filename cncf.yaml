@@ -2974,6 +2974,13 @@ landscape:
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/sangfor-technologies
           - item:
+            name: Sentinel
+            homepage_url: https://sentinelguard.io/en-us/
+            repo_url: https://github.com/alibaba/Sentinel
+            logo: sentinel.svg
+            twitter: https://twitter.com/AlibabaSentinel
+            crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+          - item:
             name: Skipper
             homepage_url: https://opensource.zalando.com/skipper/
             repo_url: https://github.com/zalando/skipper
@@ -3141,12 +3148,6 @@ landscape:
             repo_url: https://github.com/accenture/reactive-interaction-gateway
             logo: reactive-interaction-gateway.svg
             crunchbase: https://www.crunchbase.com/organization/accenture
-          - item:
-            name: Sentinel
-            homepage_url: https://github.com/alibaba/Sentinel
-            repo_url: https://github.com/alibaba/Sentinel
-            logo: sentinel.svg
-            crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
           - item:
             name: Tyk
             homepage_url: https://tyk.io/
@@ -3327,6 +3328,12 @@ landscape:
               blog_url: https://openservicemesh.io/blog/
               mailing_list_url: https://groups.google.com/g/openservicemesh
               slack_url: https://cloud-native.slack.com/messages/openservicemesh
+          - item:
+            name: OpenSergo
+            homepage_url: https://opensergo.io/
+            repo_url: https://github.com/opensergo/opensergo-specification
+            logo: opensergo.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
           - item:
             name: Sermant
             description: Sermant a proxyless service mesh solution based on Javaagent.
