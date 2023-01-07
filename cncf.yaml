@@ -2965,6 +2965,15 @@ landscape:
             logo: openresty.svg
             crunchbase: https://www.crunchbase.com/organization/openresty
           - item:
+            name: Pipy
+            description: >-
+              Pipy is a programmable proxy for the cloud, edge and IoT. It's written in C++, which makes it extremely lightweight and fast. It's also fully
+              programmable by using PipyJS, a tailored version from the standard JavaScript language.
+            homepage_url: https://flomesh.io/pipy/
+            repo_url: https://github.com/flomesh-io/pipy
+            logo: pipy.svg
+            crunchbase: https://www.crunchbase.com/organization/flomesh
+          - item:
             name: Sangfor CNAD
             description: >-
               Sangfor CNAD is a cloud native application proxy, that provides layer7&layer4 load balance service, high performance TLS encryption and decryption
@@ -5208,6 +5217,12 @@ landscape:
             url_for_bestpractices: https://github.com/aws/eks-distro
             logo: amazon-web-services.svg
             crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: ArcherKE
+            description: With Kubernetes as the core, ArcherKE provide a reliable cloud native application building and running environment.
+            homepage_url: https://archeros.com/
+            logo: archeros.svg
+            crunchbase: https://www.crunchbase.com/organization/archeros-software
           - item:
             name: ASUS Cloud Infra
             description: ASUS Cloud Infra helps you bootstrap a Kubernetes cluster.
@@ -15075,6 +15090,7 @@ landscape:
           - item:
             name: WasmEdge
             homepage_url: https://wasmedge.org/
+            project: sandbox
             repo_url: https://github.com/WasmEdge/WasmEdge
             logo: wasm-edge.svg
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
