@@ -3257,6 +3257,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/decipher-technology-studios
           - item:
             name: Istio
+            description: Simplify observability, traffic management, security, and policy with the Istio.
             homepage_url: https://istio.io/
             project: incubating
             repo_url: https://github.com/istio/istio
@@ -3270,6 +3271,15 @@ landscape:
               stack_overflow_url: https://stackoverflow.com/questions/tagged/istio
               blog_url: https://istio.io/blog/
               slack_url: https://slack.istio.io/
+              summary_business_use_case: Security, Traffic Management, Observability, Policy Enforcement.
+              summary_integrations: https://istio.io/latest/docs/ops/integrations/
+              summary_intro_url: https://istio.io/latest/about/service-mesh/
+              summary_personas: SREs, DevOps Engineers, Architects, Platform Engineers
+              summary_release_rate: Every 3 months
+              summary_tags: observability, Service Mesh, mTLS, traffic management, multi-cluster, load balancing, policy, security, extensibility
+              summary_use_case: >-
+                Istio addresses the challenges developers and operators face with a distributed or microservices architecture. Whether you're building from
+                scratch or migrating existing applications to cloud native, Istio can help. Read more at: https://istio.io/latest/about/solutions/
               youtube_url: https://www.youtube.com/c/Istio
           - item:
             name: Kuma
@@ -5169,10 +5179,16 @@ landscape:
               werf is a GitOps CLI tool designed to simplify and speed up the delivery of applications in your CI/CD pipelines. It makes your Git repo a single
               source of truth to build your Docker images and deploy them to Kubernetes. Integrates easily with GitLab CI and other CI systems.
             homepage_url: https://werf.io/
+            project: sandbox
             repo_url: https://github.com/werf/werf
             logo: werf.svg
             twitter: https://twitter.com/werf_io
-            crunchbase: https://www.crunchbase.com/organization/flant
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-12-13'
+              dev_stats_url: https://werf.devstats.cncf.io/
+              blog_url: https://blog.werf.io
+              slack_url: https://cloud-native.slack.com/messages/werf
           - item:
             name: Woodpecker CI
             homepage_url: https://woodpecker-ci.org
@@ -8013,7 +8029,7 @@ landscape:
           - item:
             name: gocrane
             description: Crane (FinOps Crane) is an opensource project which manages cloud resource on Kubernetes stack, it is inspired by FinOps concepts.
-            homepage_url: https://docs.gocrane.io/
+            homepage_url: https://gocrane.io/
             repo_url: https://github.com/gocrane/crane
             logo: gocrane.svg
             crunchbase: https://www.crunchbase.com/organization/tencent-cloud
@@ -10171,9 +10187,9 @@ landscape:
           - item:
             name: DaoCloud (KTP)
             description: >-
-              The world's top software experts, core code maintainers of the Docker project, and DaoCloud senior architects bring you in-depth training on the
-              core technologies of the next generation of cloud computing, and easily master the knowledge and practice of Docker containers, microservices,
-              DevOps, and lean R&D experience.
+              DaoCloud is an innovative leader in the cloud-native field, being committed to creating an open Cloud OS which enables enterprises to easily carry
+              out digital transformation.  DaoCloud provides excellent courses of KCNA, CKAD, CKA and CKS, with the accumulation of cloud-native technology and
+              examination. These courses can train technical experts in digital transformation.
             homepage_url: https://www.daocloud.io/training
             logo: daocloud.svg
             crunchbase: https://www.crunchbase.com/organization/daocloud
