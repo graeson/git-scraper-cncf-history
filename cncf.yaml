@@ -3273,7 +3273,7 @@ landscape:
               slack_url: https://slack.istio.io/
               summary_business_use_case: Security, Traffic Management, Observability, Policy Enforcement.
               summary_integrations: https://istio.io/latest/docs/ops/integrations/
-              summary_intro_url: https://istio.io/latest/about/service-mesh/
+              summary_intro_url: https://www.youtube.com/watch?v=hkR1M6qwpnw
               summary_personas: SREs, DevOps Engineers, Architects, Platform Engineers
               summary_release_rate: Every 3 months
               summary_tags: observability, Service Mesh, mTLS, traffic management, multi-cluster, load balancing, policy, security, extensibility
@@ -6233,6 +6233,15 @@ landscape:
             repo_url: https://github.com/kubesphere/kubekey
             logo: kubekey.svg
             crunchbase: https://www.crunchbase.com/organization/qingcloud
+            extra:
+              summary_personas: Developers, Platform engineers
+              summary_tags: KubeKey, K3s, Kubernetes
+              summary_use_case: >-
+                KubeKey is an open-source lightweight tool for deploying Kubernetes clusters. It provides a flexible, rapid, and convenient way to install 
+                Kubernetes/K3s only, both Kubernetes/K3s and KubeSphere, and related cloud-native add-ons. It is also an efficient tool to scale and upgrade
+                your cluster.
+              summary_release_rate: 4 times per year (each quarter)
+              summary_integration: Kubernetes, K3s, Docker, containerd, Helm
           - item:
             name: KubeOperator
             description: >-
@@ -7466,7 +7475,9 @@ landscape:
               summary_use_case: metrics-based monitoring and alerting
               summary_business_use_case: ''
               summary_release_rate: every 6 weeks for prometheus/prometheus
-              summary_integrations: See https://prometheus.io/docs/instrumenting/exporters/ and https://prometheus.io/docs/instrumenting/clientlibs/ plus many service discoveries.
+              summary_integrations: >-
+                See [exporters](https://prometheus.io/docs/instrumenting/exporters/) and [clientlibs](https://prometheus.io/docs/instrumenting/clientlibs/) plus
+                many service discoveries.
               summary_intro_url: ''
           - item:
             name: Promscale
