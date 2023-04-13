@@ -3056,15 +3056,14 @@ landscape:
               clomonitor_name: etcd
               summary_personas: Architects, Platform Engineers, SREs
               summary_tags: distributed, key-value, consistent, datastore, reliability
-              summary_use_case: >
-                Etcd is a distributed, reliable key-value store for the most critical data of a distributed system.
-
-                By using etcd, developers can ensure that their applications have access to up-to-date configuration data, even as they scale up or down, and
-                can maintain consistency, fault tolerance and coordination across multiple instances of the application.
-              summary_business_use_case: >
+              summary_use_case: >-
+                Etcd is a distributed, reliable key-value store for the most critical data of a distributed system. By using etcd, developers can ensure that
+                their applications have access to up-to-date configuration data, even as they scale up or down, and can maintain consistency, fault tolerance
+                and coordination across multiple instances of the application.
+              summary_business_use_case: >-
                 Etcd can be used by businesses to manage the configuration data and coordination needs of their applications, ensuring consistent and reliable
                 performance at scale.
-              summary_release_rate: Every 1-3 months
+              summary_release_rate: Major or Minor release approximately every 2 years, and patch release every 1-3 months
               summary_integrations: >-
                 Due to etcd's flexible and extensible architecture it has been integrated as a data store for many projects such as Kubernetes, CoreDNS and
                 Hashicorp Vault.
@@ -8752,6 +8751,11 @@ landscape:
             logo: perfectscale.svg
             crunchbase: https://www.crunchbase.com/organization/perfectscale
           - item:
+            name: ScaleOps
+            homepage_url: https://www.scaleops.com/
+            logo: scaleops.svg
+            crunchbase: https://www.crunchbase.com/organization/scaleops-9685
+          - item:
             name: Sedai
             description: Sedai is an autonomous cloud management platform to optimize cost & performance and remediate issues for Kubernetes & Serverless
             homepage_url: https://sedai.io/
@@ -11730,6 +11734,13 @@ landscape:
             logo: bitrock.svg
             crunchbase: https://www.crunchbase.com/organization/bitrock-b74e
           - item:
+            name: BlackRock (member)
+            homepage_url: https://www.blackrock.com/
+            logo: blackrock.svg
+            enduser: true
+            crunchbase: https://www.crunchbase.com/organization/blackrock
+            joined: '2023-04-11'
+          - item:
             name: Blockchain Technology Partners (member)
             homepage_url: https://blockchaintp.com/
             logo: btp.svg
@@ -13142,6 +13153,7 @@ landscape:
             name: Materna (member)
             homepage_url: https://www.materna.de
             logo: materna.svg
+            twitter: https://twitter.com/Materna_SE
             crunchbase: https://www.crunchbase.com/organization/materna-gmbh
           - item:
             name: Mathworks (member)
