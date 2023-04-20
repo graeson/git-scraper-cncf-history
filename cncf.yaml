@@ -4315,12 +4315,12 @@ landscape:
           - item:
             name: Vertica
             description: >-
-              The core analytical platform within the Micro Focus software portfolio, Vertica is the Unified Analytics Platform, based on a massively scalable
+              The core analytical platform within the OpenText software portfolio, Vertica is the Unified Analytics Platform, based on a massively scalable
               architecture with the broadest set of analytical capabilities and end-to-end in-database machine learning.
             homepage_url: https://www.vertica.com/
-            logo: vertica_pos_blk_rgb.svg
+            logo: Vertica-OT.svg
             twitter: https://twitter.com/VerticaUnified
-            crunchbase: https://www.crunchbase.com/organization/micro-focus
+            crunchbase: https://www.crunchbase.com/organization/opentext
             extra:
               kubernetes_url: https://github.com/vertica/vertica-kubernetes
               docker_url: https://hub.docker.com/r/vertica/vertica-ce
@@ -4874,11 +4874,10 @@ landscape:
             homepage_url: https://gefyra.dev/
             repo_url: https://github.com/gefyrahq/gefyra
             logo: gefyra.svg
-            twitter: https://twitter.com/gefyrahq
+            twitter: https://twitter.com/BLUESHOE_GmbH
             crunchbase: https://www.crunchbase.com/organization/blueshoe
             extra:
-              slack_url: https://unikubeworkspace.slack.com
-              chat_channel: '#gefyra'
+              slack_url: https://discord.gg/8NTPMVPaKy
           - item:
             name: Gitpod
             homepage_url: https://gitpod.io
@@ -8949,7 +8948,7 @@ landscape:
           - item:
             name: Appvia (KCSP)
             description: 'Appvia is a cloud native platform for enabling Dev and Ops teams, supporting organisations to securely deliver at scale using Kubernetes. '
-            homepage_url: https://appvia.io/services
+            homepage_url: https://appvia.io/
             logo: appvia.svg
             crunchbase: https://www.crunchbase.com/organization/appvia
           - item:
@@ -11142,6 +11141,11 @@ landscape:
             logo: grafana-labs-member.svg
             crunchbase: https://www.crunchbase.com/organization/raintank
           - item:
+            name: HCL Technologies (member)
+            homepage_url: https://www.hcltech.com/
+            logo: hcl.svg
+            crunchbase: https://www.crunchbase.com/organization/hcl-technologies
+          - item:
             name: Huawei (member)
             homepage_url: https://www.huaweicloud.com/intl/en-us
             logo: huawei.svg
@@ -11269,6 +11273,11 @@ landscape:
             logo: equinix.svg
             crunchbase: https://www.crunchbase.com/organization/equinix
           - item:
+            name: EY (member)
+            homepage_url: https://www.ey.com/en_gl
+            logo: ey.svg
+            crunchbase: https://www.crunchbase.com/organization/ernst-young           
+          - item:
             name: Fidelity Investments (member)
             homepage_url: https://www.fidelity.com/
             logo: fidelity-investments.svg
@@ -11280,10 +11289,10 @@ landscape:
             logo: h3-c-technologies-member.svg
             crunchbase: https://www.crunchbase.com/organization/h3c-technologies
           - item:
-            name: HCL Technologies (member)
-            homepage_url: https://www.hcltech.com/
-            logo: hcl.svg
-            crunchbase: https://www.crunchbase.com/organization/hcl-technologies
+            name: Hitachi (member)
+            homepage_url: https://www.hitachi.com
+            logo: hitachi.svg
+            crunchbase: https://www.crunchbase.com/organization/hitachi           
           - item:
             name: Inspur (member)
             homepage_url: https://en.inspur.com
@@ -11326,12 +11335,6 @@ landscape:
             logo: salesforce.svg
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/salesforce
-          - item:
-            name: SPD Bank (member)
-            homepage_url: https://www.spdb.com.cn/
-            logo: spd-bank.svg
-            enduser: true
-            crunchbase: https://www.crunchbase.com/organization/shanghai-pudong-development-bank
           - item:
             name: Splunk (member)
             homepage_url: https://www.splunk.com
@@ -11555,12 +11558,17 @@ landscape:
             name: Aokumo (member)
             homepage_url: https://www.aokumo.io/
             logo: aokumo.svg
-            crunchbase: https://www.crunchbase.com/organization/aokumo-inc
+            crunchbase: https://www.crunchbase.com/organization/aokumo-inc           
           - item:
             name: APE Factory (member)
             homepage_url: https://www.apefactory.com/
             logo: ape-factory.svg
             crunchbase: https://www.crunchbase.com/organization/ape-factory
+          - item:
+            name: ApeCloud (member)
+            homepage_url: https://www.kubeblocks.io
+            logo: apecloud.svg
+            crunchbase: https://www.crunchbase.com/organization/apecloud             
           - item:
             name: Apiiro (member)
             homepage_url: https://www.apiiro.com/
@@ -14069,6 +14077,11 @@ landscape:
             logo: solo-io-member.svg
             crunchbase: https://www.crunchbase.com/organization/solo-io
           - item:
+            name: SonarSource (member)
+            homepage_url: https://www.sonarsource.com
+            logo: sonarsource.svg
+            crunchbase: https://www.crunchbase.com/organization/sonarsource          
+          - item:
             name: Sosivio (member)
             homepage_url: https://sosiv.io/
             logo: sosivio.svg
@@ -14370,6 +14383,11 @@ landscape:
             homepage_url: http://www.tmax.co.kr/
             logo: tmaxcloud.svg
             crunchbase: https://www.crunchbase.com/organization/tmaxcloud
+          - item:
+            name: TongTech (member)
+            homepage_url: https://www.tongtech.com
+            logo: tongtech.svg
+            crunchbase: https://www.crunchbase.com/organization/tongtech          
           - item:
             name: Toyota Motor Corporation (member)
             homepage_url: https://global.toyota/
@@ -15239,11 +15257,6 @@ landscape:
             homepage_url: https://www.workday.com/
             logo: workday-supporter.svg
             crunchbase: https://www.crunchbase.com/organization/workday
-          - item:
-            name: WPEngine (supporter)
-            homepage_url: https://wpengine.com/
-            logo: wp-engine-supporter.svg
-            crunchbase: https://www.crunchbase.com/organization/wp-engine
           - item:
             name: Yahoo (supporter)
             homepage_url: https://www.yahoo.com/
