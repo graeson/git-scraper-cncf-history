@@ -1059,6 +1059,14 @@ landscape:
             logo: metarget.svg
             crunchbase: https://www.crunchbase.com/organization/nsfocus-information-technology-co
           - item:
+            name: Matano
+            description: Open source security lake platform for AWS
+            homepage_url: https://www.matano.dev
+            repo_url: https://github.com/matanolabs/matano
+            logo: matano.svg
+            twitter: https://twitter.com/matanolabs
+            crunchbase: https://www.crunchbase.com/organization/matano
+          - item:
             name: Mondoo
             description: Cloud native infrastructure security for your entire fleet
             homepage_url: https://mondoo.com
@@ -1454,6 +1462,49 @@ landscape:
             homepage_url: https://www.zettaset.com/
             logo: zettaset.svg
             crunchbase: https://www.crunchbase.com/organization/goto-metrics
+          - item:
+            name: Keycloak
+            description: >-
+              Keycloak is an open-source identity and access management solution for modern applications and services, 
+              built on top of industry security standard protocols.
+            homepage_url: https://www.keycloak.org/
+            project: incubating
+            repo_url: https://github.com/keycloak/keycloak
+            logo: keycloak.svg
+            twitter: https://twitter.com/keycloak
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2023-04-10'
+              dev_stats_url: https://keycloak.devstats.cncf.io/
+              artwork_url: https://github.com/keycloak/keycloak-misc/blob/main/logo/keycloak_logo_600px.svg
+              mailing_list_url: https://groups.google.com/forum/#!forum/keycloak-user
+              summary_personas: SREs,Cloud Architects,Platform Engineers,Security Engineers,Developers,Architects
+              summary_tags: >-
+                Java,Security,Container,Cloud Native,Kubernetes,SSO,Identity,Federation,Authentication,Authorization
+              summary_use_case: >-
+                Keycloak is an Open-Source Identity and Access Management Solution for Modern Applications and Services. The project is primarily designed to make it easy 
+                for developers to secure their applications with minimal effort. 
+                
+                Keycloak builds on top of industry security standard protocols supporting OAuth2, OpenID Connect, WebAuthn. It also empowers administrators and users, 
+                providing an extensive and friendly interface to configure and manage Keycloak. Existing security infrastructure like SAML2 based IdPs, LDAP servers, 
+                Kerberos/SPNEGO, custom user storage solutions are easy to integrate while making their presence transparent to applications and end users. 
+                
+                Keycloak provides fully customizable login pages, strong authentication, support for password recovery, client secret rotation, recovery codes for 2FA, 
+                terms and conditions, step-up authentication, and a lot more. All of this without any need for coding at all. All pages visible to users support custom themes, making 
+                it easy to modify the look and feel of the pages to integrate with your corporate branding and existing applications.
+              summary_business_use_case: >-
+                Keycloak provides built-in cloud-native identity and access control standards. By delegating the security aspects of an application to Keycloak, 
+                developers don't need to worry about different authentication mechanisms, understand about cryptography, or how to safely store passwords.
+                
+                Developers can take advantage of modern authentication and authorization protocols like OAuth2, OpenID Connect, WebAuthn, SAML2 based IDPs, 
+                LDAP servers, Kerberos/SPNEGO. 
+                
+                Keycloak enables infrastructure teams and cloud-native developers to secure their cloud-native stack technologies through consolidated security 
+                standards, to provide to users a cloud-friendly experience with a strong focus on usability, scalability, and security.
+              summary_release_rate: 4 times per year
+              summary_integrations: OAuth2, OIDC, SAML2 based IdPs, LDAP servers, Kerberos/SPNEGO, custom user storage solutions
+              summary_intro_url: null
+              clomonitor_name: keycloak            
       - subcategory:
         name: Key Management
         items:
@@ -1488,19 +1539,6 @@ landscape:
             logo: conjur.svg
             twitter: https://twitter.com/ConjurInc
             crunchbase: https://www.crunchbase.com/organization/cyber-ark-software
-          - item:
-            name: Keycloak
-            homepage_url: https://www.keycloak.org
-            project: incubating
-            repo_url: https://github.com/keycloak/keycloak
-            logo: keycloak.svg
-            twitter: https://twitter.com/keycloak
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            extra:
-              accepted: '2023-04-10'
-              dev_stats_url: https://keycloak.devstats.cncf.io/
-              artwork_url: https://github.com/cncf/artwork/tree/master/projects/keycloak
-              clomonitor_name: keycloak
           - item:
             name: OAuth2 Proxy
             homepage_url: https://oauth2-proxy.github.io/oauth2-proxy/
@@ -5029,6 +5067,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2019-09-06'
+              incubating: '2022-04-19'
               dev_stats_url: https://kubevirt.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kubevirt-logos
               youtube_url: https://www.youtube.com/channel/UC2FH36TbZizw25pVT1P3C3g
@@ -6528,12 +6567,6 @@ landscape:
             logo: microsoft-azure.svg
             twitter: https://twitter.com/Azure
             crunchbase: https://www.crunchbase.com/organization/microsoft
-          - item:
-            name: Nexastack Managed Kubernetes
-            description: Nexastack is a  Platform for the Automation of Cloud Native and IaC Tools for Effective Infrastructure Management.
-            homepage_url: https://www.nexastack.com
-            logo: nexastack.svg
-            crunchbase: https://www.crunchbase.com/organization/xenonstack
           - item:
             name: NHN Kubernetes Service (NKS)
             description: NKS(NHN Kubernetes Service) is a managed Kubernetes service that allows you to easily deploy a Kubernetes cluster in NHN Cloud.
@@ -10512,14 +10545,6 @@ landscape:
             logo: xenit.svg
             crunchbase: https://www.crunchbase.com/organization/xenit-ab
           - item:
-            name: XenonStack (KCSP)
-            description: >-
-              XenonStack is a leading Kubernetes consulting and solutions provider, helping enterprises build cloud native applications with Continuous
-              Delivery, DataOps and Enterprise AI Platform for Decision Intelligence.
-            homepage_url: https://www.xenonstack.com/insights/kubernetes-deployment
-            logo: xenonstack.svg
-            crunchbase: https://www.crunchbase.com/organization/xenonstack
-          - item:
             name: YLD (KCSP)
             description: We modernise both practices and software. Applying expertise in a range of CNCF technologies and an inherent culture of innovation.
             homepage_url: https://www.yld.io/speciality/kubernetes/
@@ -11781,11 +11806,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/blackrock
             joined: '2023-04-11'
           - item:
-            name: Blockchain Technology Partners (member)
-            homepage_url: https://blockchaintp.com/
-            logo: btp.svg
-            crunchbase: https://www.crunchbase.com/organization/blockchain-technology-partners
-          - item:
             name: Bloomberg (member)
             homepage_url: https://www.bloomberg.com/tosv2.html
             logo: bloomberg-member.svg
@@ -11837,6 +11857,11 @@ landscape:
             homepage_url: http://www.brobridge.com/
             logo: brobridge-member.svg
             crunchbase: https://www.crunchbase.com/organization/brobridge
+          - item:
+            name: BTP (member)
+            homepage_url: https://btp.works/
+            logo: btp.svg
+            crunchbase: https://www.crunchbase.com/organization/btpworks
           - item:
             name: Bunnyshell (member)
             homepage_url: https://www.bunnyshell.com/
