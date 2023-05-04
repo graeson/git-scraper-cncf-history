@@ -3322,13 +3322,6 @@ landscape:
             twitter: https://twitter.com/F5
             crunchbase: https://www.crunchbase.com/organization/f5-networks
           - item:
-            name: Gimbal
-            homepage_url: https://github.com/projectcontour/gimbal
-            repo_url: https://github.com/projectcontour/gimbal
-            logo: project-gimbal.svg
-            twitter: https://twitter.com/projectgimbal
-            crunchbase: https://www.crunchbase.com/organization/vmware
-          - item:
             name: HAProxy
             homepage_url: https://www.haproxy.com/
             repo_url: https://github.com/haproxy/haproxy
@@ -5156,13 +5149,6 @@ landscape:
               slack_url: https://cloud-native.slack.com/archives/C02NLKZCJ5D
               youtube_url: https://www.youtube.com/channel/UC2QC6HvFG8zOtFRvvMzcAUw
               clomonitor_name: nocalhost
-          - item:
-            name: Octant
-            homepage_url: https://github.com/vmware-tanzu/octant
-            repo_url: https://github.com/vmware-tanzu/octant
-            logo: octant.svg
-            twitter: https://twitter.com/projectoctant
-            crunchbase: https://www.crunchbase.com/organization/vmware
           - item:
             name: Okteto
             homepage_url: https://okteto.com/
@@ -7648,13 +7634,6 @@ landscape:
             repo_url: https://github.com/pipelineai/pipeline
             logo: pipeline-ai.svg
             crunchbase: https://www.crunchbase.com/organization/pipelineio
-          - item:
-            name: Riff
-            homepage_url: https://projectriff.io/
-            repo_url: https://github.com/projectriff/riff
-            logo: riff.svg
-            twitter: https://twitter.com/projectriff
-            crunchbase: https://www.crunchbase.com/organization/vmware
           - item:
             name: Virtual Kubelet
             homepage_url: https://virtual-kubelet.io/
@@ -12049,6 +12028,11 @@ landscape:
             logo: cloudfabrix.svg
             crunchbase: https://www.crunchbase.com/organization/cloudfabrix-software
           - item:
+            name: CloudGeometry (member)
+            homepage_url: https://www.cloudgeometry.io/
+            logo: cloudgeometry.svg
+            crunchbase: https://www.crunchbase.com/organization/cloudgeometry          
+          - item:
             name: Cloudical (member)
             homepage_url: https://cloudical.io/
             logo: cloudical-member.svg
@@ -14020,6 +14004,11 @@ landscape:
             logo: shanghai-hftech.svg
             crunchbase: https://www.crunchbase.com/organization/shanghai-hftech
           - item:
+            name: SHE BASH (member)
+            homepage_url: https://www.shebash.io/
+            logo: she-bash.svg
+            crunchbase: https://www.crunchbase.com/organization/she-bash-llc          
+          - item:
             name: Shinesoft (member)
             homepage_url: https://www.shinesoft.co.jp/
             logo: shinesoft.svg
@@ -14535,6 +14524,11 @@ landscape:
             homepage_url: https://vexxhost.com
             logo: vexxhost.svg
             crunchbase: https://www.crunchbase.com/organization/vexxhost
+          - item:
+            name: VictoriaMetrics (member)
+            homepage_url: https://www.victoriametrics.com/
+            logo: victoriametrics.svg
+            crunchbase: https://www.crunchbase.com/organization/victoriametrics          
           - item:
             name: Virtasant (member)
             homepage_url: https://www.virtasant.com/
