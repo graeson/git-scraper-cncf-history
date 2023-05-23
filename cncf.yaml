@@ -1490,7 +1490,15 @@ landscape:
                 Integrating with existing deployment automation is always a consideration with any addition to a cloud native environment
                 Siloed reporting and visualization and a lack of a single view into your configuration
               summary_business_use_case: Virtual machines (VM’s) are the number one most used service on AWS, Azure and GCP and the predominate method for hosting containers. Despite this extensive use, VM’s are vulnerable to muyltiple threats incluyding leaked secrets and passwords, malware, system misconfiguration, and rootkit software used by cybercriminals to gain control over a target computer or network.
-              summary_release_rate: Every 3 months      
+              summary_release_rate: Every 3 months
+          - item: 
+            name: Veinmind Tools
+            description: >-
+              veinmind-tools is self-developed by chaitin technology, cloudwalker team incubation, a container security toolset based on veinmind-sdk
+            homepage_url: https://veinmind.chaitin.com/
+            repo_url: https://github.com/chaitin/veinmind-tools
+            logo: veinmind.svg
+            crunchbase: https://www.crunchbase.com/organization/chaitin-tech
           - item:
             name: WhiteSource
             homepage_url: https://www.whitesourcesoftware.com/
@@ -5824,11 +5832,19 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ozone-cd
           - item:
             name: PipeCD
+            description: GitOps style continuous delivery platform that provides consistent deployment and operations experience for any applications
             homepage_url: https://pipecd.dev/
             repo_url: https://github.com/pipe-cd/pipecd
             logo: pipecd.svg
             twitter: https://twitter.com/pipecd_dev
-            crunchbase: https://www.crunchbase.com/organization/cyberagent-2
+            project: sandbox
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: 2023-05-17
+              dev_stats_url: https://pipecd.devstats.cncf.io/
+              slack_url: https://cloud-native.slack.com/messages/pipecd
+              blog_url: https://pipecd.dev/blog/
+              clomonitor_name: pipecd
           - item:
             name: Razee
             homepage_url: https://razee.io/
@@ -8013,6 +8029,22 @@ landscape:
             logo: k8sgpt.svg
             twitter: https://twitter.com/k8sgpt
             crunchbase: https://www.crunchbase.com/organization/k8sgpt-ai
+          - item:
+            name: Kepler
+            homepage_url: https://sustainable-computing.io/
+            project: sandbox
+            repo_url: https://github.com/sustainable-computing-io/kepler
+            logo: kepler.svg
+            description: >-
+                Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics.
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2023-05-17'
+              dev_stats_url: https://kepler.devstats.cncf.io/
+              summary_personas: Developers, SREs, Sustainability Officers, IT Managers
+              summary_tags: sustainability, power monitoring, observability, metrics, ebpf, machine learning
+              summary_use_case: Enabling workload power monitoring for cloud-native systems.
+              summary_integrations: Kubernetes, Prometheus.
           - item:
             name: Kiali
             homepage_url: https://www.kiali.io/
@@ -13630,6 +13662,11 @@ landscape:
             logo: opsmx.svg
             crunchbase: https://www.crunchbase.com/organization/opsmx
           - item:
+            name: Opus Security (member)
+            homepage_url: https://www.opus.security/
+            logo: opus.svg
+            crunchbase: https://www.crunchbase.com/organization/opus-security           
+          - item:
             name: Orange (member)
             homepage_url: https://www.orange.com/fr
             logo: orange.svg
@@ -13810,6 +13847,11 @@ landscape:
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/prodigy-game
             joined: '2022-03-30'
+          - item:
+            name: Prodvana (member)
+            homepage_url: https://www.prodvana.io/
+            logo: prodvana.svg
+            crunchbase: https://www.crunchbase.com/organization/prodvana            
           - item:
             name: PRODYNA (member)
             homepage_url: https://www.prodyna.com
@@ -14993,7 +15035,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/db-systel
           - item:
             name: Decathlon (supporter)
-            homepage_url: https://developers.decathlon.com/
+            homepage_url: https://technology.decathlon.com/
             logo: decathlon.svg
             crunchbase: https://www.crunchbase.com/organization/decathlon-technology
           - item:
