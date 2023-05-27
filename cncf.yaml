@@ -2837,6 +2837,12 @@ landscape:
             extra:
               clomonitor_name: capsule
           - item:
+            name: China Mobile Cloud CNP
+            description: China Mobile Cloud CNP is an application management platform for multi-cluster and multi-cloud scenarios. 
+            homepage_url: https://ecloud.10086.cn/home/product-introduction/CNP
+            logo: china-mobile-cloud-cnp.svg
+            crunchbase: https://www.crunchbase.com/organization/china-mobile
+          - item:
             name: Clusternet
             homepage_url: https://clusternet.io
             project: sandbox
@@ -10363,6 +10369,13 @@ landscape:
             logo: speedyrails.svg
             crunchbase: https://www.crunchbase.com/organization/speedyrails-inc
           - item:
+            name: SQUER (KCSP)
+            description: >-
+              We support customers in utilizing Kubernetes best for their needs. This includes building truly cloud-native applications and Kubernetes-based developer platforms.
+            homepage_url: https://www.squer.io/services/kubernetes
+            logo: squer.svg
+            crunchbase: https://www.crunchbase.com/organization/squer  
+          - item:
             name: stack.io (KCSP)
             description: >-
               At stack.io, we are able to implement your basic instance-by-instance configurations all the way through to Kubernetes, dockerize your
@@ -12057,11 +12070,6 @@ landscape:
             logo: chaitin.svg
             crunchbase: https://www.crunchbase.com/organization/chaitin-tech
           - item:
-            name: Chef (member)
-            homepage_url: https://www.chef.io/
-            logo: chef.svg
-            crunchbase: https://www.crunchbase.com/organization/chef
-          - item:
             name: China Mobile (member)
             homepage_url: https://www.chinamobileltd.com/en/global/home.php
             logo: china-mobile-member.svg
@@ -13119,6 +13127,11 @@ landscape:
             logo: kodekloud.svg
             crunchbase: https://www.crunchbase.com/organization/kodekloud
           - item:
+            name: Kodem Security (member)
+            homepage_url: https://www.kodemsecurity.com/
+            logo: kodem.svg
+            crunchbase: https://www.crunchbase.com/organization/kodem-security           
+          - item:
             name: Komodor (member)
             homepage_url: https://www.komodor.com/
             logo: komodor.svg
@@ -13138,6 +13151,11 @@ landscape:
             homepage_url: https://www.ktnexr.com/
             logo: kt-nexr.svg
             crunchbase: https://www.crunchbase.com/organization/kt-next
+          - item:
+            name: Kubeark (member)
+            homepage_url: https://www.kubeark.com/
+            logo: kubeark.svg
+            crunchbase: https://www.crunchbase.com/organization/kubeark-inc            
           - item:
             name: Kubecost (member)
             homepage_url: https://kubecost.com/
@@ -13940,11 +13958,6 @@ landscape:
             logo: qualitysoft.svg
             crunchbase: https://www.crunchbase.com/organization/qualitysoft
           - item:
-            name: Qualys (member)
-            homepage_url: https://www.qualys.com/
-            logo: qualys.svg
-            crunchbase: https://www.crunchbase.com/organization/qualys
-          - item:
             name: Rackner (member)
             homepage_url: https://www.rackner.com/
             logo: rackner.svg
@@ -14359,6 +14372,13 @@ landscape:
             homepage_url: https://www.stratox.cz
             logo: stratox.svg
             crunchbase: https://www.crunchbase.com/organization/stratox
+          - item:
+            name: Strava (member)
+            homepage_url: https://www.strava.com/
+            logo: strava.svg
+            enduser: true
+            crunchbase: https://www.crunchbase.com/organization/strava
+            joined: '2023-05-23'            
           - item:
             name: StreamNative (member)
             homepage_url: https://streamnative.io/
