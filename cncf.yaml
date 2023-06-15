@@ -74,6 +74,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2020-11-10'
+              annual_review_url: https://github.com/cncf/toc/pull/1024
+              annual_review_date: '2023-03-14'              
               dev_stats_url: https://cdk8s.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/tree/master/projects/cdk8s
               clomonitor_name: cdk8s
@@ -995,7 +997,7 @@ landscape:
             project: sandbox
             repo_url: https://github.com/kubearmor/kubearmor
             logo: kubearmor.svg
-            crunchbase: https://www.crunchbase.com/organization/accuknox
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2021-11-16'
               dev_stats_url: https://kubearmor.devstats.cncf.io/
@@ -1790,7 +1792,7 @@ landscape:
             project: sandbox
             repo_url: https://github.com/tellerops/teller
             logo: teller.svg
-            crunchbase: https://www.crunchbase.com/organization/spectral-4f70
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2022-04-26'
               mailing_list_url: https://github.com/tellerops/teller/discussions
@@ -2860,7 +2862,7 @@ landscape:
             repo_url: https://github.com/armadaproject/armada
             logo: armada.svg
             twitter: https://twitter.com/oss_gr
-            crunchbase: https://www.crunchbase.com/organization/g-research
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2022-07-25'
               dev_stats_url: https://armada.devstats.cncf.io/
@@ -2882,6 +2884,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/clastix
             extra:
               clomonitor_name: capsule
+          - item:
+            name: China Mobile Panji PaaS Platform
+            description: China Mobile Panji PaaS Platform is an open, standard and self-controlled cloud native technical base. Using containerization technology, it provides core capabilities including enterprise-level application service management, elastic scalability, unified governance of heterogeneous microservice framework, and panoramic cloud native observation, etc.
+            homepage_url: https://it.10086.cn/services/paas/
+            logo: china-mobile-panji-paas.svg
+            crunchbase: https://www.crunchbase.com/organization/china-mobile
           - item:
             name: China Mobile Cloud CNP
             description: China Mobile Cloud CNP is an application management platform for multi-cluster and multi-cloud scenarios.
@@ -3127,7 +3135,7 @@ landscape:
             repo_url: https://github.com/wasmCloud/wasmCloud
             logo: wasmcloud.svg
             twitter: https://twitter.com/wasmcloud
-            crunchbase: https://www.crunchbase.com/organization/wasmcloud
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             allow_duplicate_repo: true
             extra:
               accepted: '2021-07-13'
@@ -3877,7 +3885,7 @@ landscape:
             project: sandbox
             repo_url: https://github.com/merbridge/merbridge
             logo: merbridge.svg
-            crunchbase: https://www.crunchbase.com/organization/daocloud
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               blog_url: https://merbridge.io/blog/
               accepted: '2022-12-14'
@@ -7438,13 +7446,6 @@ landscape:
             twitter: https://twitter.com/Cloudflare
             crunchbase: https://www.crunchbase.com/organization/cloudflare
           - item:
-            name: Direktiv
-            homepage_url: https://www.direktiv.io/
-            repo_url: https://github.com/direktiv/direktiv
-            logo: direktiv.svg
-            twitter: https://twitter.com/direktiv_io
-            crunchbase: https://www.crunchbase.com/organization/direktiv
-          - item:
             name: Google Cloud Functions
             description: >-
               Your development agility comes from building systems composed of small, independent units of functionality focused on doing one thing well. Cloud
@@ -7589,6 +7590,13 @@ landscape:
             repo_url: https://github.com/AppScale/gts
             logo: appscale.svg
             crunchbase: https://www.crunchbase.com/organization/appscale-inc
+          - item:
+            name: Direktiv
+            homepage_url: https://www.direktiv.io/
+            repo_url: https://github.com/direktiv/direktiv
+            logo: direktiv.svg
+            twitter: https://twitter.com/direktiv_io
+            crunchbase: https://www.crunchbase.com/organization/direktiv
           - item:
             name: Fission
             homepage_url: https://fission.io/
@@ -8021,6 +8029,14 @@ landscape:
             repo_url: https://github.com/influxdata/influxdb
             logo: influxdata.svg
             crunchbase: https://www.crunchbase.com/organization/influxdb
+          - item:
+            name: Inspektor Gadget
+            description: Open source eBPF debugging and data collection tool for Kubernetes and Linux
+            homepage_url: https://inspektor-gadget.io/
+            project: sandbox
+            repo_url: https://github.com/inspektor-gadget/inspektor-gadget
+            logo: inspektor-gadget.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: Instana
             homepage_url: https://www.instana.com/
