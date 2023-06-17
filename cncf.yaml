@@ -6331,13 +6331,6 @@ landscape:
             logo: magellano.svg
             crunchbase: https://www.crunchbase.com/organization/mia-platform
           - item:
-            name: MetalK8s
-            description: An opinionated Kubernetes distribution with a focus on long-term on-prem deployments
-            homepage_url: https://www.zenko.io/metalk8s/
-            repo_url: https://github.com/scality/metalk8s
-            logo: metalk8s.svg
-            crunchbase: https://www.crunchbase.com/organization/scality
-          - item:
             name: MicroK8s
             description: An easy to install, single node local Kubernetes.
             homepage_url: https://microk8s.io
@@ -8005,6 +7998,15 @@ landscape:
             logo: guance-cloud.svg
             crunchbase: https://www.crunchbase.com/organization/guanceyun
           - item:
+            name: Headlamp
+            description: Extensible open source multi-cluster Kubernetes user interface
+            homepage_url: https://headlamp.dev
+            project: sandbox
+            repo_url: https://github.com/headlamp-k8s/headlamp
+            logo: headlamp.svg
+            twitter: https://twitter.com/headlamp_ui
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+          - item:
             name: Honeybadger
             homepage_url: https://www.honeybadger.io/
             logo: honeybadger.svg
@@ -9214,14 +9216,6 @@ landscape:
             logo: bc-cloud.svg
             crunchbase: https://www.crunchbase.com/organization/beijing-big-data
           - item:
-            name: BeOpenIT (KCSP)
-            description: >-
-              BeOpenIT is a Cloud, DevOps, AI and Cybersecurity consultancy providing training, products and support of Kubernetes and cloud native
-              technologies.
-            homepage_url: https://www.beopenit.com/
-            logo: beopenit.svg
-            crunchbase: https://www.crunchbase.com/organization/beopenit
-          - item:
             name: BESSYSTEM - Beijing Baolande Software Corporation (KCSP)
             description: >-
               Beijing Baolande Software Corporation provides Kubernetes special technical services including consulting, training, implementation, and technical
@@ -9550,6 +9544,14 @@ landscape:
             logo: didim365.svg
             crunchbase: https://www.crunchbase.com/organization/didim365
           - item:
+            name: Digital China (KCSP)
+            description: >-
+              Digital China provides users with enterprise-class Kubernetes platform management capabilities, establishes application development, testing, operation
+              and maintenance pipelines based on container images, and gets solutions delivered as services through modular architecture.
+            homepage_url: https://www.digitalchina.com/product/details4.html
+            logo: digitalchina.svg
+            crunchbase: https://www.crunchbase.com/organization/digital-china-information-technology-services-company
+          - item:
             name: DoiT (KCSP)
             description: >-
               Founded by experienced software engineers and Kubernetes contributors, DoiT delivers hands-on Kubernetes consulting and training for some of the
@@ -9744,6 +9746,14 @@ landscape:
             homepage_url: https://www.hcltech.com/cloud
             logo: hcl.svg
             crunchbase: https://www.crunchbase.com/organization/hcl-technologies
+          - item:
+            name: Hostersi (KCSP)
+            description: >-
+              Hostersi is a sysops/devops house that helps organizations design, implement and maintain their IT infrastructure on AWS, Azure, GCP and on-premise
+              solutions with Kubernetes, CI/CD, HA, DR and support 24/7/365.
+            homepage_url: https://www.hostersi.com/offer/kubernetes-system-support-services-design-installation-management/
+            logo: hostersi.svg
+            crunchbase: https://www.crunchbase.com/organization/hostersi
           - item:
             name: HPE (KCSP)
             description: >-
@@ -10676,6 +10686,13 @@ landscape:
             logo: woqutech.svg
             crunchbase: https://www.crunchbase.com/organization/woqu-technology-co-ltd
           - item:
+            name: Wowjoy Technology (KCSP)
+            description: >-
+              Wowjoy Technology's Kubernetes experts provide consulting, training, implementation, and support services to help enterprises better use the Kubernetes platform.
+            homepage_url: https://www.wowjoy.cn/#/services/kcsp
+            logo: wowjoy-technology.svg
+            crunchbase: https://www.crunchbase.com/organization/wowjoy-technology
+          - item:
             name: WSO2 (KCSP)
             homepage_url: https://wso2.com/strategic-consulting/cloud-native-strategy/
             logo: wso2-member.svg
@@ -10790,17 +10807,6 @@ landscape:
             homepage_url: https://atix.de/en/trainings/kubernetes-training/
             logo: atix-ag.svg
             crunchbase: https://www.crunchbase.com/organization/atix
-          - item:
-            name: BeOpenIT (KTP)
-            description: >-
-              BeOpenIT is a Cloud, DevOps, AI and Cybersecurity consultancy providing training, products and support of Kubernetes and cloud native
-              technologies.
-            homepage_url: https://www.beopenit.com/
-            logo: beopenit.svg
-            crunchbase: https://www.crunchbase.com/organization/beopenit
-            extra:
-              training_certifications: cka, ckad, cks
-              training_type: e-learning, instructor-led
           - item:
             name: BoCloud (KTP)
             homepage_url: https://www.bocloud.com.cn/train/?id=92
@@ -11212,6 +11218,15 @@ landscape:
         name: Certified CNFs
         items:
           - item:
+            name: 6WIND Virtual Service Router (VSR)
+            description: >-
+              6WIND VSR is a Virtual Service Router that leverages 6WIND's core technology to deliver network services solutions into virtual and cloud environments
+              quickly, efficiently, and cost-effectively. 6WIND VSR enables CSPs, Enterprises, and Cloud Providers to benefit from our leading high-performance network
+              services for building efficient, flexible, and reliable networks.
+            homepage_url: https://www.6wind.com/
+            logo: 6wind.svg
+            crunchbase: https://www.crunchbase.com/organization/6wind   
+          - item:
             name: BIG-IP NEXT Edge Firewall CNF
             description: BIG-IP NEXT Edge Firewall provides Firewall, DDoS and Intrusion Prevention capabilities and is part of F5's Consolidated suite of CNFs.
             homepage_url: https://f5.com
@@ -11557,10 +11572,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/3-shake
             joined: '2021-02-02'
           - item:
-            name: 4intelligence (member)
-            homepage_url: https://4intelligence.com.br/mvpe/#/Main
-            logo: 4intelligence.svg
-            crunchbase: https://www.crunchbase.com/organization/4intelligence
+            name: 6WIND (member)
+            homepage_url: https://www.6wind.com/
+            logo: 6wind.svg
+            crunchbase: https://www.crunchbase.com/organization/6wind            
           - item:
             name: 99cloud (member)
             homepage_url: http://www.99cloud.net/en/
@@ -11771,11 +11786,6 @@ landscape:
             logo: aqua.svg
             crunchbase: https://www.crunchbase.com/organization/aquasecurity
           - item:
-            name: ArangoDB (member)
-            homepage_url: https://www.arangodb.com/
-            logo: arangodb.svg
-            crunchbase: https://www.crunchbase.com/organization/arangodb
-          - item:
             name: ArcherOS (member)
             homepage_url: https://archeros.com/
             logo: archeros.svg
@@ -11925,11 +11935,6 @@ landscape:
             homepage_url: https://www.bell-sw.com/
             logo: bellsoft.svg
             crunchbase: https://www.crunchbase.com/organization/bellsoft-156e
-          - item:
-            name: BeOpenIT (member)
-            homepage_url: https://www.beopenit.com/
-            logo: beopenit.svg
-            crunchbase: https://www.crunchbase.com/organization/beopenit
           - item:
             name: BerryBytes (member)
             homepage_url: https://www.berrybytes.com
@@ -12738,6 +12743,12 @@ landscape:
             twitter: https://twitter.com/F5
             crunchbase: https://www.crunchbase.com/organization/f5-networks
           - item:
+            name: Facets.cloud (member)
+            homepage_url: https://www.facets.cloud/
+            logo: facets.cloud.svg
+            crunchbase: https://www.crunchbase.com/organization/facets-cloud             
+            twitter: https://twitter.com/facetscloud
+          - item:
             name: Fairwinds (member)
             homepage_url: https://www.fairwinds.com/
             logo: fairwinds.svg
@@ -12961,6 +12972,11 @@ landscape:
             homepage_url: https://www.honeycomb.io/
             logo: honeycomb.svg
             crunchbase: https://www.crunchbase.com/organization/honeycombio
+          - item:
+            name: Hostersi (member)
+            homepage_url: https://www.hostersi.com/
+            logo: hostersi.svg
+            crunchbase: https://www.crunchbase.com/organization/hostersi
           - item:
             name: HPE (member)
             homepage_url: https://www.hpe.com/us/en/home.html
@@ -14126,11 +14142,6 @@ landscape:
             logo: scaleway-member.svg
             crunchbase: https://www.crunchbase.com/organization/scaleway
           - item:
-            name: Scality (member)
-            homepage_url: https://www.scality.com
-            logo: scality-member.svg
-            crunchbase: https://www.crunchbase.com/organization/scality
-          - item:
             name: Scarf (member)
             homepage_url: https://about.scarf.sh
             logo: scarf.svg
@@ -15003,6 +15014,11 @@ landscape:
       - subcategory:
         name: End User Supporter
         items:
+          - item:
+            name: 4intelligence (supporter)
+            homepage_url: https://4intelligence.com.br/mvpe/#/Main
+            logo: 4intelligence.svg
+            crunchbase: https://www.crunchbase.com/organization/4intelligence        
           - item:
             name: Adidas (supporter)
             homepage_url: https://www.adidas.com/us
