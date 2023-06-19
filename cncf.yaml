@@ -1937,6 +1937,13 @@ landscape:
             logo: datacore-bolt.svg
             crunchbase: https://www.crunchbase.com/organization/datacore-software
           - item:
+            name: DatenLord
+            description: DatenLord is a cloud-native distributed storage platform, aiming to meet the performance-critical storage needs from next-generation cloud-native applications.
+            homepage_url: https://www.datenlord.io
+            repo_url: https://github.com/datenlord/datenlord
+            logo: datenlord.svg
+            crunchbase: https://www.crunchbase.com/organization/beijing-datenlord-technology
+          - item:
             name: Datera
             homepage_url: https://datera.io/
             logo: datera.svg
@@ -2027,8 +2034,10 @@ landscape:
           - item:
             name: IOMesh
             description: >-
-              IOMesh is an individual product brand of SmartX, a cloud-native storage system with extreme performance and strong reliability. It advances
-              Kubernetes infrastructure to support the most demanding stateful applications and data services.
+              IOMesh is an enterprise Kubernetes-native distributed storage product with extreme performance and strong reliability. It leverages
+              Kubernetes-native DevOps system to manage storage resources in the Kubernetes cluster, and provide persistent storage for the most 
+              demanding stateful applications. IOMesh will help reduce the cost and complexity of adopting Kubernetes and accelerate your 
+              containerization journey.
             homepage_url: https://iomesh.com/
             logo: iomesh.svg
             crunchbase: https://www.crunchbase.com/organization/smartx
@@ -2692,6 +2701,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2022-03-08'
+              annual_review_url: https://github.com/cncf/toc/pull/1088
+              annual_review_date: '2023-06-19'
               dev_stats_url: https://fabedge.devstats.cncf.io
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#fabedge-logos
               clomonitor_name: fabedge
