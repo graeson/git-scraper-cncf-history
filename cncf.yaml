@@ -5238,7 +5238,7 @@ landscape:
             homepage_url: https://kubevirt.io/
             project: incubating
             repo_url: https://github.com/kubevirt/kubevirt
-            logo: kube-virt.svg
+            logo: kubevirt.svg
             twitter: https://twitter.com/kubevirt
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
@@ -5246,8 +5246,14 @@ landscape:
               incubating: '2022-04-19'
               dev_stats_url: https://kubevirt.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kubevirt-logos
-              youtube_url: https://www.youtube.com/channel/UC2FH36TbZizw25pVT1P3C3g
+              youtube_url: https://www.youtube.com/@KubeVirt
               clomonitor_name: kubevirt
+              summary_personas: SREs, DevOps & Platform Engineers, Developers
+              summary_tags: virtualization
+              summary_release_rate: Following the Kubernetes release schedule
+              summary_intro_url: https://www.youtube.com/watch?v=uusM5SyK-vc
+              mailing_list_url: https://groups.google.com/g/kubevirt-dev/
+              slack_url: https://kubernetes.slack.com/archives/C8ED7RKFE
           - item:
             name: KUDO
             homepage_url: https://kudo.dev/
@@ -10021,14 +10027,6 @@ landscape:
             logo: man-tech.svg
             crunchbase: https://www.crunchbase.com/organization/man-technology
           - item:
-            name: Material+ (KCSP)
-            description: >-
-              Material’s highly skilled Platform Engineers and consultants accelerate your cloud journey & accelerate your Kubernetes adoption across
-              multi-cloud infrastructure you need to deliver fast, reliable and secure cloud services consistently.
-            homepage_url: https://www.materialplus.io/
-            logo: material+.svg
-            crunchbase: https://www.crunchbase.com/organization/material-1363
-          - item:
             name: Mia-Platform (KCSP)
             description: >-
               Mia‑Platform provides an end-to-end solution to develop and operate modern applications on Kubernetes. Mia-Platform Academy supports the
@@ -11988,6 +11986,11 @@ landscape:
             logo: bessystem.svg
             crunchbase: https://www.crunchbase.com/organization/bes-e58f
           - item:
+            name: Binario Etico (member)
+            homepage_url: https://www.binarioetico.it/
+            logo: binario-etico.svg
+            crunchbase: https://www.crunchbase.com/organization/binario-etico            
+          - item:
             name: Biqmind (member)
             homepage_url: https://biqmind.com/
             logo: biqmind.svg
@@ -12651,11 +12654,6 @@ landscape:
             logo: dynatrace-member.svg
             crunchbase: https://www.crunchbase.com/organization/dynatrace-software
           - item:
-            name: Dysnix (member)
-            homepage_url: https://www.dysnix.com/
-            logo: dysnix.svg
-            crunchbase: https://www.crunchbase.com/organization/dysnix
-          - item:
             name: EasyStack (member)
             homepage_url: https://www.easystack.cn
             logo: easystack.svg
@@ -12711,6 +12709,11 @@ landscape:
             homepage_url: https://www.elotl.co/
             logo: elotl.svg
             crunchbase: https://www.crunchbase.com/organization/elotl
+          - item:
+            name: Emagine IT (member)
+            homepage_url: https://www.eit2.com/
+            logo: emagine-it.svg
+            crunchbase: https://www.crunchbase.com/organization/emagine-it-inc            
           - item:
             name: EMQ Technologies (member)
             homepage_url: https://www.emqx.io/
@@ -13420,11 +13423,6 @@ landscape:
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/mastercard
           - item:
-            name: Material+ (member)
-            homepage_url: https://www.materialplus.io/
-            logo: material+.svg
-            crunchbase: https://www.crunchbase.com/organization/material-1363
-          - item:
             name: Materna (member)
             homepage_url: https://www.materna.de
             logo: materna.svg
@@ -13761,6 +13759,11 @@ landscape:
             homepage_url: https://opennebula.io/
             logo: opennebula.svg
             crunchbase: https://www.crunchbase.com/organization/opennebula
+          - item:
+            name: Operant (member)
+            homepage_url: https://www.operant.ai/
+            logo: operant.svg
+            crunchbase: https://www.crunchbase.com/organization/operant-ai         
           - item:
             name: OpsCruise (member)
             homepage_url: https://www.opscruise.com/
@@ -14199,6 +14202,11 @@ landscape:
             logo: seagate.svg
             crunchbase: https://www.crunchbase.com/organization/seagate
           - item:
+            name: Seal (member)
+            homepage_url: https://www.seal.io/
+            logo: seal-sotware.svg
+            crunchbase: https://www.crunchbase.com/organization/seal-software           
+          - item:
             name: Searce (member)
             homepage_url: https://www.searce.com/
             logo: searce.svg
@@ -14270,11 +14278,6 @@ landscape:
             twitter: https://twitter.com/SingleStoreDB
             crunchbase: https://www.crunchbase.com/organization/memsql
           - item:
-            name: Singularity Data (member)
-            homepage_url: http://www.singularity-data.com/
-            logo: singularity-data.svg
-            crunchbase: https://www.crunchbase.com/organization/singularity-data
-          - item:
             name: Skyloud (member)
             homepage_url: https://www.skyloud.fr/
             logo: skyloud.svg
@@ -14294,6 +14297,11 @@ landscape:
             homepage_url: https://www.smartiful.jp/
             logo: smartiful.svg
             crunchbase: https://www.crunchbase.com/organization/smartiful
+          - item:
+            name: SmartX (member)
+            homepage_url: https://www.smartx.com/global/
+            logo: smartx.svg
+            crunchbase: https://www.crunchbase.com/organization/smartx            
           - item:
             name: Snyk (member)
             homepage_url: https://snyk.io/
@@ -14789,6 +14797,11 @@ landscape:
             logo: wanclouds.svg
             crunchbase: https://www.crunchbase.com/organization/wanclouds
           - item:
+            name: Wavecon (member)
+            homepage_url: https://www.wavecon.de/de/
+            logo: wavecon.svg
+            crunchbase: https://www.crunchbase.com/organization/wavecon           
+          - item:
             name: Wayfair (member)
             homepage_url: https://www.wayfair.com/
             logo: wayfair.svg
@@ -14906,6 +14919,11 @@ landscape:
             homepage_url: https://www.zelarsoft.com/
             logo: zelar.svg
             crunchbase: https://www.crunchbase.com/organization/zelarsoft
+          - item:
+            name: Zenduty (member)
+            homepage_url: https://www.zenduty.com/
+            logo: zenduty.svg
+            crunchbase: https://www.crunchbase.com/organization/zenduty            
           - item:
             name: Zoi (member)
             homepage_url: https://en.zoi.tech/
