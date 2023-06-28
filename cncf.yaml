@@ -8455,6 +8455,17 @@ landscape:
             logo: tingyun.svg
             crunchbase: https://www.crunchbase.com/organization/tingyun
           - item:
+            name: TRaaS BOS
+            description: >-
+              Provide multi-dimensional integrated monitoring capabilities for business, application, network, and other aspects to measure business
+              availability, gain insight into service health status, and support real-time log collection and analysis to efficiently locate problems.
+              Provide non-invasive automatic link generation capabilities for heterogeneous applications on and off the cloud, and support defining
+              services to aggregate massive link data into business links, achieving customized association between services and applications and
+              intelligent diagnosis and positioning.
+            homepage_url: https://antchain.antgroup.com/products/biosp
+            logo: traas-bos.svg
+            crunchbase: https://www.crunchbase.com/organization/ant-financial
+          - item:
             name: Trickster
             homepage_url: https://trickstercache.org
             project: sandbox
@@ -13331,6 +13342,11 @@ landscape:
             logo: legit-security.svg
             crunchbase: https://www.crunchbase.com/organization/legit-security
           - item:
+            name: Lenovo (member)
+            homepage_url: https://www.lenovo.com.cn/
+            logo: lenovo.svg
+            crunchbase: https://www.crunchbase.com/organization/lenovo           
+          - item:
             name: Lightbend (member)
             homepage_url: https://www.lightbend.com/
             logo: lightbend.svg
@@ -15511,6 +15527,12 @@ landscape:
             homepage_url: https://www.sie.com/en/index.html
             logo: sony-interactive-entertainment.svg
             crunchbase: https://www.crunchbase.com/organization/sony-interactive-entertainment
+          - item:
+            name: Swiss Post (supporter)
+            homepage_url: https://www.swisspost.com/
+            logo: swisspost.svg
+            crunchbase: https://www.crunchbase.com/organization/swiss-post
+            joined: '2023-06-26'           
           - item:
             name: The New York Times (supporter)
             homepage_url: https://www.nytco.com/
