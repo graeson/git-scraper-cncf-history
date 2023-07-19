@@ -137,6 +137,13 @@ landscape:
             twitter: https://twitter.com/digitalrebar
             crunchbase: https://www.crunchbase.com/organization/rackn-inc
           - item:
+            name: Enterprisedb
+            homepage_url: https://www.enterprisedb.com/
+            repo_url: https://github.com/EnterpriseDB/cloudnative-pg
+            logo: edb.svg
+            twitter: https://twitter.com/EDBPostgres
+            crunchbase: https://www.crunchbase.com/organization/enterprisedb
+          - item:
             name: Foreman
             homepage_url: https://theforeman.org/
             repo_url: https://github.com/theforeman/foreman
@@ -270,9 +277,9 @@ landscape:
             name: KCL
             description: A constraint-based record & functional language mainly used in configuration and policy scenarios.
             homepage_url: https://kcl-lang.io/
-            repo_url: https://github.com/KusionStack/kcl
+            repo_url: https://github.com/kcl-lang/kcl
             logo: kcl.svg
-            twitter: https://twitter.com/LangKcl54452
+            twitter: https://twitter.com/kcl_language
             crunchbase: https://www.crunchbase.com/organization/ant-group
           - item:
             name: LinuxKit
@@ -3133,6 +3140,15 @@ landscape:
               slack_url: http://slack.k8s.io/
               youtube_url: https://www.youtube.com/channel/UCZ2bu0qutTOM0tHYa_jkIwg
               clomonitor_name: kubernetes
+              audits:
+                - date: 20190806
+                  type: security
+                  url: https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2019/findings
+                  vendor: Trail of Bits and Atredis Partners
+                - date: 20230419
+                  type: security 
+                  url: https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2021-2022/findings
+                  vebdor: NCC Group
           - item:
             name: Kured
             description: >-
@@ -5086,11 +5102,6 @@ landscape:
             repo_url: https://github.com/habitat-sh/habitat
             logo: chef_habitat.svg
             crunchbase: https://www.crunchbase.com/organization/chef
-          - item:
-            name: Choreo
-            homepage_url: https://wso2.com/choreo/
-            logo: choreo.svg
-            crunchbase: https://www.crunchbase.com/organization/wso2
           - item:
             name: CloudARK KubePlus
             description: Build SaaS for your containerized applications
@@ -7201,6 +7212,11 @@ landscape:
             logo: atomist.svg
             crunchbase: https://www.crunchbase.com/organization/atomist
           - item:
+            name: Choreo
+            homepage_url: https://wso2.com/choreo/
+            logo: choreo.svg
+            crunchbase: https://www.crunchbase.com/organization/wso2
+          - item:
             name: Clever Cloud
             description: Clever Cloud is an IT Automation platform helping developers to focus on business value instead of ops work.
             homepage_url: https://www.clever-cloud.com
@@ -8625,11 +8641,11 @@ landscape:
             twitter: https://twitter.com/virtasant
             crunchbase: https://www.crunchbase.com/organization/virtasant
           - item:
-            name: Wavefront
-            description: Wavefront provides real-time views of your code, full stack, at detail down to sub-seconds.
-            homepage_url: https://tanzu.vmware.com/observability
-            logo: wavefront.svg
-            twitter: https://twitter.com/WavefrontHQ
+            name: VMware Aria Operations for Applications
+            description: VMware Aria Operations for Applications brings together metrics, traces, and logs in one solution for greater business insights and scalability
+            homepage_url: https://www.vmware.com/products/aria-operations-for-applications
+            logo: VMware-Aria-Operations-for-Applications.svg
+            twitter: https://twitter.com/VMwareAria
             crunchbase: https://www.crunchbase.com/organization/vmware
           - item:
             name: Weave Scope
