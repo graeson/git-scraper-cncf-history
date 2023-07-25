@@ -181,7 +181,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/loft-labs
           - item:
             name: kpt
-            homepage_url: https://kpt.io
+            homepage_url: https://kpt.dev
             project: sandbox
             repo_url: https://github.com/GoogleContainerTools/kpt
             logo: kpt.svg
@@ -270,6 +270,11 @@ landscape:
               summary_integrations: Calico, Flannel, Containerd, CRI-O, OpenFunction, WasmEdge, Harbor, Prometheus, Grafana etc.
               summary_intro_url: null
               clomonitor_name: kube-edge
+              audits:
+                - date: '2022-07-11'
+                  type: security
+                  url: https://github.com/kubeedge/community/blob/master/sig-security/sig-security-audit/KubeEdge-security-audit-2022.pdf
+                  vendor: Ada Logics
           - item:
             name: Kubefirst
             description: Kubernetes Platform Provisioning for Application Delivery and Infrastruction Management
@@ -406,7 +411,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/rundeck
           - item:
             name: Salt Project
-            homepage_url: https://www.saltproject.io
+            homepage_url: https://saltproject.io
             repo_url: https://github.com/saltstack/salt
             logo: salt-project.svg
             twitter: https://twitter.com/Salt_Project_OS
@@ -573,6 +578,11 @@ landscape:
               summary_integrations: trivy, cosing, notary, github, gce, jfrog, snyk, clair, sysdig, oidc, ldap, ecr, acr, docker, quay, helm
               summary_intro_url: https://www.youtube.com/watch?v=adfPZAyozwc
               clomonitor_name: harbor
+              audits:
+                - date: '2019-10-01'
+                  type: security
+                  url: https://github.com/goharbor/harbor/blob/master/docs/security/Harbor_Security_Audit_Oct2019.pdf
+                  vendor: Cure53
           - item:
             name: IBM Cloud Container Registry
             description: Detect vulnerabilities before images are ever deployed to containers. Store and distribute Docker images in your managed private registry.
@@ -929,6 +939,15 @@ landscape:
               summary_integrations: Kubernetes Audit Logs, AWS Cloudtrail, GitHub Audit Events, and the 40+ outputs supported by Falcosidekick (e.g. Slack, AWS Lambda, etc)
               summary_intro_url: null
               clomonitor_name: falco
+              audits:
+                - date: '2019-06-07'
+                  type: security
+                  url: https://github.com/falcosecurity/falco/blob/dev/audits/SECURITY_AUDIT_2019_07.pdf
+                  vendor: Cure53
+                - date: '2023-03-22'
+                  type: security
+                  url: https://falco.org/blog/falco-security-audit-2023/
+                  vendor: OSTIF
           - item:
             name: FOSSA
             homepage_url: https://fossa.com/
@@ -1280,6 +1299,11 @@ landscape:
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#notary-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/notary
               clomonitor_name: notary
+              audits:
+                - date: '2023-03-21'
+                  type: fuzzing
+                  url: https://github.com/notaryproject/notaryproject/blob/main/security/reports/fuzzing/ADA-fuzzing-audit-22-23.pdf
+                  vendor: Ada Logics
           - item:
             name: Open Policy Agent (OPA)
             homepage_url: https://www.openpolicyagent.org/
@@ -1298,6 +1322,11 @@ landscape:
               blog_url: https://blog.openpolicyagent.org/
               slack_url: http://slack.openpolicyagent.org/
               clomonitor_name: opa
+              audits:
+                - date: '2018-08-30'
+                  type: security
+                  url: https://cure53.de/pentest-report_opa.pdf
+                  vendor: Cure53
           - item:
             name: Open Policy Containers
             description: A docker-inspired CLI for building, tagging, pushing, pulling, and signing OPA policies to and from OCI-compliant registries.
@@ -1607,6 +1636,11 @@ landscape:
               stack_overflow_url: https://stackoverflow.com/questions/tagged/the-update-framework
               mailing_list_url: https://groups.google.com/forum/?fromgroups#!forum/theupdateframework
               clomonitor_name: tuf
+              audits:
+                - date: '2018-08-07'
+                  type: security
+                  url: https://cure53.de/pentest-report_tuf.pdf
+                  vendor: Cure53
           - item:
             name: ThreatMapper
             homepage_url: https://deepfence.io/threatmapper/
@@ -2376,6 +2410,11 @@ landscape:
               blog_url: https://blog.rook.io/
               slack_url: https://rook-io.slack.com/
               clomonitor_name: rook
+              audits: 
+                - date: '2019-12-01'
+                  type: security
+                  url: https://drive.google.com/file/d/1rOwrwYmBUpLUm6W5J5rhXvdVit818hWJ/view
+                  vendor: Trail of Bits
               summary_personas: SRE/ DevOps Engineers
               summary_tags: Storage, Persistence, Data, CSI, Operator, Kubernetes
               summary_use_case: |2-
@@ -2556,6 +2595,11 @@ landscape:
               blog_url: https://medium.com/cri-o
               slack_url: https://kubernetes.slack.com/messages/CAZH62UR1
               clomonitor_name: cri-o
+              audits:
+                - date: '2022-06-06'
+                  type: fuzzing
+                  url: https://github.com/etcd-io/etcd/blob/main/security/FUZZING_AUDIT_2022.PDF
+                  vendor: ADA Logics
               summary_personas: Cluster Admins, SRE, Platform Architect
               summary_tags: Container, Image, OCI, CRI, Runtime
               summary_use_case: >
@@ -3351,6 +3395,11 @@ landscape:
               slack_url: https://cloud-native.slack.com/messages/coredns/
               youtube_url: https://www.youtube.com/channel/UCbWRJZxiaQ8twm6sh7UymoQ
               clomonitor_name: core-dns
+              audits: 
+                - date: '2018-02-03'
+                  type: security
+                  url: https://coredns.io/assets/DNS-01-report.pdf
+                  vendor: Cure53
           - item:
             name: etcd
             homepage_url: https://etcd.io/
@@ -3370,6 +3419,15 @@ landscape:
               slack_url: http://slack.k8s.io/
               chat_channel: '#etcd'
               clomonitor_name: etcd
+              audits:
+                - date: '2020-08-05' 
+                  type: security
+                  url: https://github.com/etcd-io/etcd/blob/master/security/SECURITY_AUDIT.pdf
+                  vendor: Trail of Bits
+                - date: '2022-03-11'
+                  type: fuzzing
+                  url: https://github.com/etcd-io/etcd/blob/main/security/FUZZING_AUDIT_2022.PDF
+                  vendor: ADA Logics
               summary_personas: Architects, Platform Engineers, SREs
               summary_tags: distributed, key-value, consistent, datastore, reliability
               summary_use_case: >-
@@ -3582,6 +3640,11 @@ landscape:
               dev_stats_url: https://contour.devstats.cncf.io/
               slack_url: https://kubernetes.slack.com/messages/contour
               clomonitor_name: contour
+              audits:
+                - date: '2021-12-01'
+                  type: security
+                  url: https://github.com/projectcontour/contour/blob/main/Contour_Security_Audit_Dec2020.pdf
+                  vendor: Cure53
           - item:
             name: Envoy
             homepage_url: https://www.envoyproxy.io
@@ -3599,6 +3662,15 @@ landscape:
               stack_overflow_url: https://stackoverflow.com/questions/tagged/envoyproxy
               slack_url: https://envoyproxy.slack.com/
               clomonitor_name: envoy
+              audits:
+                - date: '2018-02-27'
+                  type: security
+                  url: https://github.com/envoyproxy/envoy/blob/master/docs/SECURITY_AUDIT.pdf
+                  vendor: Cure53
+                - date: '2021-05-15'
+                  type: fuzzing
+                  url: https://github.com/envoyproxy/envoy/blob/main/docs/security/audit_fuzzer_adalogics_2021.pdf
+                  vendor: Ada Logics
           - item:
             name: F5
             homepage_url: https://www.f5.com/
@@ -3995,6 +4067,11 @@ landscape:
                 scratch or migrating existing applications to cloud native, Istio can help. Read more at: https://istio.io/latest/about/solutions/
               youtube_url: https://www.youtube.com/c/Istio
               clomonitor_name: istio
+              audits:
+                - date: '2023-01-30'
+                  type: security
+                  url: https://istio.io/latest/blog/2023/ada-logics-security-assessment/Istio%20audit%20report%20-%20ADA%20Logics%20-%202023-01-30%20-%20v1.0.pdf
+                  vendor: ADA Logics
           - item:
             name: Kuma
             homepage_url: https://kuma.io
@@ -4055,6 +4132,19 @@ landscape:
               summary_intro_url: ''
               summary_languages: Go, Rust
               clomonitor_name: linkerd
+              audits:
+                - date: '2019-06-01'
+                  type: security
+                  url: https://github.com/linkerd/linkerd2/blob/master/SECURITY_AUDIT.pdf
+                  vendor: Cure53
+                - date: '2020-06-05'
+                  type: security
+                  url: https://github.com/ctz/rustls/blob/main/audit/TLS-01-report.pdf
+                  vendor: Cure53
+                - date: '2022-06-28'
+                  type: security
+                  url: https://github.com/linkerd/linkerd2/tree/main/audits/2022
+                  vendor: Trail of Bits
           - item:
             name: Merbridge
             description: Use eBPF to speed up your Service Mesh like crossing an Einstein-Rosen Bridge.
@@ -4643,6 +4733,11 @@ landscape:
                 Kubernetes via TiDB Operator and monitored by Prometheus.
               summary_intro_url: ''
               clomonitor_name: tikv
+              audits:
+                - date: '2020-03-05'
+                  type: security
+                  url: https://tikv.org/blog/TiKV-Security-Audit.pdf
+                  vendor: Cure53
           - item:
             name: Timescale
             description: PostgreSQL for time‑series. TimescaleDB is the leading open-source relational database for time-series data. Fully managed or self‑hosted.
@@ -4694,6 +4789,19 @@ landscape:
                 Kubernetes Operator, Debezium
               summary_intro_url: https://www.youtube.com/watch?v=Sny8rITrdvE
               clomonitor_name: vitess
+              audits:
+                - date: '2019-02-01'
+                  type: security
+                  url: https://vitess.io/files/VIT-01-report.pdf
+                  vendor: Cure53
+                - date: '2021-05-19'
+                  type: fuzzing
+                  url: https://github.com/vitessio/vitess/blob/master/doc/VIT-02-report-fuzzing-audit.pdf
+                  vendor: AdaLogics
+                - date: '2023-06-05'
+                  type: security
+                  url: https://github.com/vitessio/vitess/blob/main/doc/VIT-03-report-security-audit.pdf
+                  vendor: Ada Logics
           - item:
             name: VoltDB
             description: VoltDB is a high-velocity decisioning engine, powering real-time applications that must react in milliseconds.
@@ -4830,6 +4938,11 @@ landscape:
               summary_intro_url: https://github.com/cloudevents/spec/blob/main/cloudevents/primer.md
               summary_languages: CSharp, Go, Java, Javascript, PHP, PowerShell, Python, Ruby, Rust
               clomonitor_name: cloudevents
+              audits:
+                - date: '2022-11-28'
+                  type: security
+                  url: https://ostif.org/wp-content/uploads/2022/11/CloudEvents.pdf
+                  vendor: Trail of Bits
           - item:
             name: deepstream
             homepage_url: https://deepstream.io/
@@ -4969,6 +5082,11 @@ landscape:
               summary_integrations: Docker, Kubernetes, K3S, WASMCloud, CloudEvents, Helm, Argo, DAPR, Prometheus, Benthos
               summary_intro_url: https://rethink.synadia.com/episodes/1/
               clomonitor_name: nats
+              audits:
+                - date: '2019-02-06'
+                  type: security
+                  url: https://github.com/nats-io/nats-general/blob/master/reports/Cure53_NATS_Audit.pdf
+                  vendor: Cure53
           - item:
             name: OpenMessaging
             description: Cloud-oriented, simple, flexible, vendor-neutral and language-independent standards for messaging
@@ -5124,6 +5242,11 @@ landscape:
               dev_stats_url: https://backstage.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/tree/master/projects/backstage
               clomonitor_name: backstage
+              audits:
+                - date: '2022-08-23'
+                  type: security
+                  url: https://backstage.io/blog/assets/22-08-23/X41-Backstage-Audit-2022.pdf
+                  vendor: X41 D-Sec
               summary_personas: Developers, SREs
               summary_tags: Developer Portals, IDP, Service Catalog, Observability
               summary_use_case: >-
@@ -5281,6 +5404,11 @@ landscape:
               chat_channel: '#helm-dev'
               stack_overflow_url: https://stackoverflow.com/questions/tagged/helm
               clomonitor_name: helm
+              audits:
+                - date: '2019-04-19'
+                  type: security
+                  url: https://github.com/helm/community/blob/master/security-audit/HLM-01-report.pdf
+                  vendor: Cure 53 and Trail of Bits
           - item:
             name: itopia
             description: >-
@@ -5649,7 +5777,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
           - item:
             name: Skaffold
-            homepage_url: https://github.com/GoogleContainerTools/skaffold
+            homepage_url: https://skaffold.dev/
             repo_url: https://github.com/GoogleContainerTools/skaffold
             logo: skaffold.svg
             twitter: https://twitter.com/GCPcloud
@@ -5790,6 +5918,11 @@ landscape:
               summary_release_rate: 7-14 days
               summary_intro_url: 'Argo Workflows: https://youtu.be/TZgLkCFQ2tk, Argo CD: https://youtu.be/aWDIQMbp1cc'
               clomonitor_name: argo
+              audits:
+                - date: '2022-02-28'
+                  type: fuzzing
+                  url: https://github.com/argoproj/argoproj/blob/dd7cae43d81c5a11f21ff4ea0a4afadcae4799c7/docs/audit_fuzzer_adalogics_2022.pdf
+                  vendor: ADA Logics
           - item:
             name: AWS CodePipeline
             description: >-
@@ -5954,6 +6087,11 @@ landscape:
               slack_url: https://cloud-native.slack.com/messages/flux
               youtube_url: https://www.youtube.com/channel/UCoZxt-YMhGHb20ZkvcCc5KA
               clomonitor_name: flux-project
+              audits:
+                - date: '2021-11-10'
+                  type: security
+                  url: https://fluxcd.io/FluxFinalReport-v1.1.pdf
+                  vendor: ADA Logics
               summary_personas: SREs, DevOps & Platform Engineers, Architects, Developers
               summary_tags: OCI, container, security, gitops, Kubernetes, Helm, Observability, Software Supply Chain, Policy, CICD, Multi-Tenancy, API Gateway
               summary_use_case: >-
@@ -6567,6 +6705,16 @@ landscape:
             logo: kurl.svg
             crunchbase: https://www.crunchbase.com/organization/replicated
           - item:
+            name: Lenovo xCloud Container Platform
+            description: >-
+              Lenovo Container Cloud is a platform born out of container and kubernetes, which fully compatible with massive types of infrastructure and full sets of
+              devops tool chain. It enables enterprises to deploy and manage applications in a low-cost, flexible, automated, safe and controllable manner with unified
+              service template, and ensure business stability and iterate efficiency as well, to help enterprises reduce the overall cost of infrastructure operation
+              and DevOps.
+            homepage_url: https://xcloud.lenovo.com.cn/zh-cn/pages/paas.html
+            logo: lenovo.svg
+            crunchbase: https://www.crunchbase.com/organization/lenovo
+          - item:
             name: Magellano
             description: Magellano is a Kubernetes distribution that adds day two operations capabilities to your Kubernetes cluster.
             homepage_url: https://mia-platform.eu/
@@ -6664,6 +6812,14 @@ landscape:
             homepage_url: https://www.innogrid.com/secloudit
             logo: secloudit.svg
             crunchbase: https://www.crunchbase.com/organization/innogrid
+          - item:
+            name: SmartX SMTX Kubernetes Service
+            description: >-
+              With pre-loaded Kubernetes plug-ins, industry-leading SmartX virtualization, distributed storage, networking and security as well as other product
+              components, SMTX Kubernetes Service helps IT operations teams easily deploy and manage production-ready Kubernetes clusters.
+            homepage_url: https://www.smartx.com/global/smtx-kubernetes-service/
+            logo: smartx.svg
+            crunchbase: https://www.crunchbase.com/organization/smartx
           - item:
             name: TenxCloud Container Enterprise
             description: TenxCloud Container Enterprise is a PaaS product based on Kubernetes.
@@ -7217,6 +7373,14 @@ landscape:
             repo_url: https://github.com/kubernetes-sigs/kubespray
             logo: kubespray.svg
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+          - item:
+            name: Kubean
+            description: kubean is a cluster lifecycle management tool based on kubespray.
+            homepage_url: https://kubean-io.github.io/kubean/
+            repo_url: https://github.com/kubean-io/kubean
+            logo: kubean.svg
+            twitter: https://twitter.com/daocloud_io
+            crunchbase: https://www.crunchbase.com/organization/daocloud
           - item:
             name: kwok
             description: Kubernetes WithOut Kubelet - Simulates thousands of Nodes and Clusters.
@@ -7864,6 +8028,11 @@ landscape:
               slack_url: https://kubernetes.slack.com/archives/CKZJ36A5D
               youtube_url: https://www.youtube.com/playlist?list=PLvjRi5R9GQfASIcL4MLTfg2ZOoBdIi5Kq
               clomonitor_name: keda
+              audits:
+                - date: '2023-02-02'
+                  type: security
+                  url: https://github.com/trailofbits/publications/blob/master/reviews/2023-01-keda-securityreview.pdf
+                  vendor: Trail of Bits
           - item:
             name: Knative
             description: >-
@@ -7887,6 +8056,11 @@ landscape:
               slack_url: https://slack.cncf.io
               youtube_url: https://www.youtube.com/c/KnativeProject
               clomonitor_name: knative
+              audits:
+                - date: '2023-07-13'
+                  type: fuzzing
+                  url: https://github.com/knative/docs/tree/main/reports/ADA-knative-fuzzing-audit-22-23.pdf
+                  vendor: Ada Logics
               summary_personas: Cloud Architects, Cloud Developers, Platform Engineers, DevOps Engineers, DevOps Practitioners
               summary_tags: Serverless, CloudEvents, Functions, Scaling, Applications
               summary_use_case: >-
@@ -8556,6 +8730,15 @@ landscape:
                 many service discoveries.
               summary_intro_url: ''
               clomonitor_name: prometheus
+              audits:
+                - date: '2018-06-11'
+                  type: security
+                  url: https://prometheus.io/assets/downloads/2018-06-11--cure53_security_audit.pdf
+                  vendor: Cure53
+                - date: '2020-07-21'
+                  type: security
+                  url: https://prometheus.io/assets/downloads/2020-07-21--cure53_security_audit_node_exporter.pdf
+                  vendor: Cure53
           - item:
             name: Promscale
             description: 'The observability backend powered by SQL built on PostgreSQL and TimescaleDB. '
@@ -8780,6 +8963,11 @@ landscape:
               blog_url: http://www.fluentd.org/blog/
               slack_url: http://slack.fluentd.org/
               clomonitor_name: fluentd
+              audits:
+                - date: '2019-05-01'
+                  type: security
+                  url: https://cure53.de/pentest-report_fluent.pdf
+                  vendor: Cure53
           - item:
             name: Grafana Loki
             description: >-
@@ -8970,6 +9158,11 @@ landscape:
               summary_integrations: OpenTelemetry, Prometheus, multiple [storage backends](https://www.jaegertracing.io/docs/latest/deployment/#span-storage-backends).
               summary_intro_url: ''
               clomonitor_name: jaeger
+              audits:
+                - date: '2019--05-04'
+                  type: security
+                  url: https://github.com/jaegertracing/security-audits/blob/master/SECURITY_AUDIT_2019_05_04.pdf
+                  vendor: Cure53
           - item:
             name: LightStep
             homepage_url: https://lightstep.com/
@@ -12041,7 +12234,7 @@ landscape:
           - item:
             name: Ampere Consulting (member)
             homepage_url: https://amperecomputing.com/
-            logo: ampere-consulting-member.svg
+            logo: ampere-computing-member.svg
             crunchbase: https://www.crunchbase.com/organization/ampere-computing
           - item:
             name: Anchore (member)
