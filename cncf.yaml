@@ -1557,6 +1557,8 @@ landscape:
               accepted: '2023-05-17'
               clomonitor_name: sops
               dev_stats_url: https://sops.devstats.cncf.io/
+              slack_url: https://cloud-native.slack.com
+              chat_channel: '#sops'
           - item:
             name: Spyderbat
             description: >-
@@ -9310,7 +9312,7 @@ landscape:
               summary_intro_url: ''
               clomonitor_name: jaeger
               audits:
-                - date: 2019--05-04
+                - date: '2019-05-04'
                   type: security
                   url: https://github.com/jaegertracing/security-audits/blob/master/SECURITY_AUDIT_2019_05_04.pdf
                   vendor: Cure53
@@ -12691,11 +12693,6 @@ landscape:
             logo: btp.svg
             crunchbase: https://www.crunchbase.com/organization/btpworks
           - item:
-            name: Bunnyshell (member)
-            homepage_url: https://www.bunnyshell.com/
-            logo: bunnyshell.svg
-            crunchbase: https://www.crunchbase.com/organization/bunnyshell
-          - item:
             name: Buoyant (member)
             homepage_url: https://buoyant.io/
             logo: buoyant.svg
@@ -14297,6 +14294,11 @@ landscape:
             logo: narwhal.svg
             enduser: true
             unnamed_organization: true
+          - item:
+            name: Northflank (member)
+            homepage_url: https://www.northflank.com/
+            logo: northflank.svg
+            crunchbase: https://www.crunchbase.com/organization/northflank            
           - item:
             name: NTT DATA Group (member)
             homepage_url: https://www.nttdata.com/global/en
@@ -16254,7 +16256,7 @@ landscape:
             description: Scripting languages that support Wasm
             homepage_url: https://github.com/second-state/wasmedge-quickjs
             repo_url: https://github.com/second-state/wasmedge-quickjs
-            logo: second-state.svg
+            logo: javascript.svg
             crunchbase: https://www.crunchbase.com/organization/second-state
           - item:
             name: WebAssembly Language runtimes for Python and PHP by VMware Labs
@@ -16478,7 +16480,7 @@ landscape:
             name: libSQL
             homepage_url: https://libsql.org/
             repo_url: https://github.com/libsql/libsql
-            logo: wasm.svg
+            logo: libsql.svg
             crunchbase: https://www.crunchbase.com/organization/chiselstrike
           - item:
             name: Infinyon
