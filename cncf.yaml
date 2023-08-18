@@ -22,6 +22,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2021-09-14'
+              annual_review_date: '2023-06-13'
+              annual_review_url: https://github.com/cncf/toc/pull/1080
               dev_stats_url: https://akri.devstats.cncf.io/
               blog_url: https://medium.com/akri
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#akri-logos
@@ -3153,7 +3155,7 @@ landscape:
             logo: clusternet.svg
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
-              accepted: 2023-03-07T00:00:00.000Z
+              accepted: '2023-03-07'
               dev_stats_url: https://clusternet.devstats.cncf.io/
               slack_url: https://cloud-native.slack.com/messages/clusternet
               clomonitor_name: clusternet
@@ -4140,7 +4142,6 @@ landscape:
           - item:
             name: Gloo Mesh
             homepage_url: https://docs.solo.io/gloo-mesh-enterprise/latest
-            repo_url: https://github.com/solo-io/gloo-mesh
             logo: gloomesh.svg
             crunchbase: https://www.crunchbase.com/organization/solo-io
           - item:
@@ -6444,7 +6445,7 @@ landscape:
             twitter: https://twitter.com/pipecd_dev
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
-              accepted: 2023-05-17T00:00:00.000Z
+              accepted: '2023-05-17'
               dev_stats_url: https://pipecd.devstats.cncf.io/
               slack_url: https://cloud-native.slack.com/messages/pipecd
               blog_url: https://pipecd.dev/blog/
@@ -6835,6 +6836,15 @@ landscape:
             repo_url: https://github.com/kubermatic/kubermatic
             logo: kubermatic.svg
             crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
+          - item:
+            name: KubeService Stack
+            description: >-
+              KubeService Stack = Kubernetes + Custom Service
+              Build a Kubernetes/KubeEdge enterprise-level peripheral ecosystem
+            homepage_url: https://stack.kubeservice.cn/
+            twitter: https://twitter.com/kubeservice
+            logo: kubeservice-stack.svg
+            crunchbase: https://www.crunchbase.com/organization/china-mobile
           - item:
             name: Kubesphere
             description: >-
@@ -7256,7 +7266,6 @@ landscape:
               AKS Engine provides convenient tooling to quickly bootstrap Kubernetes clusters on Azure Stack. By leveraging ARM (Azure Resource Manager), AKS
               Engine helps create, destroy and maintain clusters provisioned with basic IaaS resources in Azure Stack.
             homepage_url: https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-2108
-            repo_url: https://github.com/msazurestackworkloads/aks-engine
             logo: microsoft-azure.svg
             twitter: https://twitter.com/Azure
             crunchbase: https://www.crunchbase.com/organization/microsoft
@@ -7343,9 +7352,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/tectonic-c189
             joined: '2021-01-31'
           - item:
-            name: Samsung Cloud Platform - SCP Kubernetes Engine (SKE)
-            description: SKE allows you to quickly deploy a production ready Kubernetes cluster in Samsung Cloud Platform (SCP).
-            homepage_url: https://cloud.samsungsds.com/serviceportal/index.html
+            name: Samsung Kubernetes Engine (SKE)
+            description: >-
+              SKE offers lightweight virtual computing containers and clusters for their management. With the service, Kubernetes environments are readily
+              available by installation, operation, and maintenance of the Kubernetes control plane.
+            homepage_url: https://cloud.samsungsds.com/serviceportal/product/container/k8sEngine.html
             logo: samsung-cloud.svg
             crunchbase: https://www.crunchbase.com/organization/samsung-sds
           - item:
@@ -11739,7 +11750,7 @@ landscape:
             description: >-
               Training from foundation to expert – with our practice-oriented training programs, you will gain all the Kubernetes knowledge you need for your
               daily operation.
-            homepage_url: https://kubeops.net/en/kubeops-services/trainings
+            homepage_url: https://kubeops.net/services/academy
             logo: kubeops.svg
             crunchbase: https://www.crunchbase.com/organization/kubernative
             extra:
