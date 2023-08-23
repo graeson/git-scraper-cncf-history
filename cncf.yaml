@@ -8216,6 +8216,7 @@ landscape:
             extra:
               accepted: '2020-03-12'
               incubating: '2021-08-18'
+              graduated: '2023-08-22'
               dev_stats_url: https://keda.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#keda-logos
               blog_url: https://keda.sh/blog
@@ -14358,7 +14359,7 @@ landscape:
           - item:
             name: NTT DATA Group (member)
             homepage_url: https://www.nttdata.com/global/en
-            logo: ntt-data-member.svg
+            logo: ntt-data.svg
             crunchbase: https://www.crunchbase.com/organization/ntt-data
           - item:
             name: Nutanix (member)
@@ -14704,6 +14705,11 @@ landscape:
             homepage_url: https://qingteng.cn/
             logo: qingteng.svg
             crunchbase: https://www.crunchbase.com/organization/qingteng-cloud-security
+          - item:
+            name: Qleet (member)
+            homepage_url: https://www.qleet.io/
+            logo: qleet.svg
+            crunchbase: https://www.crunchbase.com/organization/qleet            
           - item:
             name: Quali (member)
             homepage_url: https://www.quali.com/
@@ -16408,6 +16414,15 @@ landscape:
             repo_url: https://github.com/lunatic-solutions/lunatic
             logo: lunatic.svg
             unnamed_organization: true
+          - item:
+            name: Timecraft
+            description: Timecraft is a software runtime that executes WebAssembly modules with sandboxing, task orchestration, and time travel capabilities.
+            homepage_url: https://docs.timecraft.dev
+            repo_url: https://github.com/stealthrocket/timecraft
+            logo: timecraft.svg
+            crunchbase: https://www.crunchbase.com/organization/stealth-rocket-inc
+            extra:
+              slack_url: https://stealthrocket.tech/discord
       - subcategory:
         name: Application Frameworks
         items:
@@ -16506,12 +16521,6 @@ landscape:
             homepage_url: https://github.com/tessi/wasmex
             repo_url: https://github.com/tessi/wasmex
             logo: wasm.svg
-            unnamed_organization: true
-          - item:
-            name: Timecraft
-            homepage_url: https://stealthrocket.tech/
-            repo_url: https://github.com/stealthrocket/timecraft
-            logo: scale.svg
             unnamed_organization: true
       - subcategory:
         name: AI/Machine Learning
