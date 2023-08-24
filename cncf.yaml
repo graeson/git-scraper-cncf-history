@@ -156,7 +156,6 @@ landscape:
               Idem reduces your cloud configuration to data – for you! Instead of Infrastructure as Code, Idem delivers Infrastructure as Data. The cloud
               becomes simplified, easier to maintain, easier to discover, and easier to use.
             homepage_url: https://www.idemproject.io
-            repo_url: https://www.idemproject.io/general-8
             logo: idem-project.svg
             twitter: https://twitter.com/idem_project
             crunchbase: https://www.crunchbase.com/organization/vmware
@@ -1189,7 +1188,7 @@ landscape:
             logo: kubelinter.svg
             crunchbase: https://www.crunchbase.com/organization/red-hat
             extra:
-              slack_url: kube-linter.slack.com
+              slack_url: https://kube-linter.slack.com
           - item:
             name: Kubescape
             description: >-
@@ -1332,7 +1331,6 @@ landscape:
                 - https://github.com/cncf/tag-security
               dev_stats_url: https://opa.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#opa-logos
-              stack_overflow_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#opa-logos
               blog_url: https://blog.openpolicyagent.org/
               slack_url: http://slack.openpolicyagent.org/
               clomonitor_name: opa
@@ -2699,8 +2697,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/%E5%BC%80%E6%94%BE%E5%8E%9F%E5%AD%90%E5%BC%80%E6%BA%90%E5%9F%BA%E9%87%91%E4%BC%9A
           - item:
             name: Kata Containers
-            homepage_url: https://katacontainers.io/
-            repo_url: https://github.com/kata-containers/runtime
+            homepage_url: https://katacontainers.io
+            repo_url: https://github.com/kata-containers/kata-containers
             logo: kata.svg
             twitter: https://twitter.com/KataContainers
             crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
@@ -3341,7 +3339,7 @@ landscape:
                 - date: '2023-04-19'
                   type: security
                   url: https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2021-2022/findings
-                  vebdor: NCC Group
+                  vendor: NCC Group
           - item:
             name: Kured
             description: >-
@@ -5532,7 +5530,7 @@ landscape:
                 - https://github.com/cncf/tag-app-delivery
               dev_stats_url: https://helm.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#helm-logos
-              slack_url: slack.k8s.io
+              slack_url: https://slack.k8s.io
               chat_channel: '#helm-dev'
               stack_overflow_url: https://stackoverflow.com/questions/tagged/helm
               clomonitor_name: helm
@@ -5567,7 +5565,7 @@ landscape:
             extra:
               accepted: '2022-12-14'
               dev_stats_url: https://ko.devstats.cncf.io/
-              slack_url: slack.k8s.io
+              slack_url: https://slack.k8s.io
               chat_channel: '#ko-build'
               clomonitor_name: ko
           - item:
@@ -5581,7 +5579,7 @@ landscape:
             extra:
               accepted: '2022-07-26'
               dev_stats_url: https://konveyor.devstats.cncf.io/
-              slack_url: slack.k8s.io
+              slack_url: https://slack.k8s.io
               chat_channel: '#konveyor'
               clomonitor_name: konveyor
               summary_personas: Enterprise Architects, Developers
@@ -8208,7 +8206,7 @@ landscape:
           - item:
             name: Keda
             homepage_url: https://keda.sh/
-            project: incubating
+            project: graduated
             repo_url: https://github.com/kedacore/keda
             logo: keda.svg
             twitter: https://twitter.com/kedaorg
@@ -8317,6 +8315,7 @@ landscape:
             logo: openfunction.svg
             twitter: https://twitter.com/openfunctiondev
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
             extra:
               accepted: '2022-04-26'
               dev_stats_url: https://openfunction.devstats.cncf.io/
@@ -10710,7 +10709,7 @@ landscape:
             description: >-
               Microsoft Services provides a comprehensive set of offerings to deploy and secure Kubernetes on Azure as well as containerize applications and
               migrate them from on-premises or other Clouds to Azure.
-            homepage_url:  https://azure.microsoft.com/en-us/products/kubernetes-service/
+            homepage_url: https://azure.microsoft.com/en-us/products/kubernetes-service/
             logo: microsoft-azure.svg
             twitter: https://twitter.com/Azure
             crunchbase: https://www.crunchbase.com/organization/microsoft
@@ -14709,7 +14708,7 @@ landscape:
             name: Qleet (member)
             homepage_url: https://www.qleet.io/
             logo: qleet.svg
-            crunchbase: https://www.crunchbase.com/organization/qleet            
+            crunchbase: https://www.crunchbase.com/organization/qleet
           - item:
             name: Quali (member)
             homepage_url: https://www.quali.com/
@@ -16291,6 +16290,13 @@ landscape:
             homepage_url: https://go.dev/
             repo_url: https://github.com/golang/go
             logo: go.svg
+            unnamed_organization: true
+          - item:
+            name: Zig
+            description: Compiled language to Wasm
+            homepage_url: https://ziglang.org/
+            repo_url: https://github.com/ziglang/zig
+            logo: zig.svg
             crunchbase: https://www.crunchbase.com/organization/google
           - item:
             name: Kotlin
@@ -16348,6 +16354,19 @@ landscape:
             repo_url: https://github.com/pyodide/pyodide
             logo: pyodide.svg
             crunchbase: https://www.crunchbase.com/organization/mozilla
+          - item:
+            name: MoonBit
+            description: WASM focused languages
+            homepage_url: https://www.moonbitlang.com/
+            logo: moonbit.svg
+            unnamed_organization: true
+          - item:
+            name: Grain
+            description: WASM focused languages
+            homepage_url: https://grain-lang.org/
+            repo_url: https://github.com/grain-lang/grain
+            logo: grain.svg
+            unnamed_organization: true
       - subcategory:
         name: Runtimes
         items:
@@ -16446,6 +16465,15 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             allow_duplicate_repo: true
           - item:
+            name: OpenFunction (Wasm)
+            homepage_url: https://openfunction.dev
+            project: sandbox
+            repo_url: https://github.com/OpenFunction/OpenFunction
+            logo: openfunction.svg
+            twitter: https://twitter.com/openfunctiondev
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
+          - item:
             name: Dapr SDK
             homepage_url: https://github.com/second-state/dapr-sdk-wasmedge
             repo_url: https://github.com/second-state/dapr-sdk-wasmedge
@@ -16489,6 +16517,18 @@ landscape:
             repo_url: https://github.com/microsoft/vscode-wasm
             logo: vscode.svg
             crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
+            name: Wasmex
+            homepage_url: https://github.com/tessi/wasmex
+            repo_url: https://github.com/tessi/wasmex
+            logo: wasm.svg
+            unnamed_organization: true
+          - item:
+            name: eunomia-bpf
+            homepage_url: https://eunomia.dev/
+            repo_url: https://github.com/eunomia-bpf/eunomia-bpf
+            logo: eunomia.svg
+            unnamed_organization: true
       - subcategory:
         name: Edge/Bare metal
         items:
@@ -16516,12 +16556,6 @@ landscape:
             repo_url: https://github.com/unikraft/unikraft
             logo: unikraft.svg
             crunchbase: https://www.crunchbase.com/organization/unikraft
-          - item:
-            name: Wasmex
-            homepage_url: https://github.com/tessi/wasmex
-            repo_url: https://github.com/tessi/wasmex
-            logo: wasm.svg
-            unnamed_organization: true
       - subcategory:
         name: AI/Machine Learning
         items:
