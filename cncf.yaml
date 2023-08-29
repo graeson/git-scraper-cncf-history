@@ -2129,6 +2129,14 @@ landscape:
             twitter: https://twitter.com/DriveScale_inc
             crunchbase: https://www.crunchbase.com/organization/drivescale
           - item:
+            name: ExponTech
+            description: >-
+              ExponTech is a provider of overall data infrastructure solutions based on a new generation of distributed architecture.
+            homepage_url: https://www.expontech.com/
+            logo: expontech.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/huarui-index-cloud-expontech
+          - item:
             name: Gluster
             homepage_url: https://www.gluster.org/
             repo_url: https://github.com/gluster/glusterfs
@@ -4670,6 +4678,17 @@ landscape:
             repo_url: https://github.com/prestodb/presto
             logo: presto.svg
             crunchbase: https://www.crunchbase.com/organization/presto-foundation
+          - item:
+            name: Qdrant
+            description: >-
+              Vector Database for the next generation of AI applications.
+            homepage_url: https://qdrant.tech
+            repo_url: https://github.com/qdrant/qdrant
+            logo: qdrant.svg
+            twitter: https://twitter.com/qdrant_engine
+            crunchbase: https://www.crunchbase.com/organization/qdrant
+            extra:
+              youtube_url: https://www.youtube.com/channel/UC6ftm8PwH1RU_LM1jwG0LQA
           - item:
             name: Qubole
             homepage_url: https://www.qubole.com/
@@ -7384,6 +7403,15 @@ landscape:
             logo: stackit.svg
             crunchbase: https://www.crunchbase.com/organization/schwarz-dienstleistungen
           - item:
+            name: StarlingX
+            description: >-
+              StarlingX is a fully integrated open source edge platform that integrates OpenStack and Kubernetes together to provide all functionality needed in
+              the central cloud and on the edge sites. The project is developed by the StarlingX community.
+            homepage_url: https://www.starlingx.io
+            repo_url: https://github.com/starlingx/config
+            logo: starlingx.svg
+            crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+          - item:
             name: SysEleven MetaKube
             description: >-
               MetaKube offers carefree Multi Cloud Kubernetes as a Service on OpenStack Cloud, Amazon Web Services (AWS) and On-Premises. We provide you with
@@ -10056,6 +10084,13 @@ landscape:
             logo: claion.svg
             crunchbase: https://www.crunchbase.com/organization/claion
           - item:
+            name: Cloud Ace (KCSP)
+            description: >-
+              Cloud Ace's Kubernetes service offers engineers with expertise in Kubernetes to provide optimal solutions to meet customer needs.
+            homepage_url: https://cloud-ace.jp/kubernetes-consulting/#
+            logo: cloud-ace.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-ace-co-ltd
+          - item:
             name: CloudCover (KCSP)
             description: >-
               Our Kubernetes practice focuses on designing and delivering Kubernetes as a service (KaaS) based on enterprise-grade management of multi-cluster
@@ -10595,6 +10630,14 @@ landscape:
             homepage_url: https://kubeops.net/en
             logo: kubeops.svg
             crunchbase: https://www.crunchbase.com/organization/kubernative
+          - item:
+            name: Kuberix (KCSP)
+            description: >-
+              Kuberix works with innovative companies that actively seek the benefits of modern software development practices. Also, as a company
+              of experienced Kubernetes experts, we provide services so that customers can focus on their business.
+            homepage_url: https://kuberix.com/consulting/
+            logo: kuberix.svg
+            crunchbase: https://www.crunchbase.com/organization/kuberix
           - item:
             name: Kubermatic (KCSP)
             description: >-
@@ -11917,6 +11960,8 @@ landscape:
             homepage_url: https://www.whizus.com/
             logo: whizus.svg
             crunchbase: https://www.crunchbase.com/organization/whizus-gmbh
+            extra:
+              training_type: instructor-led
           - item:
             name: x-cellent (KTP)
             description: >-
@@ -16838,13 +16883,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/huawei-cloud
             allow_duplicate_repo: true
           - item:
-            name: wasmCloud (Wasm)
-            homepage_url: https://wasmcloud.com/
-            repo_url: https://github.com/wasmCloud/wasmCloud
-            logo: wasmcloud.svg
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            allow_duplicate_repo: true
-          - item:
             name: runwasi
             homepage_url: https://github.com/containerd/runwasi
             repo_url: https://github.com/containerd/runwasi
@@ -17023,7 +17061,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/dylibso
           - item:
             name: Observe SDK
-            homepage_url: https://dev.dylib.so/docs/observe
+            homepage_url: https://dev.dylib.so/docs/observe/overview
             repo_url: https://github.com/dylibso/observe-sdk
             twitter: https://twitter.com/dylibso
             logo: observe.svg
