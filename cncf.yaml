@@ -979,6 +979,14 @@ landscape:
             twitter: https://twitter.com/FugueHQ
             crunchbase: https://www.crunchbase.com/organization/luminal
           - item:
+            name: GitGuardian
+            description: >-
+              GitGuardian is the code security platform for the DevOps generation that offers automated Secrets Detection, Infra as Code Security, 
+              and Honeytoken capabilities, facilitating a Secure Software Development Lifecycle for Dev, Sec, and Ops teams.
+            homepage_url: https://www.gitguardian.com/
+            logo: gitguardian.svg
+            crunchbase: https://www.crunchbase.com/organization/gitguardian
+          - item:
             name: Goldilocks
             homepage_url: https://www.fairwinds.com/open-source-software
             repo_url: https://github.com/FairwindsOps/goldilocks
@@ -1047,6 +1055,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2023-04-10'
+              incubating: '2023-04-10'
               dev_stats_url: https://keycloak.devstats.cncf.io/
               artwork_url: https://github.com/keycloak/keycloak-misc/blob/main/logo/keycloak_logo_600px.svg
               mailing_list_url: https://groups.google.com/forum/#!forum/keycloak-user
@@ -2853,6 +2862,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2021-10-13'
+              incubating: '2021-10-13'
               dev_stats_url: https://cilium.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#cilium-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/cilium
@@ -3447,6 +3457,14 @@ landscape:
               devstats: https://wasmcloud.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#wasmcloud-logos
               clomonitor_name: wasm-cloud
+              summary_personas: ''
+              summary_tags: webassembly,cloud,application,orchestration,wasm,nats
+              summary_use_case: ''
+              summary_business_use_case: ''
+              summary_release_rate: ''
+              summary_integration: ''
+              summary_intro_url: ''
+            project_org: https://github.com/wasmCloud
       - subcategory:
         name: Coordination & Service Discovery
         items:
@@ -4916,6 +4934,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2018-02-05'
+              incubating: '2018-02-05'
               graduated: '2019-11-05'
               dev_stats_url: https://vitess.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#vitess-logos
