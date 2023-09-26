@@ -3291,10 +3291,10 @@ landscape:
             homepage_url: https://keda.sh/
             project: graduated
             repo_url: https://github.com/kedacore/keda
-            allow_duplicate_repo: true
             logo: keda.svg
             twitter: https://twitter.com/kedaorg
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
             extra:
               accepted: '2020-03-12'
               incubating: '2021-08-18'
@@ -3649,6 +3649,12 @@ landscape:
       - subcategory:
         name: Remote Procedure Call
         items:
+          - item:
+            name: Apache bRPC
+            homepage_url: https://brpc.apache.org/
+            repo_url: https://github.com/apache/brpc
+            logo: apache-brpc.svg
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Apache Thrift
             homepage_url: https://thrift.apache.org/
@@ -4388,13 +4394,14 @@ landscape:
           - item:
             name: Service Mesh Interface (SMI)
             homepage_url: https://smi-spec.io
-            project: sandbox
+            project: archived
             repo_url: https://github.com/servicemeshinterface/smi-spec
             logo: service-mesh-interface.svg
             twitter: https://twitter.com/smi_spec
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2020-03-19'
+              archived: '2023-09-25'
               annual_review_url: https://github.com/cncf/toc/pull/833
               annual_review_date: '2022-05-04'
               clomonitor_name: smi
@@ -8258,10 +8265,10 @@ landscape:
             homepage_url: https://keda.sh/
             project: graduated
             repo_url: https://github.com/kedacore/keda
-            allow_duplicate_repo: true
             logo: keda.svg
             twitter: https://twitter.com/kedaorg
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
             extra:
               accepted: '2020-03-12'
               incubating: '2021-08-18'
