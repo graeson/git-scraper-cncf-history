@@ -3290,6 +3290,25 @@ landscape:
               chat_channel: '#general'
               clomonitor_name: karmada
           - item:
+            name: kcp
+            homepage_url: https://kcp.io
+            project: sandbox
+            repo_url: https://github.com/kcp-dev/kcp
+            project_org: https://github.com/kcp-dev
+            logo: kcp.svg
+            open_source: true
+            twitter: https://twitter.com/kcp
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
+            extra:
+              chat_channel: '#kcp-dev'
+              slack_url: http://slack.k8s.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kcp-logos
+              mailing_list_url: https://groups.google.com/g/kcp-dev
+              accepted: '2023-09-19'
+              devstats: https://kcp.devstats.cncf.io/
+              summary_tags: kcp,cloud,orchestration,control-plane,multitenancy
+          - item:
             name: KEDA
             homepage_url: https://keda.sh/
             project: graduated
@@ -4477,6 +4496,16 @@ landscape:
             twitter: https://twitter.com/ApacheIgnite
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
+            name: ApeCloud
+            description: >-
+              ApeCloud provides KubeBlocks, which is an open-source Kubernetes operator that manages relational, NoSQL, vector, and streaming databases on the
+              public cloud or on-premise.
+            homepage_url: https://www.kubeblocks.io/
+            repo_url: https://github.com/apecloud/kubeblocks
+            logo: apecloud.svg
+            twitter: https://twitter.com/KubeBlocks
+            crunchbase: https://www.crunchbase.com/organization/apecloud
+          - item:
             name: ArangoDB
             homepage_url: https://www.arangodb.com/
             repo_url: https://github.com/arangodb/arangodb
@@ -5530,6 +5559,48 @@ landscape:
             logo: codezero.svg
             twitter: https://twitter.com/codezeroio
             crunchbase: https://www.crunchbase.com/organization/traxitt-inc
+          - item:
+            name: Dapr
+            homepage_url: https://dapr.io
+            project: incubating
+            repo_url: https://github.com/dapr/dapr
+            logo: dapr.svg
+            twitter: https://twitter.com/DaprDev
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
+            extra:
+              accepted: '2021-11-09'
+              incubating: '2021-11-09'
+              dev_stats_url: https://dapr.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#dapr-logos
+              blog_url: https://blog.dapr.io/posts
+              slack_url: https://discord.com/invite/ptHhX6jc34
+              summary_personas: Developers, Platform engineers
+              summary_tags: Developer APIs, Distributed Systems, Microservices, HTTP, gRPC, Go, Java, Python, .NET, Javascript, C++, Rust, CLI
+              summary_use_case: >-
+                The Distributed Application Runtime (Dapr) provides APIs that simplify microservice architecture development and increases developer
+                productivity. Whether your communication pattern is service-to-service invocation or pub/sub messaging, Dapr helps you write resilient and
+                secured microservices. By letting Dapr’s sidecar take care of the complex challenges such as service discovery, message broker integration,
+                encryption, observability, and secret management, developers can focus on business logic and keep their code simple.
+              summary_business_use_case: >-
+                Deliver distributed system applications in half the time. Dapr provides APIs that abstract away the complexity of common challenges developers
+                encounter regularly when building distributed applications. These API building blocks can be leveraged as the need arises - use one, several, or
+                all to develop applications faster and deliver solutions on time. Dapr leverages proven practices for distributed application development that
+                enable developers to build resilient, secured systems. By using Dapr in your application, you adopt these best practices without having to spend
+                time solving common challenges.
+              summary_release_rate: 4 times per year (each quarter)
+              summary_integration: Kubernetes, Docker, Open Telemetry, gRPC, CloudEvents, spiffe, Knative, Helm, Prometheus, Cert Manager
+              summary_intro_url: https://youtu.be/9o9iDAgYBA8
+              clomonitor_name: dapr
+              audits:
+                - date: '2023-06-30'
+                  type: fuzzing
+                  url: https://docs.dapr.io/docs/Dapr-june-2023-fuzzing-audit-report.pdf
+                  vendor: Ada Logics
+                - date: '2023-09-05'
+                  type: security
+                  url: https://docs.dapr.io/docs/Dapr-september-2023-security-audit-report.pdf
+                  vendor: Ada Logics
           - item:
             name: DeployHub
             homepage_url: https://www.deployhub.com/
@@ -6879,6 +6950,15 @@ landscape:
             logo: jd.com.svg
             crunchbase: https://www.crunchbase.com/organization/jd-cloud
           - item:
+            name: K-PaaS Container Platform
+            description: >-
+              The K-PaaS Container Platform provides an independent Kubernetes environment, and developers can easily deploy Kubernetes clusters to build and
+              manage the modern applications anywhere.
+            homepage_url: https://www.k-paas.or.kr/eng/
+            repo_url: https://github.com/K-PaaS/container-platform
+            logo: nia-k-paas.svg
+            crunchbase: https://www.crunchbase.com/organization/national-information-society-agency
+          - item:
             name: k0s
             description: >-
               k0s is a single binary all-inclusive Kubernetes distribution with all the required bells and whistles preconfigured to make building a Kubernetes
@@ -6997,15 +7077,6 @@ landscape:
             logo: oracle.svg
             twitter: https://twitter.com/oraclelinux
             crunchbase: https://www.crunchbase.com/organization/oracle
-          - item:
-            name: Paas-TA Container Platform
-            description: >-
-              The PaaS-TA container platform provides an independent Kubernetes environment, and developers can easily deploy Kubernetes clusters to build and
-              manage the modern applications anywhere.
-            homepage_url: https://paas-ta.kr/eng/
-            repo_url: https://github.com/PaaS-TA/paas-ta-container-platform
-            logo: nia-paas-ta.svg
-            crunchbase: https://www.crunchbase.com/organization/national-information-society-agency
           - item:
             name: Platform9 Managed Kubernetes
             description: Platform9 Managed Kubernetes is SaaS-managed, infrastructure-agnostic, and works across public clouds and on-premises server infrastructure.
@@ -7934,7 +8005,7 @@ landscape:
             logo: chalice.svg
             crunchbase: https://www.crunchbase.com/organization/amazon-web-services
           - item:
-            name: Dapr
+            name: Dapr (Serverless)
             homepage_url: https://dapr.io
             project: incubating
             repo_url: https://github.com/dapr/dapr
