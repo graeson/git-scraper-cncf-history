@@ -2891,7 +2891,7 @@ landscape:
           - item:
             name: Cilium
             homepage_url: https://cilium.io/
-            project: incubating
+            project: graduated
             repo_url: https://github.com/cilium/cilium
             url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/1269
             logo: cilium.svg
@@ -15220,6 +15220,12 @@ landscape:
             homepage_url: https://www.sideroLabs.com
             logo: sidero.svg
             crunchbase: https://www.crunchbase.com/organization/talos-systems-inc
+          - item:
+            name: sifamo (member)
+            homepage_url: https://www.sifamo.com/
+            logo: sifamo.svg
+            crunchbase: https://www.crunchbase.com/organization/sifamo
+            joined: '2023-10-01'
           - item:
             name: SIGHUP (member)
             homepage_url: https://sighup.io
