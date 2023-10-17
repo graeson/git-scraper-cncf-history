@@ -4611,16 +4611,6 @@ landscape:
             twitter: https://twitter.com/ApacheIgnite
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
-            name: ApeCloud
-            description: >-
-              ApeCloud provides KubeBlocks, which is an open-source Kubernetes operator that manages relational, NoSQL, vector, and streaming databases on the
-              public cloud or on-premise.
-            homepage_url: https://www.kubeblocks.io/
-            repo_url: https://github.com/apecloud/kubeblocks
-            logo: apecloud.svg
-            twitter: https://twitter.com/KubeBlocks
-            crunchbase: https://www.crunchbase.com/organization/apecloud
-          - item:
             name: ArangoDB
             homepage_url: https://www.arangodb.com/
             repo_url: https://github.com/arangodb/arangodb
@@ -4773,6 +4763,16 @@ landscape:
             logo: intersystemsiris.svg
             twitter: https://twitter.com/intersystems
             crunchbase: https://www.crunchbase.com/organization/intersystems-2
+          - item:
+            name: KubeBlocks by ApeCloud
+            description: >-
+              KubeBlocks is an open-source Kubernetes operator that manages relational, NoSQL, vector, and streaming databases on the public cloud or
+              on-premise.
+            homepage_url: https://www.kubeblocks.io/
+            repo_url: https://github.com/apecloud/kubeblocks
+            logo: kubeblocks.svg
+            twitter: https://twitter.com/KubeBlocks
+            crunchbase: https://www.crunchbase.com/organization/apecloud
           - item:
             name: KubeDB by AppsCode
             homepage_url: https://kubedb.com
@@ -12442,6 +12442,12 @@ landscape:
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/capital-one
           - item:
+            name: CECloud (member)
+            homepage_url: https://cecloud.com/
+            logo: cecloud.svg
+            crunchbase: https://www.crunchbase.com/organization/china-electronic-system-cloud-data-and-intelligence-technology
+            joined: '2022-04-01'
+          - item:
             name: Charter Communications (member)
             homepage_url: https://spectrum.com/
             logo: charter.svg
@@ -13250,11 +13256,6 @@ landscape:
             logo: cloudsmith.svg
             crunchbase: https://www.crunchbase.com/organization/cloudsmith-io
           - item:
-            name: CloudThat (member)
-            homepage_url: https://www.cloudthat.com/infrastructure-migration-of-tercept-from-gcp-to-aws-cloud-platform
-            logo: cloudthat.svg
-            crunchbase: https://www.crunchbase.com/organization/cloudthat
-          - item:
             name: Clyso (member)
             homepage_url: https://www.clyso.com/
             logo: clyso-member.svg
@@ -13503,13 +13504,6 @@ landscape:
             logo: deloitte-consulting-member.svg
             crunchbase: https://www.crunchbase.com/organization/deloitte
           - item:
-            name: DENSO (member)
-            homepage_url: https://www.denso.com/global/en/
-            stock_ticker: DNZOY
-            logo: denso-member.svg
-            enduser: true
-            crunchbase: https://www.crunchbase.com/organization/denso
-          - item:
             name: Depot (member)
             homepage_url: https://www.depot.dev/
             logo: depot.svg
@@ -13663,11 +13657,6 @@ landscape:
             homepage_url: https://www.emqx.io/
             logo: emq-technologies-member.svg
             crunchbase: https://www.crunchbase.com/organization/emq-technologies
-          - item:
-            name: EngineerBetter (member)
-            homepage_url: https://www.engineerbetter.com/
-            logo: engineer-better.svg
-            crunchbase: https://www.crunchbase.com/organization/engineerbetter
           - item:
             name: Enterprise DB (member)
             homepage_url: https://www.enterprisedb.com/
@@ -13996,16 +13985,6 @@ landscape:
             logo: humanitec.svg
             crunchbase: https://www.crunchbase.com/organization/humanitec
           - item:
-            name: Humio (member)
-            homepage_url: https://www.humio.com
-            logo: humio.svg
-            crunchbase: https://www.crunchbase.com/organization/humio
-          - item:
-            name: HyScale (member)
-            homepage_url: https://www.hyscale.io/
-            logo: hyscale.svg
-            crunchbase: https://www.crunchbase.com/organization/hyscale
-          - item:
             name: iauro (member)
             homepage_url: https://www.iauro.com/
             logo: iauro.svg
@@ -14098,13 +14077,6 @@ landscape:
             homepage_url: https://www.jetstack.io
             logo: jetstack-member.svg
             crunchbase: https://www.crunchbase.com/organization/jetstack
-          - item:
-            name: Jiangxi Yumin Bank (member)
-            homepage_url: https://www.ymbank.com/
-            logo: jiangxi-yumin-bank.svg
-            enduser: true
-            crunchbase: https://www.crunchbase.com/organization/jiangxi-yumin-bank
-            joined: '2020-11-17'
           - item:
             name: JPMorgan Chase (member)
             homepage_url: https://www.jpmorganchase.com
@@ -14281,11 +14253,6 @@ landscape:
             homepage_url: https://www.lightrun.com/
             logo: lightrun.svg
             crunchbase: https://www.crunchbase.com/organization/lightrun
-          - item:
-            name: Lightspin (member)
-            homepage_url: https://www.lightspin.io/
-            logo: lightspin.svg
-            crunchbase: https://www.crunchbase.com/organization/lightspin-technologies-ltd
           - item:
             name: LightStep (member)
             homepage_url: https://lightstep.com
@@ -14861,12 +14828,6 @@ landscape:
             logo: pipekit.svg
             crunchbase: https://www.crunchbase.com/organization/pipekit
           - item:
-            name: Pixie Labs (member)
-            homepage_url: https://pixielabs.ai/
-            logo: pixie-labs.svg
-            twitter: https://twitter.com/pixielabs
-            crunchbase: https://www.crunchbase.com/organization/pixie-labs-f7c0
-          - item:
             name: PlanetScale (member)
             homepage_url: https://planetscale.com
             logo: planetscale.svg
@@ -15275,6 +15236,12 @@ landscape:
             logo: smallstep.svg
             crunchbase: https://www.crunchbase.com/organization/smallstep
           - item:
+            name: Smart Cloud Solutions (member)
+            homepage_url: https://www.smartclouds.us/
+            logo: smart-cloud.svg
+            crunchbase: https://www.crunchbase.com/organization/smart-cloud-solutions
+            joined: '2023-10-01'
+          - item:
             name: Smartiful (member)
             homepage_url: https://www.smartiful.jp/
             logo: smartiful.svg
@@ -15504,11 +15471,6 @@ landscape:
             logo: symbotic.svg
             crunchbase: https://www.crunchbase.com/organization/symbotic
           - item:
-            name: Synadia Communications (member)
-            homepage_url: https://nats.io
-            logo: synadia.svg
-            crunchbase: https://www.crunchbase.com/organization/synadia-communications
-          - item:
             name: Synax (member)
             homepage_url: https://www.synax.io/
             logo: synax.svg
@@ -15610,11 +15572,6 @@ landscape:
             logo: thought-machine.svg
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/thoughtmachine
-          - item:
-            name: Threat Stack (member)
-            homepage_url: https://www.threatstack.com/
-            logo: threat-stack.svg
-            crunchbase: https://www.crunchbase.com/organization/threat-stack
           - item:
             name: Tigera (member)
             homepage_url: https://www.tigera.io
@@ -16319,11 +16276,6 @@ landscape:
             homepage_url: https://www.netmatch.nl/
             logo: netmatch.svg
             crunchbase: https://www.crunchbase.com/organization/netmatch-2
-          - item:
-            name: Nielsen (supporter)
-            homepage_url: https://global.nielsen.com
-            logo: nielsen-supporter.svg
-            crunchbase: https://www.crunchbase.com/organization/nielsen
           - item:
             name: NielsenIQ (supporter)
             homepage_url: https://nielseniq.com/global/en/
