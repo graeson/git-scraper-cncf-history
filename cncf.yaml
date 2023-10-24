@@ -1549,6 +1549,19 @@ landscape:
             extra:
               blog_url: https://scribesecurity.com/blog/
           - item:
+            name: secureCodeBox
+            description: >-
+              secureCodeBox is an OWASP project providing an automated and scalable open source solution that integrates multiple security scanners with a
+              simple and lightweight interface – for continuous and automated security testing.
+            homepage_url: https://www.securecodebox.io/
+            repo_url: https://github.com/secureCodeBox/secureCodeBox
+            logo: secureCodeBox.svg
+            twitter: https://twitter.com/secureCodeBox
+            crunchbase: https://www.crunchbase.com/organization/iteratec
+            extra:
+              slack_url: >-
+                https://join.slack.com/t/securecodebox/shared_invite/enQtNDU3MTUyOTM0NTMwLTBjOWRjNjVkNGEyMjQ0ZGMyNDdlYTQxYWQ4MzNiNGY3MDMxNThkZjJmMzY2NDRhMTk3ZWM3OWFkYmY1YzUxNTU%22
+          - item:
             name: sigstore
             homepage_url: https://www.sigstore.dev/
             repo_url: https://github.com/sigstore/sigstore
@@ -6186,6 +6199,20 @@ landscape:
               youtube_url: https://www.youtube.com/channel/UCbpSU5xLikfXQ-5meXLrsfA
               clomonitor_name: porter
           - item:
+            name: Quarkus
+            description: >-
+              Quarkus is a Kubernetes-native Java framework, designed to enable Java developers to create applications for a modern, cloud-native world. It is
+              tailored for GraalVM and HotSpot, and crafted from best-of-breed Java libraries and standards.
+            homepage_url: https://www.quarkus.io/
+            repo_url: https://github.com/quarkusio/quarkus
+            logo: quarkus.svg
+            twitter: https://twitter.com/QuarkusIO
+            crunchbase: https://www.crunchbase.com/organization/red-hat
+            extra:
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/quarkus
+              blog_url: https://quarkus.io/blog/
+              youtube_url: https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg
+          - item:
             name: Raftt
             homepage_url: https://www.raftt.io/
             logo: raftt.svg
@@ -10349,6 +10376,12 @@ landscape:
             logo: caylent.svg
             crunchbase: https://www.crunchbase.com/organization/caylent
           - item:
+            name: CECloud (KCSP)
+            description: CEcloud helps customers with cloud native best practices for modernizing applications.
+            homepage_url: https://cecloud.com/dynamic//product/ceapaas.html
+            logo: cecloud.svg
+            crunchbase: https://www.crunchbase.com/organization/china-electronic-system-cloud-data-and-intelligence-technology
+          - item:
             name: China Mobile (KCSP)
             description: China Mobile (Suzhou) Software Technology provides full support and services to domestic companies for their cloud native journeys
             homepage_url: https://ecloud.10086.cn/home/product-introduction/containerser
@@ -10824,6 +10857,12 @@ landscape:
             twitter: https://twitter.com/IBMcloud
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
+            name: iCubed (KCSP)
+            description: iCubed provides strategy, transformation and managed services across Application Modernisation, DevOps and Kubernetes.
+            homepage_url: https://icubed.it/en/solutions/kubernetes-professional-services/
+            logo: icubed.svg
+            crunchbase: https://www.crunchbase.com/organization/icubed-srl
+          - item:
             name: IITS Consulting (KCSP)
             description: We are experts in Kubernetes architecture, implementation, security, GitOps and developing Kubernetes-conformant microservices.
             homepage_url: https://iits-consulting.de/kubernetes/
@@ -11236,6 +11275,20 @@ landscape:
             logo: ozone.svg
             crunchbase: https://www.crunchbase.com/organization/ozone-cd
           - item:
+            name: Palark (KCSP)
+            description: >-
+              Palark is a European provider of DevOps and SRE services. We design, implement, and support robust Kubernetes-based infrastructure and efficient
+              CI/CD for cloud native apps.
+            homepage_url: https://palark.com/services/kubernetes-support/
+            logo: palark.svg
+            crunchbase: https://www.crunchbase.com/organization/palark
+          - item:
+            name: Pionative (KCSP)
+            description: Pionative helps companies succeed with their Kubernetes journey by providing enterprise-level support.
+            homepage_url: https://www.pionative.com/cloud-native-services
+            logo: pionative.svg
+            crunchbase: https://www.crunchbase.com/organization/pionative
+          - item:
             name: Platform9 (KCSP)
             description: >-
               Platform9 Managed Kubernetes is SaaS-managed, infrastructure-agnostic, and works across public clouds, on-premises servers, and VMware
@@ -11413,6 +11466,14 @@ landscape:
             homepage_url: https://shinesoft.co.jp/business
             logo: shinesoft.svg
             crunchbase: https://www.crunchbase.com/organization/shinesoft-co-ltd
+          - item:
+            name: sifamo (KCSP)
+            description: >-
+              We assist you in the development and construction of a highly scalable application with a sustainable Kubernetes solution tailored to your needs.
+              Our experienced and dynamic team is ready to help elevate your software development to the next level with our services.
+            homepage_url: https://sifamo.com/kubernetes/
+            logo: sifamo.svg
+            crunchbase: https://www.crunchbase.com/organization/sifamo
           - item:
             name: SIGHUP (KCSP)
             description: >-
@@ -13053,6 +13114,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/audi-ag
             joined: '2019-10-01'
           - item:
+            name: AuriStor (member)
+            homepage_url: https://www.auristor.com/
+            logo: auristor.svg
+            crunchbase: https://www.crunchbase.com/organization/auristor
+            joined: '2023-11-01'
+          - item:
             name: Authzed (member)
             homepage_url: https://www.authzed.com/
             logo: authzed.svg
@@ -13149,12 +13216,6 @@ landscape:
             logo: binario-etico.svg
             crunchbase: https://www.crunchbase.com/organization/binario-etico
             joined: '2023-06-01'
-          - item:
-            name: Biqmind (member)
-            homepage_url: https://biqmind.com/
-            logo: biqmind.svg
-            crunchbase: https://www.crunchbase.com/organization/biqmind
-            joined: '2020-06-01'
           - item:
             name: Bitrock (member)
             homepage_url: https://www.bitrock.it/
