@@ -9748,6 +9748,12 @@ landscape:
             logo: lightstep.svg
             crunchbase: https://www.crunchbase.com/organization/lightstep
           - item:
+            name: OpenLLMetry
+            homepage_url: https://openllmetry.com/
+            repo_url: https://github.com/traceloop/openllmetry
+            logo: openllmetry.svg
+            crunchbase: https://www.crunchbase.com/organization/traceloop
+          - item:
             name: OpenTelemetry
             homepage_url: https://opentelemetry.io/
             project: incubating
@@ -17581,6 +17587,8 @@ landscape:
             repo_url: https://github.com/wasmerio/wasmer
             logo: wasmer.svg
             crunchbase: https://www.crunchbase.com/organization/wasmer
+            extra:
+              slack_url: https://discord.gg/rWkMNStrEW
           - item:
             name: Wasmtime
             homepage_url: https://wasmtime.dev/
@@ -17690,6 +17698,12 @@ landscape:
             repo_url: https://github.com/tessi/wasmex
             logo: wasm.svg
             unnamed_organization: true
+          - item:
+            name: WinterJS
+            homepage_url: https://wasmer.io/wasmer/winterjs
+            repo_url: https://github.com/wasmerio/winterjs
+            logo: wasmer.svg
+            crunchbase: https://www.crunchbase.com/organization/wasmer
       - subcategory:
         name: Edge/Bare metal
         items:
@@ -17917,12 +17931,24 @@ landscape:
             logo: llvm.svg
             crunchbase: https://www.crunchbase.com/organization/llvm-foundation
           - item:
+            name: VSCode Wasm Extension
+            homepage_url: https://github.com/wasmerio/vscode-wasm
+            repo_url: https://github.com/wasmerio/vscode-wasm
+            logo: wasmer.svg
+            crunchbase: https://www.crunchbase.com/organization/wasmer
+          - item:
             name: Wabt
             homepage_url: https://github.com/WebAssembly/wabt
             repo_url: https://github.com/WebAssembly/wabt
             logo: wasm.svg
             crunchbase: https://www.crunchbase.com/organization/webassembly
             allow_duplicate_repo: true
+          - item:
+            name: WAI
+            homepage_url: https://github.com/wasmerio/wai
+            repo_url: https://github.com/wasmerio/wai
+            logo: wasmer.svg
+            crunchbase: https://www.crunchbase.com/organization/wasmer
           - item:
             name: wasm-bindgen
             homepage_url: https://rustwasm.github.io/wasm-bindgen/
@@ -18115,6 +18141,11 @@ landscape:
             homepage_url: https://taubyte.com/
             logo: taubyte.svg
             crunchbase: https://www.crunchbase.com/organization/taubyte
+          - item:
+            name: Wasmer Edge
+            homepage_url: https://wasmer.io/products/edge
+            logo: wasmer.svg
+            crunchbase: https://www.crunchbase.com/organization/wasmer
       - subcategory:
         name: Decentralized Platforms
         items:
@@ -18219,13 +18250,13 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             allow_duplicate_repo: true
           - item:
-            name: wapm
-            homepage_url: https://wapm.io
-            logo: wasmer.svg
-            crunchbase: https://www.crunchbase.com/organization/wasmer
-          - item:
             name: warg
             homepage_url: https://warg.io/
             repo_url: https://github.com/bytecodealliance/registry
             logo: bytecode_alliance.svg
             crunchbase: https://www.crunchbase.com/organization/bytecode-alliance
+          - item:
+            name: Wasmer Registry
+            homepage_url: https://wasmer.io/products/registry
+            logo: wasmer.svg
+            crunchbase: https://www.crunchbase.com/organization/wasmer
