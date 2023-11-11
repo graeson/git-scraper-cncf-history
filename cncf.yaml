@@ -2891,7 +2891,7 @@ landscape:
                 Crun, Runwasi, Youki, Docker Desktop, Kubernetes, WebAssembly Languages Runtime maintained by VMWare, Proxy-wasm, Knative, SuperEdge, OpenYurt,
                 KubeEdge, Fedora Linux
               summary_intro_url: https://youtu.be/Kg5z5A5wH0A
-              clomonitor_name: wasmedge
+              clomonitor_name: wasm-edge
       - subcategory:
         name: Cloud Native Network
         items:
@@ -7126,7 +7126,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ericsson
           - item:
             name: Flant Deckhouse
-            description: Deckhouse Platform allows you to create homogeneous Kubernetes clusters anywhere and fully manages them.
+            description: >-
+              Deckhouse is a comprehensive product ecosystem designed to securely manage the lifecycle of Kubernetes clusters on any infrastructure while
+              reducing the time to set up a development environment by up to 15x, delivering the highest SLA of 99.99%, and automating up to 80% of activities
+              that previously required manual operator intervention.
             homepage_url: https://deckhouse.io/en
             repo_url: https://github.com/deckhouse/deckhouse
             logo: flant-deckhouse.svg
@@ -12755,12 +12758,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/nec
             joined: '2016-01-01'
           - item:
-            name: OPPO (member)
-            homepage_url: https://www.oppo.com/
-            logo: oppo.svg
-            crunchbase: https://www.crunchbase.com/organization/oppo
-            joined: '2022-06-01'
-          - item:
             name: Salesforce (member)
             homepage_url: https://www.salesforce.com/uk
             logo: salesforce.svg
@@ -14210,12 +14207,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/fermyon-technologies
             joined: '2023-01-01'
           - item:
-            name: Fiberplane (member)
-            homepage_url: https://www.fiberplane.dev/
-            logo: fiberplane.svg
-            crunchbase: https://www.crunchbase.com/organization/fiberplane
-            joined: '2022-11-01'
-          - item:
             name: Finout (member)
             homepage_url: https://www.finout.io/
             logo: finout.svg
@@ -14896,13 +14887,6 @@ landscape:
             logo: mac-stadium-member.svg
             crunchbase: https://www.crunchbase.com/organization/macstadium
             joined: '2019-05-01'
-          - item:
-            name: Mail.Ru Cloud Solutions (member)
-            homepage_url: https://mcs.mail.ru
-            logo: mail.ru.svg
-            twitter: null
-            crunchbase: https://www.crunchbase.com/organization/mail-ru
-            joined: '2019-04-01'
           - item:
             name: MakinaRocks (member)
             homepage_url: https://www.makinarocks.ai/
@@ -16517,6 +16501,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/uptycs
             joined: '2023-02-01'
           - item:
+            name: Uturn Data Solutions (member)
+            homepage_url: https://www.uturndata.com/
+            logo: uturn-data-solutions.svg
+            crunchbase: https://www.crunchbase.com/organization/uturn-data-solutions
+            joined: '2023-11-01'
+          - item:
             name: UWS (member)
             homepage_url: http://www.uws.co.kr/
             logo: uws.svg
@@ -17262,6 +17252,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/porsche
             joined: '2021-11-01'
           - item:
+            name: Posit (supporter)
+            homepage_url: https://posit.co/
+            logo: posit.svg
+            crunchbase: https://www.crunchbase.com/organization/posit
+            joined: '2019-10-01'
+          - item:
             name: PostFinance (supporter)
             homepage_url: https://www.postfinance.ch/en/private.html
             logo: post-finance-supporter.svg
@@ -17303,12 +17299,6 @@ landscape:
             logo: robinhood.svg
             crunchbase: https://www.crunchbase.com/organization/robinhood
             joined: '2021-08-01'
-          - item:
-            name: RStudio (supporter)
-            homepage_url: https://rstudio.com/
-            logo: rstudio.svg
-            crunchbase: https://www.crunchbase.com/organization/rstudio
-            joined: '2019-10-01'
           - item:
             name: SAP Concur (supporter)
             homepage_url: https://www.concur.com/
