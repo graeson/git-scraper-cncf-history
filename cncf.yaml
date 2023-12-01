@@ -4928,6 +4928,13 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/huawei
             allow_duplicate_repo: true
           - item:
+            name: openGemini
+            description: openGemini is an open source distributed time series DBMS with high concurrency, high performance, and high scalability
+            homepage_url: http://www.openGemini.org
+            repo_url: https://github.com/openGemini/openGemini
+            logo: opengemini.svg
+            crunchbase: https://www.crunchbase.com/organization/huawei
+          - item:
             name: Oracle Database
             description: The industry’s leading database continues to deliver leading-edge innovations, including machine learning, to enable self-driving data management.
             homepage_url: https://www.oracle.com/database/
@@ -9082,6 +9089,13 @@ landscape:
               clomonitor_name: headlamp
               dev_stats_url: https://headlamp.devstats.cncf.io/
           - item:
+            name: HertzBeat
+            description: An open-source, real-time monitoring system with custom monitoring, high performance cluster and agentless capabilities.
+            homepage_url: https://hertzbeat.com/
+            repo_url: https://github.com/dromara/hertzbeat
+            logo: hertzbeat.svg
+            crunchbase: https://www.crunchbase.com/organization/tancloud
+          - item:
             name: Honeybadger
             homepage_url: https://www.honeybadger.io/
             logo: honeybadger.svg
@@ -9592,6 +9606,16 @@ landscape:
             homepage_url: https://devcycle.com
             logo: devcycle.svg
             crunchbase: https://www.crunchbase.com/organization/devcycle
+          - item:
+            name: Flagsmith
+            homepage_url: https://www.flagsmith.com/
+            repo_url: https://github.com/Flagsmith/flagsmith
+            logo: flagsmith.svg
+            crunchbase: https://www.crunchbase.com/organization/bullet-train
+            extra:
+              slack_url: https://discord.gg/hFhxNtXzgm
+              blog_url: https://www.flagsmith.com/blog
+              youtube_url: https://www.youtube.com/channel/UCki7GZrOdZZcsV9rAIRchCw
           - item:
             name: GO Feature Flag
             homepage_url: https://gofeatureflag.org
@@ -14367,12 +14391,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/firehydrant
             joined: '2021-03-01'
           - item:
-            name: Firetail (member)
-            homepage_url: https://www.firetail.io/
-            logo: firetail.svg
-            crunchbase: https://www.crunchbase.com/organization/firetail
-            joined: '2022-12-01'
-          - item:
             name: Flanksource (member)
             homepage_url: https://www.flanksource.com/
             logo: flanksource.svg
@@ -14500,13 +14518,6 @@ landscape:
             logo: gitpod.svg
             crunchbase: https://www.crunchbase.com/organization/gitpod
             joined: '2020-09-01'
-          - item:
-            name: Globo (member)
-            homepage_url: https://www.globo.com
-            logo: globo-member.svg
-            enduser: true
-            crunchbase: https://www.crunchbase.com/organization/organiza-es-globo
-            joined: '2018-12-01'
           - item:
             name: GoDaddy (member)
             homepage_url: https://www.godaddy.com/es-es
@@ -14683,12 +14694,6 @@ landscape:
             logo: Infoblox.svg
             crunchbase: https://www.crunchbase.com/organization/infoblox
             joined: '2016-01-01'
-          - item:
-            name: Infra Technologies (member)
-            homepage_url: https://www.infrahq.com/
-            logo: infra-technologies.svg
-            crunchbase: https://www.crunchbase.com/organization/infra-technologies-inc
-            joined: '2022-11-01'
           - item:
             name: InfraCloud Technologies (member)
             homepage_url: https://www.infracloud.io/kubernetes-consulting-partner/
@@ -15452,6 +15457,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/okteto
             joined: '2022-02-01'
           - item:
+            name: Ollama (member)
+            homepage_url: https://ollama.ai/
+            logo: ollama.svg
+            crunchbase: https://www.crunchbase.com/organization/ollama
+            joined: '2022-11-01'
+          - item:
             name: Ondat (member)
             homepage_url: https://www.ondat.io
             logo: ondat.svg
@@ -15711,12 +15722,6 @@ landscape:
             logo: prisma.svg
             crunchbase: https://www.crunchbase.com/organization/prisma-io
             joined: '2021-08-01'
-          - item:
-            name: Privado (member)
-            homepage_url: https://www.privado.ai/
-            logo: privado.svg
-            crunchbase: https://www.crunchbase.com/organization/privado
-            joined: '2022-12-01'
           - item:
             name: Prodigy Education (member)
             homepage_url: https://www.prodigygame.com/main-en/
@@ -16446,12 +16451,6 @@ landscape:
             logo: teleport.svg
             crunchbase: https://www.crunchbase.com/organization/gravitational
             joined: '2017-10-01'
-          - item:
-            name: Temenos (member)
-            homepage_url: https://www.temenos.com/
-            logo: temenos.svg
-            crunchbase: https://www.crunchbase.com/organization/temenos
-            joined: '2022-12-01'
           - item:
             name: Temporal (member)
             homepage_url: https://www.temporal.io/
