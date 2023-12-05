@@ -1293,6 +1293,10 @@ landscape:
                   type: fuzzing
                   url: https://main.kyverno.io/blog/2023/09/06/kyverno-completes-fuzzing-security-audit/kyverno-2023-fuzzing-security-audit.pdf
                   vendor: Ada Logics
+                - date: '2023-11-28'
+                  type: security
+                  url: https://github.com/kyverno/website/blob/main/content/en/blog/general/2023-security-audit/kyverno-2023-security-audit-report.pdf
+                  vendor: Ada Logics
           - item:
             name: Matano
             description: Open source security lake platform for AWS
@@ -6635,15 +6639,6 @@ landscape:
               clomonitor_name: flagger
               summary_integrations: Gateway API + standard service meshes and ingress controllers
           - item:
-            name: Flipt
-            description: Open source, self-hosted, developer first, feature flagging and dynamic configuration service
-            homepage_url: https://flipt.io
-            repo_url: https://github.com/flipt-io/flipt
-            url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/3498
-            logo: flipt.svg
-            twitter: https://twitter.com/flipt_io
-            crunchbase: https://www.crunchbase.com/organization/flipt-36c0
-          - item:
             name: Flux
             homepage_url: https://fluxcd.io/
             project: graduated
@@ -9617,6 +9612,17 @@ landscape:
               blog_url: https://www.flagsmith.com/blog
               youtube_url: https://www.youtube.com/channel/UCki7GZrOdZZcsV9rAIRchCw
           - item:
+            name: Flipt
+            description: Open source, self-hosted, developer first, feature flagging and dynamic configuration service
+            homepage_url: https://flipt.io
+            repo_url: https://github.com/flipt-io/flipt
+            url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/3498
+            logo: flipt.svg
+            twitter: https://twitter.com/flipt_io
+            crunchbase: https://www.crunchbase.com/organization/flipt-36c0
+            extra:
+              blog_url: https://flipt.io/blog
+          - item:
             name: GO Feature Flag
             homepage_url: https://gofeatureflag.org
             repo_url: https://github.com/thomaspoignant/go-feature-flag
@@ -9649,6 +9655,15 @@ landscape:
               youtube_url: https://www.youtube.com/channel/UCXSFt-dT2HORGXz1-ksxtxw
               specification: true
               clomonitor_name: openfeature
+          - item:
+            name: Split
+            homepage_url: https://split.io
+            logo: splitio.svg
+            crunchbase: https://www.crunchbase.com/organization/split-software
+            extra:
+              slack_url: https://splitcommunity.slack.com
+              blog_url: https://www.split.io/blog/
+              youtube_url: https://www.youtube.com/c/splitsoftware
       - subcategory:
         name: Logging
         items:
@@ -13230,13 +13245,6 @@ landscape:
             logo: archeros.svg
             crunchbase: https://www.crunchbase.com/organization/archeros-software
             joined: '2021-02-01'
-          - item:
-            name: Argonaut (member)
-            homepage_url: https://www.argonaut.dev/
-            logo: argonaut.svg
-            twitter: null
-            crunchbase: https://www.crunchbase.com/organization/argonaut-862d
-            joined: '2022-02-01'
           - item:
             name: Arima (member)
             homepage_url: https://arima.eu/en/
