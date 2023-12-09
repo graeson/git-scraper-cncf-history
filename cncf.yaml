@@ -13071,6 +13071,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/aim-773c
             joined: '2022-05-01'
           - item:
+            name: AMD (member)
+            homepage_url: https://www.amd.com/
+            logo: amd.svg
+            crunchbase: https://www.crunchbase.com/organization/amd
+            joined: '2023-12-01'             
+          - item:
             name: Airlock (member)
             homepage_url: https://www.airlock.com/
             logo: airlock.svg
@@ -14643,6 +14649,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/helios-5828
             joined: '2022-02-01'
           - item:
+            name: Highlight (member)
+            homepage_url: https://www.highlight.io/
+            logo: highlight.svg
+            crunchbase: https://www.crunchbase.com/organization/highlight-9498
+            joined: '2023-11-01'             
+          - item:
             name: Honeycomb (member)
             homepage_url: https://www.honeycomb.io/
             logo: honeycomb.svg
@@ -14968,6 +14980,12 @@ landscape:
             logo: legit-security.svg
             crunchbase: https://www.crunchbase.com/organization/legit-security
             joined: '2022-07-01'
+          - item:
+            name: Leminnov (member)
+            homepage_url: https://www.leminnov.com/
+            logo: leminnov.svg
+            crunchbase: https://www.crunchbase.com/organization/leminnov
+            joined: '2023-12-01'           
           - item:
             name: Lenovo (member)
             homepage_url: https://www.lenovo.com.cn/
@@ -15573,6 +15591,12 @@ landscape:
             logo: orkes.svg
             crunchbase: https://www.crunchbase.com/organization/orkes
             joined: '2022-05-01'
+          - item:
+            name: OSSO (member)
+            homepage_url: https://www.osso.nl/
+            logo: osso.svg
+            crunchbase: https://www.crunchbase.com/organization/osso-b-v
+            joined: '2023-12-01'            
           - item:
             name: Oteemo (member)
             homepage_url: https://oteemo.com
@@ -16919,6 +16943,12 @@ landscape:
             logo: zenduty.svg
             crunchbase: https://www.crunchbase.com/organization/zenduty
             joined: '2023-07-01'
+          - item:
+            name: Zesty (member)
+            homepage_url: https://zesty.co/
+            logo: zesty.svg
+            crunchbase: https://www.crunchbase.com/organization/zesty-co
+            joined: '2023-12-01'           
           - item:
             name: Zoi (member)
             homepage_url: https://en.zoi.tech/
