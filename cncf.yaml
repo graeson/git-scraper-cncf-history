@@ -1366,6 +1366,10 @@ landscape:
                   type: fuzzing
                   url: https://github.com/notaryproject/notaryproject/blob/main/security/reports/fuzzing/ADA-fuzzing-audit-22-23.pdf
                   vendor: Ada Logics
+                - date: '2023-07-06'
+                  type: security
+                  url: https://github.com/notaryproject/specifications/blob/main/security/reports/audit/ADA-notation-security-audit-23.pdf
+                  vendor: Ada Logics
           - item:
             name: Open Policy Agent (OPA)
             homepage_url: https://www.openpolicyagent.org/
@@ -3304,6 +3308,15 @@ landscape:
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#crossplane
               youtube_url: https://www.youtube.com/channel/UC19FgzMBMqBro361HbE46Fw
               clomonitor_name: crossplane
+              audits:
+                - date: '2023-03-23'
+                  type: fuzzing
+                  url: https://github.com/crossplane/crossplane/blob/master/security/ADA-fuzzing-audit-22.pdf
+                  vendor: Ada Logics
+                - date: '2023-07-27'
+                  type: fuzzing
+                  url: https://github.com/crossplane/crossplane/blob/master/security/ADA-security-audit-23.pdf
+                  vendor: Ada Logics
           - item:
             name: Docker Swarm
             homepage_url: https://docs.docker.com/engine/swarm/
@@ -3363,6 +3376,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2021-09-14'
+              incubating: '2023-12-12'
               annual_review_url: https://github.com/cncf/toc/pull/954
               annual_review_date: '2022-10-29'
               dev_stats_url: https://karmada.devstats.cncf.io/
@@ -6509,6 +6523,10 @@ landscape:
                 - date: '2022-02-28'
                   type: fuzzing
                   url: https://github.com/argoproj/argoproj/blob/dd7cae43d81c5a11f21ff4ea0a4afadcae4799c7/docs/audit_fuzzer_adalogics_2022.pdf
+                  vendor: ADA Logics
+                - date: '2022-07-18'
+                  type: security
+                  url: https://github.com/argoproj/argoproj/blob/main/docs/argo_security_audit_2022.pdf
                   vendor: ADA Logics
           - item:
             name: AWS CodePipeline
@@ -13095,8 +13113,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/akamai-technologies
             joined: '2023-01-01'
           - item:
-            name: Akatsuki (member)
-            homepage_url: https://aktsk.jp/
+            name: Akatsuki Games (member)
+            homepage_url: https://games.aktsk.jp/
             logo: akatsuki-member.svg
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/akatsuki-3
@@ -13234,6 +13252,12 @@ landscape:
             logo: apiiro.svg
             crunchbase: https://www.crunchbase.com/organization/apiiro-ltd
             joined: '2021-08-01'
+          - item:
+            name: Apollo (member)
+            homepage_url: https://www.apollographql.com/
+            logo: apollo.svg
+            crunchbase: https://www.crunchbase.com/organization/apollo-3
+            joined: '2023-12-01'             
           - item:
             name: Apono (member)
             homepage_url: https://www.apono.io/
@@ -13409,6 +13433,13 @@ landscape:
             logo: b1-systems.svg
             crunchbase: https://www.crunchbase.com/organization/b1-systems-gmbh
             joined: '2022-03-01'
+          - item:
+            name: Back Market (member)
+            homepage_url: https://www.backmarket.com
+            logo: back-market.svg
+            enduser: true
+            crunchbase: https://www.crunchbase.com/organization/back-market
+            joined: '2023-12-01'            
           - item:
             name: Backslash Security (member)
             homepage_url: https://www.backslash.security/
@@ -15103,6 +15134,12 @@ landscape:
             logo: man-tech.svg
             crunchbase: https://www.crunchbase.com/organization/man-technology
             joined: '2021-09-01'
+          - item:
+            name: Massdriver (member)
+            homepage_url: https://www.massdriver.cloud/
+            logo: massdriver.svg
+            crunchbase: https://www.crunchbase.com/organization/massdriver
+            joined: '2023-12-01'            
           - item:
             name: Mastercard (member)
             homepage_url: https://www.mastercard.us/en-us.html
