@@ -1371,6 +1371,16 @@ landscape:
                   url: https://github.com/notaryproject/specifications/blob/main/security/reports/audit/ADA-notation-security-audit-23.pdf
                   vendor: Ada Logics
           - item:
+            name: Open Policy Administration Layer (OPAL)
+            description: Policy and data administration, distribution, and real-time updates on top of Policy Agents (OPA, Cedar, ...)
+            homepage_url: https://www.opal.ac
+            repo_url: https://github.com/permitio/opal
+            logo: opal.svg
+            twitter: https://twitter.com/opal_ac
+            crunchbase: https://www.crunchbase.com/organization/permit-io
+            extra:
+              slack_url: https://io.permit.io/opal-slack
+          - item:
             name: Open Policy Agent (OPA)
             homepage_url: https://www.openpolicyagent.org/
             project: graduated
@@ -1499,6 +1509,20 @@ landscape:
             homepage_url: https://passage.id
             logo: passage.svg
             crunchbase: https://www.crunchbase.com/organization/passage-36d4
+          - item:
+            name: Permit.io
+            description: >-
+              Permit.io provides fine-grained authorization as a service (Policy-as-Code,  APIs, and customer facing UI),
+              so developers can check this as done and focus on their core product.
+              Permit.io is the maintainer of the OPAL (Open Policy Administration Layer) project.
+            homepage_url: https://www.permit.io
+            logo: permit.io.svg
+            twitter: https://twitter.com/permit_io
+            crunchbase: https://www.crunchbase.com/organization/permit-io
+            extra:
+              slack_url: https://io.permit.io/slack
+              youtube_url: https://www.youtube.com/@permitio
+              blog_url: https://www.permit.io/blog
           - item:
             name: Pluto
             homepage_url: https://www.fairwinds.com/open-source-software
@@ -2711,8 +2735,8 @@ landscape:
               clomonitor_name: cri-o
               audits:
                 - date: '2022-06-06'
-                  type: fuzzing
-                  url: https://github.com/etcd-io/etcd/blob/main/security/FUZZING_AUDIT_2022.PDF
+                  type: security
+                  url: https://github.com/cri-o/cri-o/blob/main/security/2022_security_audit_adalogics.pdf
                   vendor: ADA Logics
               summary_personas: Cluster Admins, SRE, Platform Architect
               summary_tags: Container, Image, OCI, CRI, Runtime
@@ -8100,7 +8124,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/suse
           - item:
             name: Sidero Talos Linux
-            description: Talos is a modern Kubernetes-focused OS designed to be secure, immutable, and minimal.
+            description: Talos Linux is Linux designed for Kubernetes - secure, immutable, and minimal.
             homepage_url: https://www.sideroLabs.com
             repo_url: https://github.com/siderolabs/talos
             logo: sidero.svg
@@ -13126,6 +13150,7 @@ landscape:
             name: Akatsuki Games (member)
             homepage_url: https://games.aktsk.jp/
             logo: akatsuki-member.svg
+            twitter: https://twitter.com/AkatsukiGamesPR           
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/akatsuki-3
             joined: '2019-03-01'
@@ -14294,6 +14319,12 @@ landscape:
             logo: edgeray.svg
             crunchbase: https://www.crunchbase.com/organization/edgeray-technologies
             joined: '2022-05-01'
+          - item:
+            name: Effectual (member)
+            homepage_url: https://www.effectual.com/
+            logo: effectual.svg
+            crunchbase: https://www.crunchbase.com/organization/effectual-inc
+            joined: '2023-12-01'             
           - item:
             name: Elastic (member)
             homepage_url: https://www.elastic.co
@@ -17291,9 +17322,9 @@ landscape:
             joined: '2020-04-01'
           - item:
             name: Decathlon (supporter)
-            homepage_url: https://technology.decathlon.com/
+            homepage_url: https://digital.decathlon.net/
             logo: decathlon.svg
-            crunchbase: https://www.crunchbase.com/organization/decathlon-technology
+            crunchbase: https://www.crunchbase.com/organization/decathlon-digital
             joined: '2022-06-01'
           - item:
             name: DFDS (supporter)
