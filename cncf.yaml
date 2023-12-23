@@ -3163,11 +3163,19 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/tigera
           - item:
             name: Spiderpool
-            description: underlay network solution with an IP Address Management (IPAM) CNI plugin and a meta CNI plugin
+            description: Spiderpool is the underlay and RDMA network solution of the Kubernetes, for bare metal, VM and public cloud
             homepage_url: https://spidernet-io.github.io/spiderpool/
+            project: sandbox
             repo_url: https://github.com/spidernet-io/spiderpool
             logo: spiderpool.svg
-            crunchbase: https://www.crunchbase.com/organization/daocloud
+            twitter: https://twitter.com/daocloud_io
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2023-12-19'
+              dev_stats_url: https://spiderpool.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/tree/master/projects/spiderpool
+              slack_url: https://cloud-native.slack.com/messages/spiderpool
+              clomonitor_name: spiderpool
           - item:
             name: Submariner
             description: Submariner enables direct networking between Pods and Services in different Kubernetes clusters, either on-premises or in the cloud.
@@ -3181,7 +3189,7 @@ landscape:
               accepted: '2021-04-28'
               clomonitor_name: submariner
               annual_review_url: https://github.com/cncf/toc/pull/1115
-              annual_review_date: 2023-07-11T00:00:00.000Z
+              annual_review_date: '2023-07-11'
           - item:
             name: Tungsten Fabric
             homepage_url: https://tungsten.io
@@ -5051,7 +5059,7 @@ landscape:
             logo: sap.svg
             crunchbase: https://www.crunchbase.com/organization/sap
           - item:
-            name: Scalar DB
+            name: ScalarDB
             homepage_url: https://scalar-labs.com/
             repo_url: https://github.com/scalar-labs/scalardb
             logo: scalardb.svg
@@ -5927,6 +5935,7 @@ landscape:
               slack_url: https://kubernetes.slack.com/messages/devfile
               chat_channel: '#devfile'
               clomonitor_name: devfile
+              summary_tags: Kubernetes, Application Lifecycle, Developer Environment, Containers
           - item:
             name: DevSpace
             homepage_url: https://devspace.sh
@@ -9215,9 +9224,12 @@ landscape:
           - item:
             name: K8sGPT
             homepage_url: https://www.k8sgpt.ai
+            project: sandbox
             repo_url: https://github.com/k8sgpt-ai/k8sgpt
             logo: k8sgpt.svg
-            crunchbase: https://www.crunchbase.com/organization/k8sgpt-ai
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2023-12-19'
           - item:
             name: Keep
             homepage_url: https://www.keephq.dev/
@@ -13431,6 +13443,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avesha
             joined: '2021-03-01'
           - item:
+            name: Aviatrix (member)
+            homepage_url: https://aviatrix.com/
+            logo: aviatrix.svg
+            crunchbase: https://www.crunchbase.com/organization/aviatrix
+            joined: '2024-01-01'
+          - item:
             name: Avisi (member)
             homepage_url: https://www.avisi.nl/
             logo: avisi.svg
@@ -17001,6 +17019,12 @@ landscape:
             logo: yld-member.svg
             crunchbase: https://www.crunchbase.com/organization/yld
             joined: '2018-08-01'
+          - item:
+            name: Yovily (member)
+            homepage_url: https://www.yovily.com/
+            logo: yovily.svg
+            crunchbase: https://www.crunchbase.com/organization/yovily
+            joined: '2024-01-01'
           - item:
             name: Yusur Technology (member)
             homepage_url: https://www.yusur.tech/en/zkys/index.html
