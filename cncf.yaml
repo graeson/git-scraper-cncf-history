@@ -7150,6 +7150,18 @@ landscape:
             homepage_url: https://digital.ai/deploy/deployment-automation
             logo: xl-deploy.svg
             crunchbase: https://www.crunchbase.com/organization/xebialabs
+          - item:
+            name: Kube-burner
+            homepage_url: https://kube-burner.github.io/kube-burner/
+            project: sandbox
+            repo_url: https://github.com/kube-burner/kube-burner
+            logo: kube-burner.svg
+            crunchbase: https://www.crunchbase.com/organization/red-hat
+            extra:
+              accepted: '2023-12-18'
+              dev_stats_url: https://kubeburner.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/tree/main/projects/kube-burner
+              slack_url: https://kubernetes.slack.com/messages/kube-burner
   - category:
     name: Platform
     subcategories:
@@ -8092,6 +8104,14 @@ landscape:
             homepage_url: https://github.com/kubernetes-sigs/kind
             repo_url: https://github.com/kubernetes-sigs/kind
             logo: kind.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+          - item:
+            name: kOps
+            description: kOps is open source, community-maintained tooling for production-grade Kubernetes cluster installation, management and upgrades.
+            homepage_url: https://kops.sigs.k8s.io
+            repo_url: https://github.com/kubernetes/kops
+            logo: kops.svg
+            twitter: https://twitter.com/k8sops
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: Kubean
