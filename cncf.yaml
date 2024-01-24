@@ -6920,7 +6920,7 @@ landscape:
               applications.
             homepage_url: https://www.keptn.sh
             project: incubating
-            repo_url: https://github.com/keptn/keptn
+            repo_url: https://github.com/keptn/lifecycle-toolkit
             logo: keptn.svg
             twitter: https://twitter.com/keptnproject
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -6930,7 +6930,7 @@ landscape:
               dev_stats_url: https://keptn.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#keptn-logos
               youtube_url: https://www.youtube.com/channel/UCHMn9HyAMeb81bRlaOuZyuQ
-              slack_url: https://slack.keptn.sh/
+              slack_url: https://cloud-native.slack.com/messages/keptn/
               clomonitor_name: keptn
               summary_personas: SREs, DevOps & Platform Engineers, Architects, Developers
               summary_tags: Application, Container, Microservices, Security, GitOps, Kubernetes, Helm, Observability, CI/CD, SLI, SLO, SLA, Observability
@@ -7833,6 +7833,20 @@ landscape:
             homepage_url: https://cloud.inspur.com/product/
             logo: inspur.svg
             crunchbase: https://www.crunchbase.com/organization/inspur
+          - item:
+            name: Intel Kubernetes Service
+            description: >-
+              Intel Kubernetes service a fully managed container service that helps customers run GPU-Accelerated Kubernetes workloads at scale using Intel Max GPU's and Intel Habana Gaudi.
+            homepage_url: https://console.cloud.intel.com/
+            logo: intel.svg
+            crunchbase: https://www.crunchbase.com/organization/intel
+          - item:
+            name: IONOS Cloud Managed Kubernetes
+            description: >-
+              IONOS Cloud Managed Kubernetes is the ideal platform for automating the deployment, scaling and management of highly scalable and demanding containerized applications.
+            homepage_url: https://cloud.ionos.com/managed/kubernetes
+            logo: ionos.svg
+            crunchbase: https://www.crunchbase.com/organization/ionos-cloud
           - item:
             name: JD Cloud JCS for Kubernetes
             description: >-
