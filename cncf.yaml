@@ -10674,6 +10674,15 @@ landscape:
             logo: baidu-kcsp.svg
             crunchbase: https://www.crunchbase.com/organization/baidu
           - item:
+            name: Bankware Global (KCSP)
+            description: >-
+              Bankware Global, which supplies and operates core banking systems to internet-only banks in four countries in Northeast Asia, provides technical
+              support for Kubernetes to provide customers with a better experience and stable migration in the Kubernetes ecosystem. An expert who understands
+              Kubernetes well and can provide various consulting, support, and training using Kubernetes in development/operation environments.
+            homepage_url: https://docswlab.atlassian.net/wiki/spaces/BankwareTe/pages/33292295/BankwareGlobal+Kubernetes+Supports
+            logo: bankware-global.svg
+            crunchbase: https://www.crunchbase.com/organization/bankware-global
+          - item:
             name: Banzai Cloud (KCSP)
             description: Banzai Cloud brings cloud native to the enterprise and simplifies the transition to microservices on Kubernetes.
             homepage_url: https://banzaicloud.com/
@@ -14428,6 +14437,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/garden-io
             joined: '2018-10-01'
           - item:
+            name: Gcore (member)
+            homepage_url: https://gcore.com
+            logo: gcore.svg
+            crunchbase: https://www.crunchbase.com/organization/g-core-labs
+            joined: '2024-03-01'            
+          - item:
             name: GE Healthcare (member)
             homepage_url: https://www.gehealthcare.com/
             logo: ge-healthcare.svg
@@ -14688,6 +14703,12 @@ landscape:
             logo: isovalent.svg
             crunchbase: https://www.crunchbase.com/organization/covalent-io
             joined: '2020-11-01'
+          - item:
+            name: ITGix (member)
+            homepage_url: https://itgix.com
+            logo: itgix.svg
+            crunchbase: https://www.crunchbase.com/organization/itgix
+            joined: '2024-03-01'             
           - item:
             name: ITQ (member)
             homepage_url: https://itq.eu
@@ -15084,12 +15105,6 @@ landscape:
             logo: miao-yun-member.svg
             crunchbase: https://www.crunchbase.com/organization/miaoyun
             joined: '2018-08-01'
-          - item:
-            name: Micro Focus (member)
-            homepage_url: https://www.microfocus.com/en-us/home
-            logo: micro-focus-member.svg
-            crunchbase: https://www.crunchbase.com/organization/micro-focus
-            joined: '2019-06-01'
           - item:
             name: Middleware (member)
             homepage_url: https://middleware.io
