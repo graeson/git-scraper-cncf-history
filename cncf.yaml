@@ -382,6 +382,13 @@ landscape:
             logo: open-stack.svg
             crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
           - item:
+            name: OpenTofu
+            homepage_url: https://opentofu.org/
+            repo_url: https://github.com/opentofu/opentofu
+            logo: opentofu.svg
+            twitter: https://twitter.com/opentofuorg
+            crunchbase: https://www.crunchbase.com/organization/opentofu
+          - item:
             name: OpenYurt
             description: An open platform that extending your native Kubernetes to edge.
             homepage_url: https://openyurt.io/
@@ -7705,6 +7712,12 @@ landscape:
             logo: typhoon.svg
             crunchbase: https://www.crunchbase.com/organization/poseidon
           - item:
+            name: Taikun (TKS)
+            description: Taikun is a hybrid cloud management orchestration platform.
+            homepage_url: https://taikun.cloud
+            logo: taikun.svg
+            crunchbase: https://www.crunchbase.com/organization/itera-technologies-a-s
+          - item:
             name: vcluster
             description: >-
               vcluster lets you create fully functional but virtual Kubernetes clusters. Each vcluster runs inside a namespace of another Kubernetes cluster.
@@ -8313,11 +8326,10 @@ landscape:
             logo: sidero.svg
             crunchbase: https://www.crunchbase.com/organization/talos-systems-inc
           - item:
-            name: Weave GitOps Enterprise
-            description: Weave GitOps Enterprise enables the management of clusters and applications on scale with GitOps.
-            homepage_url: https://www.weave.works/product/gitops-enterprise/
-            logo: weaveworks.svg
-            crunchbase: https://www.crunchbase.com/organization/weaveworks
+            name: Taikun CloudWorks
+            description: Taikun is a hybrid cloud management orchestration platform.
+            homepage_url: https://taikun.cloud
+            logo: taikun.svg
       - subcategory:
         name: PaaS/Container Service
         items:
@@ -9587,6 +9599,14 @@ landscape:
               slack_url: https://cloud-native.slack.com/messages/openmetrics
               specification: true
               clomonitor_name: open-metrics
+          - item:
+            name: OpenObserve
+            homepage_url: http://openobserve.ai/
+            repo_url: https://github.com/openobserve/openobserve
+            branch: next
+            logo: openobserve.svg
+            twitter: https://twitter.com/OpenObserve
+            crunchbase: https://www.crunchbase.com/organization/zincsearch
           - item:
             name: OpenTSDB
             homepage_url: http://opentsdb.net/
@@ -12170,14 +12190,6 @@ landscape:
             logo: vshn.svg
             crunchbase: https://www.crunchbase.com/organization/vshn-ag
           - item:
-            name: Weaveworks (KCSP)
-            description: >-
-              Weaveworks makes it fast and simple for developers and DevOps teams to build and operate powerful containerized applications using Kubernetes. We
-              provide training,  tools and services to help teams to operate cloud native applications in production.
-            homepage_url: https://www.weave.works/
-            logo: weaveworks.svg
-            crunchbase: https://www.crunchbase.com/organization/weaveworks
-          - item:
             name: WeScale (KCSP)
             description: Build your Kubernetes architectures with Cloud Native Experts.
             homepage_url: https://www.wescale.fr/
@@ -13783,6 +13795,12 @@ landscape:
             logo: cloudcover.svg
             crunchbase: https://www.crunchbase.com/organization/cloudcover-inc
             joined: '2020-06-01'
+          - item:
+            name: CloudFerro (member)
+            homepage_url: https://cloudferro.com
+            logo: cloudferro.svg
+            crunchbase: https://www.crunchbase.com/organization/cloudferro
+            joined: '2024-03-01'            
           - item:
             name: CloudGeometry (member)
             homepage_url: https://www.cloudgeometry.io/
@@ -16527,12 +16545,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/wavecon
             joined: '2023-07-01'
           - item:
-            name: Weaveworks (member)
-            homepage_url: https://www.weave.works
-            logo: weaveworks-member.svg
-            crunchbase: https://www.crunchbase.com/organization/weaveworks
-            joined: '2015-11-01'
-          - item:
             name: WeScale (member)
             homepage_url: https://www.wescale.fr/
             logo: wescale.svg
@@ -17340,11 +17352,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/volvo-car-corporation
             joined: '2022-03-01'
           - item:
-            name: Workday (supporter)
-            homepage_url: https://www.workday.com/
-            logo: workday-supporter.svg
-            crunchbase: https://www.crunchbase.com/organization/workday
-            joined: '2018-09-01'
+            name: William Hill (supporter)
+            homepage_url: https://corporate.888.com/
+            logo: william-hill.svg
+            crunchbase: https://www.crunchbase.com/organization/william-hill
+            joined: '2024-03-01'            
           - item:
             name: Yahoo (supporter)
             homepage_url: https://www.yahoo.com/
