@@ -4969,6 +4969,15 @@ landscape:
             logo: edb.svg
             crunchbase: https://www.crunchbase.com/organization/enterprisedb
           - item:
+            name: Epsilla
+            description: 10x faster vector database and one-stop RAGaaS platform for building LLM applications
+            homepage_url: https://epsilla.com
+            repo_url: https://github.com/epsilla-cloud/vectordb
+            logo: epsilla.svg
+            crunchbase: https://www.crunchbase.com/organization/epsilla
+            extra:
+              youtube_url: https://www.youtube.com/channel/UCHS4c7mD3Q7liWpJyaGGBqA
+          - item:
             name: FoundationDB
             homepage_url: https://www.foundationdb.org/
             repo_url: https://github.com/apple/foundationdb
@@ -5541,6 +5550,13 @@ landscape:
             repo_url: https://github.com/apache/storm
             logo: apache-storm.svg
             twitter: https://twitter.com/ApacheStorm
+            crunchbase: https://www.crunchbase.com/organization/apache
+          - item:
+            name: Apache StreamPipes
+            homepage_url: https://streampipes.apache.org/
+            repo_url: https://github.com/apache/streampipes
+            logo: apache-streampipes.svg
+            twitter: https://twitter.com/StreamPipes
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Apicurio Registry
@@ -13134,6 +13150,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/6wind
             joined: '2023-06-01'
           - item:
+            name: 8gears (member)
+            homepage_url: https://8gears.com
+            logo: 8gears.svg
+            crunchbase: https://www.crunchbase.com/organization/8gears-container-registry
+            joined: '2024-01-01'            
+          - item:
             name: ACC ICT (member)
             homepage_url: https://www.acc-ict.com/
             logo: acc-ict.svg
@@ -15774,6 +15796,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/replicated
             joined: '2018-08-01'
           - item:
+            name: Resolve Technology (member)
+            homepage_url: https://reslv.io
+            logo: resolve-technology.svg
+            crunchbase: https://www.crunchbase.com/organization/resolve-technology-f441
+            joined: '2024-03-01'            
+          - item:
             name: RNG Technology (member)
             homepage_url: https://www.rng.tech/tr
             logo: rng-technology.svg
@@ -17519,6 +17547,12 @@ landscape:
             homepage_url: https://lunatic.solutions/
             repo_url: https://github.com/lunatic-solutions/lunatic
             logo: lunatic.svg
+            unnamed_organization: true
+          - item:
+            name: Mewz
+            homepage_url: https://github.com/mewz-project/
+            repo_url: https://github.com/mewz-project/mewz
+            logo: mewz.svg
             unnamed_organization: true
           - item:
             name: Timecraft
