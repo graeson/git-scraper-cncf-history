@@ -2642,6 +2642,15 @@ landscape:
             logo: ring.svg
             crunchbase: https://www.crunchbase.com/organization/scality
           - item:
+            name: Simplyblock
+            description: >-
+              Simplyblock is a distributed, disaggregated, cloud-native elastic block storage solution for IO-heavy and latency-sensitive container
+              workloads, available in Kubernetes through our CSI StorageClass implementation.
+            homepage_url: https://simplyblock.io/
+            logo: simplyblock.svg
+            twitter: https://twitter.com/simplyblock_io
+            crunchbase: https://www.crunchbase.com/organization/simplyblock
+          - item:
             name: Soda Foundation
             homepage_url: https://sodafoundation.io/wp-content/uploads/2021/03/cn.png
             repo_url: https://github.com/sodafoundation/api
@@ -13216,6 +13225,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/alerant
             joined: '2020-10-01'
           - item:
+            name: Alien6 (member)
+            homepage_url: https://www.alien6.com
+            logo: alien6.svg
+            crunchbase: https://www.crunchbase.com/organization/alien6
+            joined: '2024-04-01'            
+          - item:
             name: Allianz Direct (member)
             homepage_url: https://www.allianz.com/en.html
             logo: allianz-direct.svg
@@ -14032,6 +14047,12 @@ landscape:
             homepage_url: https://www.daytona.io
             logo: daytona.svg
             crunchbase: https://www.crunchbase.com/organization/daytona-4480
+            joined: '2024-03-01' 
+          - item:
+            name: DBOS (member)
+            homepage_url: https://www.dbos.dev
+            logo: dbos.svg
+            crunchbase: https://www.crunchbase.com/organization/dbos-inc
             joined: '2024-03-01'            
           - item:
             name: De Novo (member)
