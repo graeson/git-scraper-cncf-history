@@ -8098,6 +8098,12 @@ landscape:
             logo: plusserver.svg
             crunchbase: https://www.crunchbase.com/organization/plusserver
           - item:
+            name: QingCloud Kubernetes Engine (QKE)
+            description: QKE can provision a K8s/KubeSphere cluster in minutes automatically by just a few clicks and inputs.
+            homepage_url: https://console.qingcloud.com/paas/qke/clusters
+            logo: qingcloud.svg
+            crunchbase: https://www.crunchbase.com/organization/qingcloud
+          - item:
             name: Rafay
             description: >-
               Rafay Systems enables DevOps and SRE teams to automate application lifecycle and cluster configuration management across on-premise and
@@ -9784,12 +9790,12 @@ landscape:
             logo: grafana-mimir.svg
             crunchbase: https://www.crunchbase.com/organization/raintank
           - item:
-            name: Grafana Phlare
+            name: Grafana Pyroscope
             description: >-
-              Grafana Phlare is an open source database that provides fast, scalable, highly-available, and efficient storage and querying of profiling data. By doing so, it allows you to understand your application performance and optimize your infrastructure spend. It natively integrates with Grafana, making it possible to connect your profiling data to your metrics, logs, and traces, and get a comprehensive view of your entire stack.
-            homepage_url: https://grafana.com/oss/phlare
-            repo_url: https://github.com/grafana/phlare
-            logo: grafana-phlare.svg
+              Grafana Pyroscope is an open source continuous profiling database that provides fast, scalable, highly available, and efficient storage and querying. This helps you get a better understanding of resource usage in your applications down to the line number.
+            homepage_url: https://grafana.com/oss/pyroscope
+            repo_url: https://github.com/grafana/pyroscope
+            logo: grafana-pyroscope.svg
             crunchbase: https://www.crunchbase.com/organization/raintank
           - item:
             name: Grafana Tempo
@@ -16011,6 +16017,12 @@ landscape:
             logo: simplyblock.svg
             crunchbase: https://www.crunchbase.com/organization/simplyblock
             joined: '2024-03-01'
+          - item:
+            name: SK Telecom (member)
+            homepage_url: https://www.sktelecom.com
+            logo: sk-telecom.svg
+            crunchbase: https://www.crunchbase.com/organization/sktelecom
+            joined: '2024-04-01'            
           - item:
             name: Skyloud (member)
             homepage_url: https://www.skyloud.fr/
