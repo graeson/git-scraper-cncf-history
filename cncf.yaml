@@ -1448,8 +1448,7 @@ landscape:
               accepted: '2018-03-29'
               incubating: '2019-04-02'
               graduated: '2021-01-29'
-              cncf_tags:
-                - https://github.com/cncf/tag-security
+              tag: security
               dev_stats_url: https://opa.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#opa-logos
               blog_url: https://blog.openpolicyagent.org/
@@ -1742,6 +1741,12 @@ landscape:
             logo: sysdig-secure.svg
             crunchbase: https://www.crunchbase.com/organization/sysdig
           - item:
+            name: Teleport
+            homepage_url: https://goteleport.com
+            repo_url: https://github.com/gravitational/teleport
+            logo: teleport.svg
+            crunchbase: https://www.crunchbase.com/organization/gravitational
+          - item:
             name: Tensor Security
             description: Tensor Security is a cloud-native security company focused on providing AI-based and full-stack cloud-native security solutions.
             homepage_url: https://www.tensorsecurity.cn
@@ -1792,8 +1797,7 @@ landscape:
               accepted: '2017-10-24'
               incubating: '2017-10-24'
               graduated: '2019-12-18'
-              cncf_tags:
-                - https://github.com/cncf/tag-security
+              tag: security
               dev_stats_url: https://tuf.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#tuf-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/the-update-framework
@@ -1954,8 +1958,7 @@ landscape:
               accepted: '2018-03-29'
               incubating: '2020-06-22'
               graduated: '2022-08-23'
-              cncf_tags:
-                - https://github.com/cncf/tag-security
+              tag: security
               dev_stats_url: https://spiffe.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#spiffe-logos
               blog_url: https://blog.spiffe.io/
@@ -2045,8 +2048,7 @@ landscape:
               accepted: '2018-03-29'
               incubating: '2020-06-22'
               graduated: '2022-08-22'
-              cncf_tags:
-                - https://github.com/cncf/tag-security
+              tag: security
               dev_stats_url: https://spire.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#spire-logos
               slack_url: https://slack.spiffe.io/
@@ -2076,12 +2078,6 @@ landscape:
             logo: sso.svg
             twitter: https://twitter.com/buzzfeedexp
             crunchbase: https://www.crunchbase.com/organization/buzzfeed
-          - item:
-            name: Teleport
-            homepage_url: https://goteleport.com
-            repo_url: https://github.com/gravitational/teleport
-            logo: teleport.svg
-            crunchbase: https://www.crunchbase.com/organization/gravitational
           - item:
             name: Teller
             homepage_url: https://tlr.dev
@@ -2590,8 +2586,7 @@ landscape:
               accepted: '2018-01-29'
               incubating: '2018-09-25'
               graduated: '2020-10-07'
-              cncf_tags:
-                - https://github.com/cncf/tag-storage
+              tag: storage
               dev_stats_url: https://rook.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#rook-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/rook
@@ -2770,8 +2765,7 @@ landscape:
               accepted: '2017-03-29'
               incubating: '2017-03-29'
               graduated: '2019-02-28'
-              cncf_tags:
-                - https://github.com/cncf/tag-runtime
+              tag: runtime
               dev_stats_url: https://containerd.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#containerd-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/containerd
@@ -2795,8 +2789,7 @@ landscape:
               accepted: '2019-04-08'
               incubating: '2019-04-08'
               graduated: '2023-07-19'
-              cncf_tags:
-                - https://github.com/cncf/tag-runtime
+              tag: runtime
               dev_stats_url: https://crio.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#cri-o-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/cri-o
@@ -3692,8 +3685,7 @@ landscape:
               accepted: '2016-03-10'
               incubating: '2016-03-10'
               graduated: '2018-03-06'
-              cncf_tags:
-                - https://github.com/cncf/tag-runtime
+              tag: runtime
               dev_stats_url: https://k8s.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#kubernetes-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/kubernetes
@@ -3925,8 +3917,7 @@ landscape:
               accepted: '2017-02-27'
               incubating: '2018-02-26'
               graduated: '2019-01-24'
-              cncf_tags:
-                - https://github.com/cncf/tag-network
+              tag: network
               dev_stats_url: https://coredns.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#coredns-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/coredns
@@ -3952,8 +3943,7 @@ landscape:
               accepted: '2018-12-11'
               incubating: '2018-12-11'
               graduated: '2020-11-24'
-              cncf_tags:
-                - https://github.com/cncf/tag-storage
+              tag: storage
               dev_stats_url: https://etcd.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#etcd-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/etcd
@@ -4229,8 +4219,7 @@ landscape:
               accepted: '2017-09-13'
               incubating: '2017-09-13'
               graduated: '2018-11-28'
-              cncf_tags:
-                - https://github.com/cncf/tag-network
+              tag: network
               dev_stats_url: https://envoy.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#envoy-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/envoyproxy
@@ -4656,8 +4645,7 @@ landscape:
               accepted: '2022-09-30'
               incubating: '2022-09-30'
               graduated: '2023-07-12'
-              cncf_tags:
-                - https://github.com/cncf/tag-network
+              tag: network
               dev_stats_url: https://istio.devstats.cncf.io/
               stack_overflow_url: https://stackoverflow.com/questions/tagged/istio
               blog_url: https://istio.io/blog/
@@ -4720,8 +4708,7 @@ landscape:
               accepted: '2017-01-23'
               incubating: '2018-04-06'
               graduated: '2021-07-28'
-              cncf_tags:
-                - https://github.com/cncf/tag-network
+              tag: network
               dev_stats_url: https://linkerd.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#linkerd-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/linkerd
@@ -5365,8 +5352,7 @@ landscape:
               accepted: '2018-08-28'
               incubating: '2018-08-28'
               graduated: '2020-09-02'
-              cncf_tags:
-                - https://github.com/cncf/tag-storage
+              tag: storage
               dev_stats_url: https://tikv.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#tikv-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/tikv
@@ -5472,8 +5458,7 @@ landscape:
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#vitess-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/vitess
               blog_url: https://vitess.io/blog/
-              cncf_tags:
-                - https://github.com/cncf/tag-storage
+              tag: storage
               mailing_list_url: https://lists.cncf.io/g/cncf-vitess-users
               summary_personas: Infrastructure teams
               summary_tags: Scalable, reliable, MySQL, distributed, cloud-native, kubernetes, cloud, database
@@ -6247,8 +6232,7 @@ landscape:
               accepted: '2018-06-01'
               incubating: '2018-06-01'
               graduated: '2020-05-01'
-              cncf_tags:
-                - https://github.com/cncf/tag-app-delivery
+              tag: app-delivery
               dev_stats_url: https://helm.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/main/examples/graduated.md
               slack_url: https://slack.k8s.io
@@ -6807,8 +6791,7 @@ landscape:
               accepted: '2020-03-26'
               incubating: '2020-03-26'
               graduated: '2022-12-06'
-              cncf_tags:
-                - https://github.com/cncf/tag-app-delivery
+              tag: app-delivery
               dev_stats_url: https://argo.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/tree/master/projects/argo
               stack_overflow_url: https://stackoverflow.com/questions/tagged/argoproj+or+argo
@@ -6981,8 +6964,7 @@ landscape:
               accepted: '2019-07-15'
               incubating: '2021-03-12'
               graduated: '2022-11-30'
-              cncf_tags:
-                - https://github.com/cncf/tag-app-delivery
+              tag: app-delivery
               dev_stats_url: https://flux.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#flux-logos
               blog_url: https://fluxcd.io/blog/
@@ -8397,15 +8379,6 @@ landscape:
             logo: minikube.svg
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
-            name: MoreSec Shangfu
-            description: >-
-              Shangfu Cloud Native Protection Platform is a security protection model based on the concept of cloud native. In view of the characteristics of
-              cloud native application life-cycle, it involves in many stages of security protection, including R&D construction, security testing, image
-              control, container deployment, container operation, etc.
-            homepage_url: https://www.moresec.cn/scene/devsecops
-            logo: moresec.svg
-            crunchbase: https://www.crunchbase.com/organization/meran-technology
-          - item:
             name: NKD - NestOS Kubernetes Deployer
             description: >-
               NKD (NestOS Kubernetes Deployer) is a solution specially built for deploying and maintaining Kubernetes clusters on NestOS. Its design goal is
@@ -9733,8 +9706,7 @@ landscape:
               accepted: '2016-11-08'
               incubating: '2016-11-08'
               graduated: '2019-04-11'
-              cncf_tags:
-                - https://github.com/cncf/tag-observability
+              tag: observability
               dev_stats_url: https://fluentd.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#fluentd-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/fluentd
@@ -9864,11 +9836,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/helios-5828
           - item:
             name: HertzBeat
-            description: An open-source, real-time monitoring system with custom monitoring, high performance cluster and agentless capabilities.
-            homepage_url: https://hertzbeat.com/
-            repo_url: https://github.com/dromara/hertzbeat
+            description: Apache HertzBeat (Incubating) is an open-source, real-time monitoring system with custom monitoring, high performance cluster and agentless capabilities.
+            homepage_url: https://hertzbeat.apache.org/
+            repo_url: https://github.com/apache/hertzbeat
             logo: hertzbeat.svg
-            crunchbase: https://www.crunchbase.com/organization/tancloud
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Honeybadger
             homepage_url: https://www.honeybadger.io/
@@ -9938,8 +9910,7 @@ landscape:
               accepted: '2017-09-13'
               incubating: '2017-09-13'
               graduated: '2019-10-31'
-              cncf_tags:
-                - https://github.com/cncf/tag-observability
+              tag: observability
               dev_stats_url: https://jaeger.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#jaeger-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/jaeger
@@ -10060,8 +10031,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2023-09-19'
-              cncf_tags:
-                - https://github.com/cncf/tag-observability
+              tag: observability
               dev_stats_url: https://loggingoperator.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/main/examples/sandbox.md/#logging-operator-logos
               clomonitor_name: logging-operator
@@ -10341,8 +10311,7 @@ landscape:
               accepted: '2016-05-09'
               incubating: '2016-05-09'
               graduated: '2018-08-09'
-              cncf_tags:
-                - https://github.com/cncf/tag-observability
+              tag: observability
               dev_stats_url: https://prometheus.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#prometheus-logos
               stack_overflow_url: https://stackoverflow.com/questions/tagged/prometheus
@@ -15198,12 +15167,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/moonlight-marketing
             joined: '2024-03-01'            
           - item:
-            name: MoreSec (member)
-            homepage_url: https://www.moresec.cn/
-            logo: moresec.svg
-            crunchbase: https://www.crunchbase.com/organization/meran-technology
-            joined: '2022-03-01'
-          - item:
             name: Morgan Stanley (member)
             homepage_url: https://www.morganstanley.com
             logo: morgan-stanley-member.svg
@@ -15738,6 +15701,12 @@ landscape:
             logo: qubex.svg
             crunchbase: https://www.crunchbase.com/organization/qubex-e181
             joined: '2024-01-01'
+          - item:
+            name: Quesma (member)
+            homepage_url: https://quesma.com
+            logo: quesma.svg
+            crunchbase: https://www.crunchbase.com/organization/quesma
+            joined: '2024-05-01'           
           - item:
             name: Rackner (member)
             homepage_url: https://www.rackner.com/
