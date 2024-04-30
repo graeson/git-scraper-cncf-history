@@ -6257,6 +6257,12 @@ landscape:
             logo: itopia.svg
             crunchbase: https://www.crunchbase.com/organization/itopia
           - item:
+            name: JReleaser
+            homepage_url: https://jreleaser.org
+            repo_url: https://github.com/jreleaser/jreleaser
+            logo: jreleaser.svg
+            twitter: https://twitter.com/jreleaser
+          - item:
             name: kaniko
             homepage_url: https://github.com/GoogleContainerTools/kaniko
             repo_url: https://github.com/GoogleContainerTools/kaniko
@@ -15304,6 +15310,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ntt-data
             joined: '2019-01-01'
           - item:
+            name: NuNet (member)
+            homepage_url: https://www.nunet.io
+            logo: nunet.svg
+            crunchbase: https://www.crunchbase.com/organization/nunet-dedc
+            joined: '2024-05-01'            
+          - item:
             name: Nutanix (member)
             homepage_url: https://www.nutanix.com
             logo: nutanix.svg
@@ -17463,6 +17475,13 @@ landscape:
             repo_url: https://github.com/rust-lang/rust
             logo: rust.svg
             crunchbase: https://www.crunchbase.com/organization/rust
+          - item:
+            name: TinyGo
+            description: Compiled language to Wasm
+            homepage_url: https://tinygo.org/
+            repo_url: https://github.com/tinygo-org/tinygo
+            logo: tinygo.svg
+            unnamed_organization: true
           - item:
             name: Wa-lang
             description: Design for WebAssembly
