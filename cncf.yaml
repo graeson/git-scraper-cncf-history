@@ -7459,7 +7459,7 @@ landscape:
             name: Coredge Kubernetes Platform
             description: A custom Kubernetes distro.
             homepage_url: https://coredge.io
-            logo: https://coredge.io/ckp-logo/CKP-Logo.html
+            logo: coredge.svg
             crunchbase: https://www.crunchbase.com/organization/coredge
           - item:
             name: D2iQ Konvoy
@@ -14115,12 +14115,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/digitalocean
             joined: '2016-09-01'
           - item:
-            name: Direktiv (member)
-            homepage_url: https://direktiv.io
-            logo: direktiv.svg
-            crunchbase: https://www.crunchbase.com/organization/direktiv
-            joined: '2021-07-01'
-          - item:
             name: Docker (member)
             homepage_url: https://www.docker.com
             logo: docker-member.svg
@@ -14707,6 +14701,12 @@ landscape:
             logo: itq.svg
             crunchbase: https://www.crunchbase.com/organization/itq
             joined: '2024-02-01'
+          - item:
+            name: Jetify (member)
+            homepage_url: https://www.jetify.com
+            logo: jetify.svg
+            crunchbase: https://www.crunchbase.com/organization/jetify
+            joined: '2024-05-01'            
           - item:
             name: Jetstack (member)
             homepage_url: https://www.jetstack.io
@@ -15778,6 +15778,12 @@ landscape:
             logo: resolve-technology.svg
             crunchbase: https://www.crunchbase.com/organization/resolve-technology-f441
             joined: '2024-03-01'
+          - item:
+            name: Restate (member)
+            homepage_url: https://restate.dev
+            logo: restate.svg
+            crunchbase: https://www.crunchbase.com/organization/restate-5a05
+            joined: '2024-04-01'           
           - item:
             name: RNG Technology (member)
             homepage_url: https://www.rng.tech/tr
@@ -17363,6 +17369,12 @@ landscape:
             logo: volvo.svg
             crunchbase: https://www.crunchbase.com/organization/volvo-car-corporation
             joined: '2022-03-01'
+          - item:
+            name: Wehkamp Retail Group (supporter)
+            homepage_url: https://www.wehkamp.nl
+            logo: wehkamp.svg
+            crunchbase: https://www.crunchbase.com/organization/wehkamp
+            joined: '2024-04-01'            
           - item:
             name: William Hill (supporter)
             homepage_url: https://corporate.888.com/
