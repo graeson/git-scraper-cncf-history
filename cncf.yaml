@@ -3654,6 +3654,13 @@ landscape:
             logo: kubeadmiral.svg
             crunchbase: https://www.crunchbase.com/organization/bytedance
           - item:
+            name: Godel-Scheduler
+            description: Godel-Scheduler is a unified scheduler for both online and offline tasks.
+            homepage_url: https://github.com/kubewharf/godel-scheduler
+            repo_url: https://github.com/kubewharf/godel-scheduler
+            logo: godel-scheduler.svg
+            crunchbase: https://www.crunchbase.com/organization/bytedance
+          - item:
             name: Kubeflow
             description: >-
               The Kubeflow project is dedicated to making deployments of machine learning workflows on Kubernetes simple, portable and scalable by providing a
@@ -13123,6 +13130,12 @@ landscape:
             logo: 3-shake.svg
             crunchbase: https://www.crunchbase.com/organization/3-shake
             joined: '2021-01-01'
+          - item:
+            name: 42on (member)
+            homepage_url: https://www.42on.com
+            logo: 42on.svg
+            crunchbase: https://www.crunchbase.com/organization/42on
+            joined: '2024-05-01'            
           - item:
             name: 6WIND (member)
             homepage_url: https://www.6wind.com/
