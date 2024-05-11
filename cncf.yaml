@@ -6617,6 +6617,21 @@ landscape:
               blog_url: https://quarkus.io/blog/
               youtube_url: https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg
           - item:
+            name: Radius
+            description: >-
+              Radius is a cloud-native application platform that enables developers and the platform engineers 
+              that support them to collaborate on delivering and managing cloud-native applications that follow 
+              organizational best practices for cost, operations and security, by default. 
+            homepage_url: https://radapp.io/
+            project: sandbox
+            repo_url: https://github.com/radius-project/radius
+            logo: radius.svg
+            twitter: https://twitter.com/radapp_io
+            extra:
+              blog_url: https://blog.radapp.io/posts
+              youtube_url: https://www.youtube.com/@radapp_io
+              tag: app-delivery
+          - item:
             name: Raftt
             homepage_url: https://www.raftt.io/
             logo: raftt.svg
@@ -7714,10 +7729,10 @@ landscape:
           - item:
             name: QBO
             description: >-
-              QBO is the fastest and easiest k8s deployment out there. It uses https://kind.sigs.k8s.io/ node images to deploy k8s clusters everywhere. It has a
-              web graphical interface and a Websockets API. It doesn't require virtual machines. It is written in C and runs in docker.
-            homepage_url: https://github.com/alexeadem/qbo-home
-            repo_url: https://github.com/alexeadem/qbo-home
+              QBO Kubernetes Engine (QKE) redefines the concept of a Kubernetes node as a container using Kubernetes-in-Docker technology. Streamline the deployment
+              and management of Kubernetes clusters in seconds with QKE and unlock bare-metal performance without virtualization overhead.
+            homepage_url: https://ce.qbo.io/
+            repo_url: https://github.com/alexeadem/qbo-ce
             logo: qbo.svg
           - item:
             name: Rancher Kubernetes
@@ -11209,14 +11224,6 @@ landscape:
             logo: evonem.svg
             crunchbase: https://www.crunchbase.com/organization/evonem
           - item:
-            name: Expert Thinking (KCSP)
-            description: >-
-              Expert Thinking provides the right mix of consulting, hands-on delivery, training and support to build dynamic, scalable, cost-optimised
-              Kubernetes solutions that boost our customers' performance and the ability to operate with improved agility and efficiency.
-            homepage_url: https://www.expert-thinking.co.uk/kubernetes/
-            logo: expert-thinking.svg
-            crunchbase: https://www.crunchbase.com/organization/expert-thinking
-          - item:
             name: Fairwinds (KCSP)
             description: >-
               Fairwinds, the Kubernetes enablement company, offers services, open source, and software to help organizations run secure, efficient and reliable
@@ -14332,12 +14339,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/expedia-group
             joined: '2023-03-01'
           - item:
-            name: Expert Thinking (member)
-            homepage_url: https://www.expert-thinking.co.uk/
-            logo: expert-thinking.svg
-            crunchbase: https://www.crunchbase.com/organization/expert-thinking
-            joined: '2022-03-01'
-          - item:
             name: F5 (member)
             homepage_url: https://www.f5.com
             logo: f5-member.svg
@@ -15394,12 +15395,6 @@ landscape:
             logo: ongres.svg
             crunchbase: https://www.crunchbase.com/organization/ongres
             joined: '2022-01-01'
-          - item:
-            name: OPENFLAME (member)
-            homepage_url: https://www.openfla.me/
-            logo: openflame.svg
-            crunchbase: https://www.crunchbase.com/organization/openflame-inc
-            joined: '2022-12-01'
           - item:
             name: OpenMetal.io (member)
             homepage_url: https://openmetal.io/
