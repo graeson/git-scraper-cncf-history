@@ -7475,12 +7475,6 @@ landscape:
             logo: cars.svg
             crunchbase: https://www.crunchbase.com/organization/china-academy-of-railway-sciences-cars
           - item:
-            name: CECloud CeaKE
-            description: CeaKE is dedicated to building a software infrastructure layer to enable the digital transformation of the cloud era.
-            homepage_url: https://cecloud.com/product/7037705179667369984.html
-            logo: cecloud.svg
-            crunchbase: https://www.crunchbase.com/organization/china-electronic-system-cloud-data-and-intelligence-technology
-          - item:
             name: Cloudboostr
             description: Cloudboostr is a complete Kubernetes stack that allows enterprises to deliver applications faster, better and safer in private and public clouds.
             homepage_url: https://grapeup.com/cloudboostr
@@ -7584,6 +7578,13 @@ landscape:
             repo_url: https://github.com/sighupio/fury-distribution
             logo: fury.svg
             crunchbase: https://www.crunchbase.com/organization/sighup
+          - item:
+            name: Giant Swarm Managed Kubernetes
+            description: The Giant Swarm platform enables users to simply and rapidly create and use 24/7 managed Kubernetes clusters on-demand.
+            homepage_url: https://giantswarm.io
+            repo_url: https://github.com/giantswarm/cluster-vsphere
+            logo: giant-swarm-cncf.svg
+            crunchbase: https://www.crunchbase.com/organization/giant-swarm
           - item:
             name: H3C CloudOS
             description: >-
@@ -7794,27 +7795,11 @@ landscape:
             logo: robin-systems-member.svg
             crunchbase: https://www.crunchbase.com/organization/robin-systems
           - item:
-            name: SECloudit
-            description: >-
-              SECloudit is a container application management solution, provides improvement of container environment operational capability and manageability
-              by providing multiple Kubernetes-based cluster management, CI/CD management, and a user-friendly GUI portal.
-            homepage_url: https://www.innogrid.com/secloudit
-            logo: secloudit.svg
-            crunchbase: https://www.crunchbase.com/organization/innogrid
-          - item:
             name: Shturval
             description: The Shturval platform is engineered for complex air-gapped Enterprise environments with the highest security and automation requirements.
             homepage_url: https://shturval.tech/
             logo: shturval.svg
             crunchbase: https://www.crunchbase.com/organization/chislitel-lab
-          - item:
-            name: SmartX SMTX Kubernetes Service
-            description: >-
-              With pre-loaded Kubernetes plug-ins, industry-leading SmartX virtualization, distributed storage, networking and security as well as other product
-              components, SMTX Kubernetes Service helps IT operations teams easily deploy and manage production-ready Kubernetes clusters.
-            homepage_url: https://www.smartx.com/global/smtx-kubernetes-service/
-            logo: smartx.svg
-            crunchbase: https://www.crunchbase.com/organization/smartx
           - item:
             name: TenxCloud Container Enterprise
             description: TenxCloud Container Enterprise is a PaaS product based on Kubernetes.
@@ -8269,25 +8254,11 @@ landscape:
             logo: vultr.svg
             crunchbase: https://www.crunchbase.com/organization/vultr-holdings-llc
           - item:
-            name: Wavestack Kubernetes Engine (WKE)
-            description: >-
-              Wavestack Kubernetes Engine is a managed service based on Gardener that makes it easy to run Kubernetes clusters on Wavestack and other cloud
-              providers.
-            homepage_url: https://wavestack.cloud
-            logo: wavestack.svg
-            crunchbase: https://www.crunchbase.com/organization/wavecon
-          - item:
             name: ZStack Edge
             description: ZStack Edge is a Cloud Native application platform based on Kubernetes
             homepage_url: https://www.zstack.io/product/zstack_edge/
             logo: zstack.svg
             crunchbase: https://www.crunchbase.com/organization/zstack
-          - item:
-            name: ZTE TECS OpenPalette
-            description: The TECS OpenPalette platform is a unified cloud platform oriented to the ICT realm.
-            homepage_url: https://sdnfv.zte.com.cn/en/products
-            logo: zte-tecs.svg
-            crunchbase: https://www.crunchbase.com/organization/zte-corporation
       - subcategory:
         name: Certified Kubernetes - Installer
         items:
@@ -16534,12 +16505,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/unryo
             joined: '2024-04-01'           
           - item:
-            name: unSkript (member)
-            homepage_url: https://www.unskript.com/
-            logo: unskript.svg
-            crunchbase: https://www.crunchbase.com/organization/unskript-inc
-            joined: '2022-07-01'
-          - item:
             name: Upbound (member)
             homepage_url: https://upbound.io
             logo: upbound-member.svg
@@ -18502,6 +18467,38 @@ landscape:
           crunchbase:
           unnamed_organization: true
           homepage_url: https://huggingface.co/docs/text-generation-inference/index
+        - item:
+          name: WasmEdge Runtime
+          homepage_url: https://llamaedge.com/docs/intro/
+          project: sandbox
+          repo_url: https://github.com/WasmEdge/WasmEdge
+          logo: wasmedge.svg
+          twitter: https://twitter.com/realwasmedge
+          crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+          allow_duplicate_repo: true
+          extra:
+            accepted: '2021-04-28'
+            annual_review_url: https://github.com/cncf/toc/pull/1109
+            annual_review_date: '2023-07-04'
+            dev_stats_url: https://wasmedge.devstats.cncf.io/
+            artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#wasmedgeruntime-logos
+            summary_personas: Developers, DevOps Engineers
+            summary_tags: Edge Cloud, Edge Devices, Container, Embedded runtime, Serverless, UDF, Microservices, Streaming data, OCI Runtime,SaaS
+            summary_use_case: >
+              WasmEdge provides a high-performance, lightweight, secure, and extensible WebAssembly runtime for cloud-native applications. It is an OCI
+              compliant container that is integrated into Docker, containerd, crun and many Kubernetes projects.  Compared with traditional Linux container
+              apps, WasmEdge apps are more secure, more portable, cold-start 100x faster and only take 1/10 of the space.
+            summary_business_use_case: >-
+              WasmEdge improves cloud app’s operational efficiency by providing a secure, portable, fast, and lightweight alternative to traditional Linux
+              containers. It allows microservice or servelsss applications to “scale to zero” — all computing resources can be made available on-demand, and
+              “write once run anywhere”. It also works with existing container management infra and programming languages, and hence minimizing the cost of
+              adoption and migration. It is great for running microservices and serverless functions embedded in data pipelines or SaaS platforms.
+            summary_release_rate: Every 3 months
+            summary_integrations: >-
+                Crun, Runwasi, Youki, Docker Desktop, Kubernetes, WebAssembly Languages Runtime maintained by VMWare, Proxy-wasm, Knative, SuperEdge, OpenYurt,
+                KubeEdge, Fedora Linux
+            summary_intro_url: https://youtu.be/Kg5z5A5wH0A
+            clomonitor_name: wasm-edge 
     - subcategory:
       name: CI/CD - Delivery
       items:
