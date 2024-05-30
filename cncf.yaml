@@ -12692,6 +12692,9 @@ landscape:
             homepage_url: https://www.prodyna.com/expertises/it-training-certifications
             logo: prodyna.svg
             crunchbase: https://www.crunchbase.com/organization/prodyna
+            extra:
+              training_certifications: cka, ckad, cks, kcna
+              training_type: instructor-led
           - item:
             name: RX-M (KTP)
             description: Market neutral Kubernetes Dev, DevOps and Production training and consulting services
@@ -14266,12 +14269,6 @@ landscape:
             logo: elastx-member.svg
             crunchbase: https://www.crunchbase.com/organization/elastx
             joined: '2018-07-01'
-          - item:
-            name: Elotl (member)
-            homepage_url: https://www.elotl.co/
-            logo: elotl.svg
-            crunchbase: https://www.crunchbase.com/organization/elotl
-            joined: '2020-01-01'
           - item:
             name: Emagine IT (member)
             homepage_url: https://www.eit2.com/
