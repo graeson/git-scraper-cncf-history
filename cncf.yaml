@@ -763,6 +763,14 @@ landscape:
               youtube_url: https://www.youtube.com/KeyfactorCommunity/
               github_discussions_url: https://github.com/bcgit/bc-java/discussions
           - item:
+            name: Boundary
+            description: >-
+              Boundary is designed to grant access to critical systems using the principle of least privilege, solving challenges organizations encounter when users need to securely access applications and machines.
+            homepage_url: https://www.boundaryproject.io/
+            repo_url: https://github.com/hashicorp/boundary
+            logo: Hashicorp-Boundary.svg
+            crunchbase: https://www.crunchbase.com/organization/hashicorp
+          - item:
             name: Capsule8
             homepage_url: https://capsule8.com/
             logo: capsule8.svg
@@ -13413,6 +13421,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/american-cloud
             joined: '2023-03-01'
           - item:
+            name: Amnic (member)
+            homepage_url: https://amnic.com
+            logo: amnic.svg
+            crunchbase: https://www.crunchbase.com/organization/amnic
+            joined: '2024-06-01'             
+          - item:
             name: Ampere Consulting (member)
             homepage_url: https://amperecomputing.com/
             logo: ampere-computing-member.svg
@@ -14260,6 +14274,13 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/dynatrace-software
             joined: '2017-09-01'
           - item:
+            name: E.ON (member)
+            homepage_url: https://www.eon.com
+            logo: e.on.svg
+            enduser: true
+            crunchbase: https://www.crunchbase.com/organization/e-on
+            joined: '2024-06-01'            
+          - item:
             name: EasyStack (member)
             homepage_url: https://www.easystack.cn
             logo: easystack.svg
@@ -14916,12 +14937,6 @@ landscape:
             logo: kt-nexr.svg
             crunchbase: https://www.crunchbase.com/organization/kt-next
             joined: '2021-05-01'
-          - item:
-            name: Kubeark (member)
-            homepage_url: https://www.kubeark.com/
-            logo: kubeark.svg
-            crunchbase: https://www.crunchbase.com/organization/kubeark-inc
-            joined: '2023-06-01'
           - item:
             name: Kubecost (member)
             homepage_url: https://kubecost.com/
@@ -16085,12 +16100,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/smartiful
             joined: '2020-11-01'
           - item:
-            name: SmartX (member)
-            homepage_url: https://www.smartx.com/global/
-            logo: smartx.svg
-            crunchbase: https://www.crunchbase.com/organization/smartx
-            joined: '2021-09-01'
-          - item:
             name: Snyk (member)
             homepage_url: https://snyk.io/
             logo: snyk.svg
@@ -16705,12 +16714,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/xgeeks
             joined: '2024-01-01'
           - item:
-            name: XigXog (member)
-            homepage_url: https://www.xigxog.io/
-            logo: xigxog.svg
-            crunchbase: https://www.crunchbase.com/organization/xigxog
-            joined: '2023-06-01'
-          - item:
             name: Yellowbrick (member)
             homepage_url: https://www.yellowbrick.com/
             logo: yellowbrick.svg
@@ -17164,6 +17167,12 @@ landscape:
             logo: masterclass.svg
             crunchbase: https://www.crunchbase.com/organization/masterclass
             joined: '2022-01-01'
+          - item:
+            name: MasterControl (supporter)
+            homepage_url: https://www.mastercontrol.com
+            logo: mastercontrol.svg
+            crunchbase: https://www.crunchbase.com/organization/master-control-inc
+            joined: '2024-06-01'             
           - item:
             name: Meltwater (supporter)
             homepage_url: https://www.meltwater.com/en
@@ -17716,6 +17725,11 @@ landscape:
             repo_url: https://github.com/ipvm-wg/homestar
             logo: wasm.svg
             crunchbase: https://www.crunchbase.com/organization/fission-3c78
+          - item:
+            name: Metatype
+            homepage_url: https://metatype.dev
+            logo: metatype.svg
+            crunchbase: https://www.crunchbase.com/organization/metatype
           - item:
             name: Scale
             homepage_url: https://scale.sh/
