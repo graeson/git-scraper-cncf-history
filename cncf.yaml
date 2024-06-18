@@ -6014,7 +6014,7 @@ landscape:
                 userver solves the problem of efficient I/O interactions transparently for the developers. As a result, with the framework you get
                 straightforward source code, avoid CPU-consuming context switches from OS, efficiently utilize the CPU with a small amount of execution threads.
 
-                Contains efficient asynchronous drivers for databases (MongoDB, PostgreSQL, Redis, ClickHouse, MySQL/MariaDB...); data transfer protocols (HTTP,
+                Contains efficient asynchronous drivers for databases (MongoDB, PostgreSQL, Redis, ClickHouse, YDB, MySQL/MariaDB...); data transfer protocols (HTTP,
                 gRPC, AMQP 0-9-1, TCP, TLS, WebSocket ...), tasks construction and cancellation; high-level components for caches, tasks, distributed locking,
                 logging, tracing, statistics, metrics, JSON/YAML/BSON; functionality to change the service configuration on-the-fly; deadline propagation;
                 timeouts; retires; congestion-control; pools autoscaling; comprehensive set of asynchronous low-level synchronization primitives and OS
@@ -6024,7 +6024,7 @@ landscape:
                 to simple linear code that is easy to write and maintain. By using userver in your application, you adopt best practices of high avaialability
                 servicecs without having to spend time solving common challenges like exponential backoff retry policies, deadline propagarions, metrics and
                 tracings.
-              summary_integration: Docker, Open Telemetry, gRPC, Prometheus, RabbitMQ, Redis, Graphite, MySQL, PostgreSQL, MongoDB, ClickHouse
+              summary_integration: Docker, Open Telemetry, gRPC, Prometheus, RabbitMQ, Redis, Graphite, MySQL, PostgreSQL, MongoDB, ClickHouse, YDB, Apache Kafka
               summary_intro_url: https://youtu.be/WkcmNOmwAH8
               clomonitor_name: userver
           - item:
@@ -6579,8 +6579,18 @@ landscape:
               mailing_list_url: https://github.com/orgs/microcks/discussions
               slack_url: https://cloud-native.slack.com/messages/microcks
               youtube_url: https://youtube.com/c/Microcks
-              summary_personas: Developers, Architects, API Owners, QA Testers
-              summary_tags: api,mocking,testing,openapi,graphql,grpc,asyncapi
+              summary_personas: API Owners, Developers, Architects, QA Testers, Quality Assurance Engineer, SREs, Platform Engineers, DevOps Engineer, DevOps practitioners
+              summary_tags: API, mocking, testing, openapi, graphql, grpc, asyncapi
+              summary_use_case: >-
+                Microcks is a tool for mocking and testing your APIs and microservices. It leverages API standards to provide a uniform and multi-protocol
+                approach for simulating complex distributed environments and validating service components in isolation.
+              summary_business_use_case: >-
+                Microcks facilitates rapid simulation generation, automated API testing, and seamless CI/CD integration, streamlining development and 
+                deployment processes. Microcks empowers teams to optimize services and accelerate product releases, gaining a competitive edge.
+              summary_release_rate: New release every 2 to 3 months.
+              summary_integrations: >-
+                Keycloak, Operator framework, Helm, Backstage.io, Tekton, CloudEvents, Prometheus, OpenTelemetry, Docker, Podman, Testcontainers
+              summary_intro_url: https://www.youtube.com/watch?v=E8rjUwznO-Q
           - item:
             name: mirrord
             description: >-
@@ -7835,7 +7845,7 @@ landscape:
             name: Palette
             description:  Keep control of your Kubernetes infrastructure stack with Spectro Cloud’s as-a-Service experience for public clouds, private clouds, and bare metal environments
             homepage_url: https://spectrocloud.com
-            logo: http://marketing-assets.spectrocloud.com.s3-website-us-west-2.amazonaws.com/logos/palette/colorized_light_bg.svg
+            logo: palette.svg
             crunchbase: https://www.crunchbase.com/organization/spectro-cloud
           - item:
             name: Platform9 Managed Kubernetes
@@ -15824,6 +15834,12 @@ landscape:
             logo: quali.svg
             crunchbase: https://www.crunchbase.com/organization/qualisystems
             joined: '2022-10-01'
+          - item:
+            name: Quality Cloud (member)
+            homepage_url: https://qualitycloud.com
+            logo: quality-cloud.svg
+            crunchbase: https://www.crunchbase.com/organization/quality-cloud
+            joined: '2024-06-01'            
           - item:
             name: QualitySoft (member)
             homepage_url: https://www.qualitysoft.com/
