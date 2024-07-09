@@ -46,6 +46,17 @@ landscape:
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/ctrip
           - item:
+            name: Atlantis
+            description: Terraform Pull Request Automation for Teams
+            homepage_url: https://www.runatlantis.io/
+            repo_url: https://github.com/runatlantis/atlantis
+            logo: atlantis.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            project: sandbox
+            extra:
+              accepted: '2024-06-18'
+              clomonitor_name: atlantis
+          - item:
             name: AWS CloudFormation
             description: AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment.
             homepage_url: https://aws.amazon.com/cloudformation/
@@ -1664,8 +1675,8 @@ landscape:
             twitter: https://twitter.com/secureCodeBox
             crunchbase: https://www.crunchbase.com/organization/iteratec
             extra:
-              slack_url: >-
-                https://join.slack.com/t/securecodebox/shared_invite/enQtNDU3MTUyOTM0NTMwLTBjOWRjNjVkNGEyMjQ0ZGMyNDdlYTQxYWQ4MzNiNGY3MDMxNThkZjJmMzY2NDRhMTk3ZWM3OWFkYmY1YzUxNTU%22
+              blog_url: https://www.securecodebox.io/blog
+              github_discussions_url: https://github.com/secureCodeBox/secureCodeBox/discussions
           - item:
             name: sigstore
             homepage_url: https://www.sigstore.dev/
@@ -7876,6 +7887,15 @@ landscape:
             logo: palette.svg
             crunchbase: https://www.crunchbase.com/organization/spectro-cloud
           - item:
+            name: PetasusCloud
+            description: >-
+              PetasusCloud is a high-performance AI Cloud Platform Solution that offers efficient GPU management (including clustering, partitioning, and virtualization), cloud-native virtual
+              resource management (VMs, containers), and high-performance virtual networks. It also features a user-friendly GUI for operators and developers, enabling self-service virtual
+              resource management.
+            homepage_url: http://petasuscloud.sktenterprise.com/
+            logo: petasus-cloud.svg
+            crunchbase: https://www.crunchbase.com/organization/sktelecom
+          - item:
             name: Platform9 Managed Kubernetes
             description: Platform9 Managed Kubernetes is SaaS-managed, infrastructure-agnostic, and works across public clouds and on-premises server infrastructure.
             homepage_url: https://platform9.com/managed-kubernetes/
@@ -7964,7 +7984,6 @@ landscape:
             description: >-
               TKS Enterprise Solution is a All-in-One Package that provides all-in-one add-ons (CNI, CSI, Ingress Controller, etc.) and services (Monitoring, Service Mesh, Policy, MLOps, etc.) for running Kubernetes Cluster and Kubernetes in a public cloud environment.
             homepage_url: https://tks.sktenterprise.com/en
-            repo_url: https://github.com/openinfradev/
             logo: sk-telecom.svg
             crunchbase: https://www.crunchbase.com/organization/sktelecom
           - item:
@@ -10860,12 +10879,6 @@ landscape:
             logo: acornsoft.svg
             crunchbase: https://www.crunchbase.com/organization/acornsoft
           - item:
-            name: Adfolks (KCSP)
-            description: Adfolks’ Certified Kubernetes Administrators have developed a signature process to help with cloud native transformation journeys.
-            homepage_url: https://www.adfolks.com/
-            logo: adfolks.svg
-            crunchbase: https://www.crunchbase.com/organization/adfolks
-          - item:
             name: Alauda (KCSP)
             description: >-
               Alauda provides Kubernetes-Centric Enterprise Platform-as-a-Service offerings with a razor focus on delivering Cloud Native capabilities and
@@ -13395,12 +13408,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/acorn-labs-inc
             joined: '2022-08-01'
           - item:
-            name: Adfolks (member)
-            homepage_url: https://www.adfolks.com/
-            logo: adfolks.svg
-            crunchbase: https://www.crunchbase.com/organization/adfolks
-            joined: '2018-12-01'
-          - item:
             name: Adobe (member)
             homepage_url: https://www.adobe.com/
             logo: adobe.svg
@@ -14677,12 +14684,6 @@ landscape:
             logo: genezio.svg
             crunchbase: https://www.crunchbase.com/organization/genezio
             joined: '2023-09-01'
-          - item:
-            name: German Edge Cloud (member)
-            homepage_url: https://gec.io
-            logo: german-edge-cloud.svg
-            crunchbase: https://www.crunchbase.com/organization/german-edge-cloud
-            joined: '2019-01-01'
           - item:
             name: Giant Swarm (member)
             homepage_url: https://www.giantswarm.io
