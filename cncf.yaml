@@ -1615,6 +1615,29 @@ landscape:
             twitter: https://twitter.com/OpenSCAP
             crunchbase: https://www.crunchbase.com/organization/red-hat
           - item:
+            name: OSCAL-COMPASS
+            description: >-
+              The OSCAL COMPASS project is set of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs.
+              It leverages NIST's OSCAL (Open Security Controls Assessment Language) as a standard data format for interchange between tools and people,
+              and provides an opinionated approach to OSCAL SDK and adoption by policy engines.
+            homepage_url: https://github.com/oscal-compass/community
+            project: sandbox
+            repo_url: https://github.com/oscal-compass/compliance-trestle
+            additional_repos:
+              - repo_url: https://github.com/oscal-compass/compliance-trestle-agile-authoring
+              - repo_url: https://github.com/oscal-compass/compliance-to-policy
+              - repo_url: https://github.com/oscal-compass/compliance-trestle-demos
+            logo: oscal-compass-color-stacked.svg
+            url_for_bestpractices: https://pages.nist.gov/OSCAL/
+            extra:
+              slack_url: https://cloud-native.slack.com/archives/C06F3PEPNBW
+              mailing_list_url: https://groups.google.com/g/oscal-compass
+              blog_url: https://dzone.com/articles/compass-compliance-part-1
+              youtube_url: https://www.youtube.com/@OSCAL-Compass
+              github_discussions_url: https://github.com/oscal-compass/community/discussions
+              summary_tags: compliance, security, risk, oscal, catalog, profile, component definition, system security plan, system assessment plan, automation, devsecops, vulnerability, cloud, opensource, nist, fedramp 
+              summary_personas: Regulators, Control providers, Control assessors, System owners, Compliance officers, Security teams, Auditors, Operators, Administrators, DevSecOps
+          - item:
             name: Orca Security
             homepage_url: https://orca.security
             logo: orcasec.svg
@@ -6834,12 +6857,6 @@ landscape:
             logo: packer.svg
             crunchbase: https://www.crunchbase.com/organization/hashicorp
           - item:
-            name: Plural
-            homepage_url: https://www.plural.sh/
-            repo_url: https://github.com/pluralsh/plural
-            logo: plural.svg
-            crunchbase: https://www.crunchbase.com/organization/plural-37ce
-          - item:
             name: Podman
             homepage_url: https://podman.io/
             repo_url: https://github.com/containers/podman
@@ -8036,6 +8053,12 @@ landscape:
             logo: platform9.svg
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
+          - item:
+            name: Plural
+            homepage_url: https://www.plural.sh/
+            repo_url: https://github.com/pluralsh/plural
+            logo: plural.svg
+            crunchbase: https://www.crunchbase.com/organization/plural-37ce
           - item:
             name: QBO
             description: >-
@@ -10665,6 +10688,20 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/parseable
             extra:
               blog_url: https://www.parseable.io/blog/
+          - item:
+            name: Perses
+            homepage_url: https://perses.dev
+            logo: perses.svg
+            description: Perses is a dashboard tool to visualize observability data from Prometheus/Thanos/Jaeger.
+            project: "sandbox"
+            joined: "2024-08-29"
+            repo_url: https://github.com/perses/perses
+            branch: main
+            twitter: https://x.com/PersesDev
+            extra:
+              accepted: "2024-08-29"
+              tag: observability
+              docker_url: https://hub.docker.com/r/persesdev/perses
           - item:
             name: Pinpoint
             homepage_url: https://pinpoint-apm.github.io/pinpoint/
@@ -14544,6 +14581,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/dosec
             joined: '2020-12-01'
           - item:
+            name: Dr. Droid (member)
+            homepage_url: https://drdroid.io
+            logo: dr.-droid.svg
+            crunchbase: https://www.crunchbase.com/organization/dr-droid
+            joined: '2024-09-01'            
+          - item:
             name: Draftt (member)
             homepage_url: https://www.draftt.io
             logo: draftt.svg
@@ -17005,12 +17048,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/yovily
             joined: '2024-01-01'
           - item:
-            name: Yusur Technology (member)
-            homepage_url: https://www.yusur.tech/en/zkys/index.html
-            logo: yusur.svg
-            crunchbase: https://www.crunchbase.com/organization/zhongke-digital
-            joined: '2023-08-01'
-          - item:
             name: ZEDEDA, Inc. (member)
             homepage_url: https://zededa.com/
             logo: zededainc..svg
@@ -17127,6 +17164,12 @@ landscape:
             logo: eclipse-foundation-member.svg
             crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
             joined: '2019-06-01'
+          - item:
+            name: Forge Utah Foundation (member)
+            homepage_url: https://forgeutah.tech
+            logo: forge-utah-foundation.svg
+            crunchbase: https://www.crunchbase.com/organization/forge-utah-foundation
+            joined: '2024-09-01'           
           - item:
             name: MITRE (member)
             homepage_url: https://www.mitre.org/
