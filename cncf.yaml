@@ -1042,15 +1042,24 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/dosec
           - item:
             name: EJBCA Community
-            description: EJBCA is one of the longest running open source CA software projects.
+            description: Issue certificates for all your Kubernetes workloads with the open-source public key infrastructure (PKI) and certificate authority (CA) software EJBCA. 
             homepage_url: https://www.ejbca.org/
             repo_url: https://github.com/Keyfactor/ejbca-ce
+            additional_repos:
+              - repo_url: https://github.com/Keyfactor/ansible-ejbca-signserver-playbooks 
+              - repo_url: https://github.com/Keyfactor/ejbca-community-helm 
+              - repo_url: https://github.com/Keyfactor/ejbca-easy-rest-client 
+              - repo_url: https://github.com/Keyfactor/ejbca-cert-manager-issuer 
+              - repo_url: https://github.com/Keyfactor/ejbca-vault-pki-engine  
             logo: ejbca-community.svg
-            twitter: https://twitter.com/KeyfactorComm
+            url_for_bestpractices: https://www.bestpractices.dev/en/projects/9419
+            twitter: https://x.com/KeyfactorComm
             crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
             extra:
-              youtube_url: https://www.youtube.com/@KeyfactorCommunity/
+              docker_url: https://hub.docker.com/r/keyfactor/ejbca-ce
+              documentation_url: https://docs.keyfactor.com/ejbca
               github_discussions_url: https://github.com/Keyfactor/ejbca-ce/discussions
+              youtube_url: https://www.youtube.com/@KeyfactorCommunity/
           - item:
             name: external-secrets
             homepage_url: https://external-secrets.io/
@@ -1458,6 +1467,15 @@ landscape:
                   url: https://github.com/kyverno/website/blob/main/content/en/blog/general/2023-security-audit/kyverno-2023-security-audit-report.pdf
                   vendor: Ada Logics
           - item:
+            name: LoxiLB
+            homepage_url: https://loxilb.io
+            repo_url: https://github.com/loxilb-io/loxilb
+            logo: loxilb.svg
+            project: sandbox
+            description: eBPF based cloud-native load-balancer. Powering Kubernetes|Edge|5G|IoT|XaaS Apps.
+            extra:
+              accepted: '2024-08-30'
+          - item:
             name: Matano
             description: Open source security lake platform for AWS
             homepage_url: https://www.matano.dev
@@ -1786,6 +1804,24 @@ landscape:
               blog_url: https://www.securecodebox.io/blog
               github_discussions_url: https://github.com/secureCodeBox/secureCodeBox/discussions
               summary_tags: security, scanner, automation, devsecops, vulnerability, pipeline, kubernetes, docker, cloud, opensource, owasp, defectdojo, nmap, nikto, nuclei, typo3, joomla, wordpress
+          - item:
+            name: SignServer Community
+            description: Sign code, containers, and attestations and create timestamps with the open-source, x509 certificate-based signing software SignServer.
+            homepage_url: https://www.signserver.org/
+            repo_url: https://github.com/Keyfactor/signserver-ce
+            additional_repos:
+              - repo_url: https://github.com/Keyfactor/signserver-community-helm 
+              - repo_url: https://github.com/Keyfactor/ansible-ejbca-signserver-playbooks 
+              - repo_url: https://github.com/Keyfactor/signserver-signing-action
+            logo: signserver-community.svg
+            url_for_bestpractices: https://www.bestpractices.dev/en/projects/727
+            twitter: https://x.com/KeyfactorComm
+            crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
+            extra:
+              docker_url: https://hub.docker.com/r/keyfactor/signserver-ce
+              documentation_url: https://docs.keyfactor.com/signserver
+              github_discussions_url: https://github.com/Keyfactor/signserver-ce/discussions
+              youtube_url: https://www.youtube.com/@KeyfactorCommunity/
           - item:
             name: sigstore
             homepage_url: https://www.sigstore.dev/
@@ -3426,12 +3462,6 @@ landscape:
             logo: vmware-nsx.svg
             twitter: https://twitter.com/vmwarensx
             crunchbase: https://www.crunchbase.com/organization/vmware
-          - item:
-            name: Weave Net
-            homepage_url: https://www.weave.works/oss/net/
-            repo_url: https://github.com/weaveworks/weave
-            logo: weave-net.svg
-            crunchbase: https://www.crunchbase.com/organization/weaveworks
   - category:
     name: Orchestration & Management
     subcategories:
@@ -7641,12 +7671,6 @@ landscape:
               slack_url: https://slack.unleash.run/
               youtube_url: https://www.youtube.com/@getunleash
           - item:
-            name: Weave GitOps
-            description: Weave GitOps enables the management of clusters and applications on scale with GitOps.
-            homepage_url: https://www.weave.works/product/gitops-enterprise/
-            logo: weaveworks.svg
-            crunchbase: https://www.crunchbase.com/organization/weaveworks
-          - item:
             name: werf
             description: >-
               werf is a solution for implementing efficient and consistent software delivery to Kubernetes. It covers the entire CI/CD lifecycle and all related
@@ -10575,6 +10599,18 @@ landscape:
             logo: nodesource.svg
             crunchbase: https://www.crunchbase.com/organization/nodesource
           - item:
+            name: Okahu
+            description: AI Observability as a Service to help enterprises building LLM-based apps in the cloud move to production.
+            homepage_url: https://www.okahu.ai
+            logo: okahu.svg
+            crunchbase: https://www.crunchbase.com/organization/okahu
+            extra:
+              linkedin_url: https://www.linkedin.com/company/okahu
+              youtube_url: https://www.youtube.com/@OkahuAI
+              documentation_ul: https://docs.okahu.ai
+              summary_integrations: OpenTelemetry, Prometheus, Fluentd, Monocle
+              summary_tags: cloud, observability
+          - item:
             name: OpenLIT
             homepage_url: https://openlit.io/
             repo_url: https://github.com/openlit/openlit
@@ -11028,12 +11064,6 @@ landscape:
             logo: virtasant.svg
             twitter: https://twitter.com/virtasant
             crunchbase: https://www.crunchbase.com/organization/virtasant
-          - item:
-            name: Weave Scope
-            homepage_url: https://www.weave.works/oss/scope/
-            repo_url: https://github.com/weaveworks/scope
-            logo: weave-scope.svg
-            crunchbase: https://www.crunchbase.com/organization/weaveworks
           - item:
             name: WhaTap
             description: WhaTap Labs provides an integrated monitoring service for DevOps that analyzes application performance issue running on kubernetes in real time.
@@ -19141,6 +19171,18 @@ landscape:
           crunchbase:
           unnamed_organization: true
           homepage_url: https://github.com/deepchecks/deepchecks
+        - item:
+          name: Okahu
+          description: AI Observability as a Service to help enterprises building LLM-based apps in the cloud move to production.
+          homepage_url: https://www.okahu.ai
+          logo: okahu.svg
+          crunchbase: https://www.crunchbase.com/organization/okahu
+          extra:
+            linkedin_url: https://www.linkedin.com/company/okahu
+            youtube_url: https://www.youtube.com/@OkahuAI
+            documentation_ul: https://docs.okahu.ai
+            summary_integrations: OpenTelemetry, Prometheus, Fluentd, Monocle
+            summary_tags: cloud, observability
         - item:
           name: OpenLLMetry
           description: Open-source observability for your LLM application, based on OpenTelemetry.
