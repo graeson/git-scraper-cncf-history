@@ -1648,6 +1648,7 @@ landscape:
             logo: oscal-compass-color-stacked.svg
             url_for_bestpractices: https://pages.nist.gov/OSCAL/
             extra:
+              accepted: '2024-06-21'
               slack_url: https://cloud-native.slack.com/archives/C06F3PEPNBW
               mailing_list_url: https://groups.google.com/g/oscal-compass
               blog_url: https://dzone.com/articles/compass-compliance-part-1
@@ -3668,7 +3669,7 @@ landscape:
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
-              accepted: "2024-08-21"
+              accepted: '2024-08-21'
           - item:
             name: iSSCloud
             description: >-
@@ -3822,6 +3823,8 @@ landscape:
             repo_url: https://github.com/koordinator-sh/koordinator
             logo: Koordinator.svg
             crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+            extra:
+              accepted: '2024-04-16'
           - item:
             name: kube-green
             description: kube-green is a simple k8s addon that automatically shuts down (some of) your resources when you don't need them.
@@ -7043,6 +7046,8 @@ landscape:
             homepage_url: https://stackerbuild.io
             repo_url: https://github.com/project-stacker/stacker
             logo: stacker.svg
+            extra:
+              accepted: '2024-06-19'
           - item:
             name: Tanka
             description: >-
@@ -10751,12 +10756,11 @@ landscape:
             logo: perses.svg
             description: Perses is a dashboard tool to visualize observability data from Prometheus/Thanos/Jaeger.
             project: "sandbox"
-            joined: "2024-08-29"
             repo_url: https://github.com/perses/perses
             branch: main
             twitter: https://x.com/PersesDev
             extra:
-              accepted: "2024-08-29"
+              accepted: '2024-08-29'
               tag: observability
               docker_url: https://hub.docker.com/r/persesdev/perses
           - item:
@@ -18179,6 +18183,9 @@ landscape:
             homepage_url: https://www.flatcar.org/
             repo_url: https://github.com/flatcar/Flatcar
             logo: flatcar.svg
+            extra:
+              accepted: '2024-08-02'
+              incubating: '2024-08-02'
             unnamed_organization: true
           - item:
             name: Genode
@@ -18864,7 +18871,7 @@ landscape:
           twitter: null
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           extra:
-            accepted: "2024-08-21"
+            accepted: '2024-08-21'
     - subcategory:
       name: ML Serving
       items:
