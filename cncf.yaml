@@ -792,6 +792,13 @@ landscape:
             extra:
               slack_url: https://www.aserto.com/slack
           - item:
+            name: authentik
+            description: >-
+              authentik is an open-source Identity Provider that emphasizes flexibility and versatility, with support for a wide set of protocols.
+            homepage_url: https://goauthentik.io/
+            repo_url: https://github.com/goauthentik/authentik
+            logo: authentik.svg
+          - item:
             name: Black Duck
             description: >-
               Black Duck provides a comprehensive software composition analysis (SCA) solution for managing security, quality, and license compliance risk that
@@ -2067,6 +2074,14 @@ landscape:
             homepage_url: https://www.zettaset.com/
             logo: zettaset.svg
             crunchbase: https://www.crunchbase.com/organization/goto-metrics
+          - item:
+            name: Zitadel
+            description: >-
+              ZITADEL is the identity infrastructure, simplified for you.
+            homepage_url: https://zitadel.com/
+            repo_url: https://github.com/zitadel/zitadel
+            logo: zitadel.svg
+            crunchbase: https://www.crunchbase.com/organization/zitadel
       - subcategory:
         name: Key Management
         items:
@@ -8509,6 +8524,15 @@ landscape:
             logo: ovhcloud.svg
             crunchbase: https://www.crunchbase.com/organization/ovh-com
           - item:
+            name: Petasus KaaS
+            description: >-
+              Petasus KaaS (Kubernetes as a Service) from PetasusCloud enables the deployment and management of Kubernetes on virtual machines, providing a 
+              high-performance network for seamless and efficient container orchestration. This service allows users to easily manage and deploy cloud-native 
+              applications while benefiting from flexible scalability and robust performance.
+            homepage_url: http://petasuscloud.sktenterprise.com/
+            logo: petasus-cloud.svg
+            crunchbase: https://www.crunchbase.com/organization/sktelecom
+          - item:
             name: plusserver Kubernetes Engine (PSKE)
             description: >-
               The plusserver Kubernetes Engine (PSKE) based on Gardener reduces the complexity in managing multi-cloud environments and enables companies to
@@ -8674,6 +8698,13 @@ landscape:
             url_for_bestpractices: https://github.com/aws/eks-anywhere
             logo: amazon-web-services.svg
             crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: Cozystack
+            description: Cozystack is a free PaaS platform and framework for building clouds.
+            homepage_url: https://aenix.io/cozystack/
+            repo_url: https://github.com/aenix-io/cozystack
+            logo: cozystack.svg
+            crunchbase: 
           - item:
             name: Cybozu Kubernetes Engine
             description: Cybozu Kubernetes Engine, a distributed service that automates Kubernetes cluster management.
@@ -14641,6 +14672,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/docomo-innovations
             joined: '2021-05-01'
           - item:
+            name: Doctor Droid (member)
+            homepage_url: https://drdroid.io
+            logo: dr.-droid.svg
+            crunchbase: https://www.crunchbase.com/organization/dr-droid
+            joined: '2024-09-01'              
+          - item:
             name: DoiT (member)
             homepage_url: https://www.doit.com
             logo: doit.svg
@@ -14660,13 +14697,7 @@ landscape:
             homepage_url: https://www.dosec.cn/
             logo: dosec.svg
             crunchbase: https://www.crunchbase.com/organization/dosec
-            joined: '2020-12-01'
-          - item:
-            name: Dr. Droid (member)
-            homepage_url: https://drdroid.io
-            logo: dr.-droid.svg
-            crunchbase: https://www.crunchbase.com/organization/dr-droid
-            joined: '2024-09-01'            
+            joined: '2020-12-01'          
           - item:
             name: Draftt (member)
             homepage_url: https://www.draftt.io
@@ -15860,6 +15891,12 @@ landscape:
             logo: ntt-data.svg
             crunchbase: https://www.crunchbase.com/organization/ntt-data
             joined: '2019-01-01'
+          - item:
+            name: Nudgebee (member)
+            homepage_url: https://nudgebee.com
+            logo: nudgebee.svg
+            crunchbase: https://www.crunchbase.com/organization/nudgebee
+            joined: '2024-09-01'              
           - item:
             name: NuNet (member)
             homepage_url: https://www.nunet.io
