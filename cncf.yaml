@@ -8661,6 +8661,13 @@ landscape:
             logo: vultr.svg
             crunchbase: https://www.crunchbase.com/organization/vultr-holdings-llc
           - item:
+            name: Volcengine Kubernetes Engine
+            description: >-
+              Volcengine Kubernetes Engine(VKE) is a Kubernetes-based service that provides high-performance container cluster management. By deeply integrating the new generation of cloud-native technologies, VKE ensures high efficiency for enterprises through running containerized applications on the cloud
+            homepage_url: https://www.volcengine.com/product/vke
+            logo: volcano-engine.svg
+            crunchbase: https://www.crunchbase.com/organization/volcano-engine
+          - item:
             name: ZStack Edge
             description: ZStack Edge is a Cloud Native application platform based on Kubernetes
             homepage_url: https://www.zstack.io/product/zstack_edge/
@@ -16538,6 +16545,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/snyk
             joined: '2019-08-01'
           - item:
+            name: socradev Gmbh (member)
+            homepage_url: https://socra.dev
+            logo: socradev-gmbh.svg
+            crunchbase: https://www.crunchbase.com/organization/socradev-gmbh
+            joined: '2024-10-01'            
+          - item:
             name: Software Mind (member)
             homepage_url: https://softwaremind.com/
             logo: software-mind.svg
@@ -17831,6 +17844,12 @@ landscape:
             logo: ticket-master-supporter.svg
             crunchbase: https://www.crunchbase.com/organization/ticketmaster
             joined: '2016-12-01'
+          - item:
+            name: Tokyo Gas (supporter)
+            homepage_url: https://www.tokyo-gas.co.jp
+            logo: tokyo-gas.svg
+            crunchbase: https://www.crunchbase.com/organization/tokyo-gas
+            joined: '2024-10-01'             
           - item:
             name: TomTom (supporter)
             homepage_url: https://www.tomtom.com/en_us/
