@@ -3226,6 +3226,22 @@ landscape:
                 KubeEdge, Fedora Linux
               summary_intro_url: https://youtu.be/Kg5z5A5wH0A
               clomonitor_name: wasm-edge
+          - item:
+            name: youki
+            homepage_url: https://containers.github.io/youki/
+            project: sandbox
+            repo_url: https://github.com/containers/youki
+            logo: youki.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
+            extra:
+              accepted: '2024-10-17'
+              tag: runtime
+              dev_stats_url: https://youki.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#youki-logos
+              slack_url: https://slack.cncf.io/
+              chat_channel: '#youki'
+              clomonitor_name: youki
       - subcategory:
         name: Cloud Native Network
         items:
@@ -5007,11 +5023,13 @@ landscape:
             name: Kmesh
             description: Kmesh is a high-performance and low overhead service mesh data plane based on eBPF and programmable kernel. Kmesh brings traffic management, security and monitoring to service communication without needing application code changes. It is natively sidecarless, zero intrusion and without adding any resource cost to application container.
             homepage_url: https://kmesh.net
+            project: sandbox
             repo_url: https://github.com/kmesh-net/kmesh
             logo: kmesh.svg
             twitter: https://twitter.com/Kmesh_net
-            crunchbase: https://www.crunchbase.com/organization/huawei
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
+              accepted: '2024-10-17'
               youtube_url: https://www.youtube.com/channel/UC-ToQ9h0SR_w492PpIfZAGw
               slack_url: https://slack.cncf.io/
               chat_channel: "#kmesh"
@@ -15132,12 +15150,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/humanitec
             joined: '2022-04-01'
           - item:
-            name: iauro (member)
-            homepage_url: https://www.iauro.com/
-            logo: iauro.svg
-            crunchbase: https://www.crunchbase.com/organization/iauro
-            joined: '2021-02-01'
-          - item:
             name: iCubed (member)
             homepage_url: https://www.icubed.it/
             logo: icubed.svg
@@ -15576,6 +15588,12 @@ landscape:
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/mathworks
             joined: '2019-04-01'
+          - item:
+            name: MavenSolutions (member)
+            homepage_url: https://www.mavensolutions.tech
+            logo: mavensolutions.svg
+            crunchbase: https://www.crunchbase.com/organization/maven-solutions-f7b1
+            joined: '2024-11-01'             
           - item:
             name: Mavenir (member)
             homepage_url: https://mavenir.com/
@@ -17422,12 +17440,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/dataonline-corp-2005
             joined: '2020-06-01'
           - item:
-            name: Argyle Systems (supporter)
-            homepage_url: https://argyle.com/
-            logo: argyle.svg
-            crunchbase: https://www.crunchbase.com/organization/argyle-9a25
-            joined: '2021-07-01'
-          - item:
             name: AuditBoard (supporter)
             homepage_url: https://www.auditboard.com/
             logo: audit-board-supporter.svg
@@ -18683,12 +18695,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             allow_duplicate_repo: true
           - item:
-            name: youki
+            name: youki (wasm)
             homepage_url: https://github.com/containers/youki
             repo_url: https://github.com/containers/youki
             logo: youki.svg
-            crunchbase: https://www.crunchbase.com/organization/red-hat
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
       - subcategory:
         name: Hosted Platforms
         items:
