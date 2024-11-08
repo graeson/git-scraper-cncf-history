@@ -6580,7 +6580,7 @@ landscape:
           - item:
             name: Dapr
             homepage_url: https://dapr.io
-            project: incubating
+            project: graduated
             repo_url: https://github.com/dapr/dapr
             logo: dapr.svg
             twitter: https://twitter.com/DaprDev
@@ -6592,6 +6592,7 @@ landscape:
             extra:
               accepted: '2021-11-09'
               incubating: '2021-11-09'
+              graduated: '2024-10-30'
               dev_stats_url: https://dapr.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#dapr-logos
               blog_url: https://blog.dapr.io/posts
@@ -10934,6 +10935,18 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/thundra
             extra:
               slack_url: https://discord.gg/bCtCmzP2ge
+          - item:
+            name: SigLens     
+            description: SigLens is a powerful open-source observability solution designed to reduce infrastructure costs by up to 90%. It scales seamlessly from handling 8 TB/day on a single MacBook Air to 1 PB/day across just 32 EC2 instances. With a user-friendly interface and a developer-oriented, pipe-based query language, SigLens simplifies observability data exploration and monitoring at any scale.
+            homepage_url: https://www.siglens.com/     
+            repo_url: https://github.com/siglens/siglens     
+            logo: siglens-logo.svg     
+            open_source: true    
+            crunchbase: https://www.crunchbase.com/organization/sigscalr
+            twitter: https://x.com/SigLensHQ
+            extra:
+              slack_url: https://siglens-community.slack.com
+              blog_url: https://www.siglens.com/blog/allblogs.html
           - item:
             name: SignalFX
             homepage_url: https://www.splunk.com/en_us/devops/signalfx.html
@@ -15729,6 +15742,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/morpheus
             joined: '2019-07-01'
           - item:
+            name: Move2Cloud (member)
+            homepage_url: https://move2cloud.fr
+            logo: move2cloud.svg
+            crunchbase: https://www.crunchbase.com/organization/move2cloud-d678
+            joined: '2024-11-01'           
+          - item:
             name: MSys Technologies (member)
             homepage_url: https://msystechnologies.com
             logo: m-sys-technologies-member.svg
@@ -17162,6 +17181,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/whizus-gmbh
             joined: '2019-12-01'
           - item:
+            name: WIIT (member)
+            homepage_url: https://www.wiit.cloud
+            logo: wiit.svg
+            crunchbase: https://www.crunchbase.com/organization/myloc-managed-it-ag
+            joined: '2024-01-01'             
+          - item:
             name: Wind River (member)
             homepage_url: https://www.windriver.com/resources
             logo: wind-river.svg
@@ -17180,11 +17205,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/wise2c-technology-co
             joined: '2017-11-01'
           - item:
-            name: WIIT (member)
-            homepage_url: https://www.wiit.cloud
-            logo: wiit.svg
-            crunchbase: https://www.crunchbase.com/organization/myloc-managed-it-ag
-            joined: '2024-01-01'             
+            name: Wiz (member)
+            homepage_url: https://www.wiz.io
+            logo: wiz.svg
+            crunchbase: https://www.crunchbase.com/organization/wiz-inc
+            joined: '2024-11-01'              
           - item:
             name: WSO2 (member)
             homepage_url: https://wso2.com/
