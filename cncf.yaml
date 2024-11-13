@@ -203,7 +203,7 @@ landscape:
               summary_intro_url: https://www.youtube.com/watch?v=WzKf6WrL3nE
               blog_url: https://kairos.io/blog/
               slack_url: https://cloud-native.slack.com/archives/C0707M8UEU8
-              youtube_url: https://www.youtube.com/@kairos_oss
+              youtube_url: https://www.youtube.com/@Kairos-IO
               clomonitor_name: kairos
           - item:
             name: Kapitan
@@ -11331,12 +11331,6 @@ landscape:
             logo: baidu-kcsp.svg
             crunchbase: https://www.crunchbase.com/organization/baidu
           - item:
-            name: Banzai Cloud (KCSP)
-            description: Banzai Cloud brings cloud native to the enterprise and simplifies the transition to microservices on Kubernetes.
-            homepage_url: https://banzaicloud.com/
-            logo: banzai-cloud.svg
-            crunchbase: https://www.crunchbase.com/organization/banzai-cloud
-          - item:
             name: BC Cloud (KCSP)
             description: >-
               BC Cloud (Beijing Big Data) provides professional cloud native platform solutions, DevOps implementation, Service Mesh consulting and other
@@ -11747,6 +11741,16 @@ landscape:
             homepage_url: https://flant.com/
             logo: flant.svg
             crunchbase: https://www.crunchbase.com/organization/flant
+          - item:
+            name: Frontier (KCSP)
+            description: >-
+              Operate predictably. Innovate safely. It's not just a tagline, it's our engineering philosophy, and it's especially relevant when working with 
+              advanced technologies like Kubernetes. Our architecture, implementation and consulting services provide container platforms that are reliable,
+              secure and cost-effective. Our Kubernetes support services give our clients confidence in the platform and the automation, just as you would 
+              expect from us.
+            homepage_url: https://frontierhq.com/solutions/container-platform
+            logo: frontier.svg
+            crunchbase: https://www.crunchbase.com/organization/frontier-f469
           - item:
             name: Fujitsu (KCSP)
             description: >-
