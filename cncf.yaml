@@ -11520,7 +11520,7 @@ landscape:
           - item:
             name: Cisel Informatique (KCSP)
             description: CISEL provides consulting on cloud native technologies such as Kubernetes. We design, implement, and operate your Kubernetes solutions.
-            homepage_url: https://www.cisel.ch/2021/11/29/kubernetes
+            homepage_url: https://www.dina.ch/cloud
             logo: cisel-informatique.svg
             crunchbase: https://www.crunchbase.com/organization/cisel-informatique
           - item:
@@ -14430,13 +14430,7 @@ landscape:
             homepage_url: https://www.cloudops.com/
             logo: cloudops.svg
             crunchbase: https://www.crunchbase.com/organization/peer-1
-            joined: '2018-03-01'
-          - item:
-            name: CloudPilot AI (member)
-            homepage_url: https://www.cloudpilot.ai
-            logo: cloudpilot-ai.svg
-            crunchbase: https://www.crunchbase.com/organization/cloudpilot-ai
-            joined: '2024-12-01'            
+            joined: '2018-03-01'           
           - item:
             name: Cloudsmith (member)
             homepage_url: https://www.cloudsmith.com/
@@ -15977,7 +15971,13 @@ landscape:
             logo: novo-nordisk.svg
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/novonordisk
-            joined: '2024-12-01'               
+            joined: '2024-12-01'
+          - item:
+            name: Nscale (member)
+            homepage_url: https://www.nscale.com
+            logo: nscale.svg
+            crunchbase: https://www.crunchbase.com/organization/nscale
+            joined: '2024-12-01'            
           - item:
             name: NTT DATA Group (member)
             homepage_url: https://www.nttdata.com/global/en
