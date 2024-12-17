@@ -14127,6 +14127,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/beijing-big-data
             joined: '2020-09-01'
           - item:
+            name: BEGASOFT (member)
+            homepage_url: https://www.begasoft.ch
+            logo: begasoft.svg
+            crunchbase: https://www.crunchbase.com/organization/begasoft-ag
+            joined: '2024-12-01'            
+          - item:
             name: BellSoft (member)
             homepage_url: https://www.bell-sw.com/
             logo: bellsoft.svg
@@ -15477,7 +15483,12 @@ landscape:
             homepage_url: https://www.ktrust.io/
             logo: ktrust.svg
             crunchbase: https://www.crunchbase.com/organization/ktrust-ltd
-            joined: '2024-06-01'            
+            joined: '2024-06-01' 
+          - item:
+            name: KubeDB (member)
+            homepage_url: https://kubedb.llc
+            logo: kubedb.svg
+            joined: '2024-12-01'            
           - item:
             name: Kubecost (member)
             homepage_url: https://kubecost.com/
