@@ -2492,7 +2492,7 @@ landscape:
           - item:
             name: CubeFS
             homepage_url: https://cubefs.io/
-            project: incubating
+            project: graduated
             repo_url: https://github.com/cubeFS/cubefs
             logo: cubefs.svg
             twitter: https://twitter.com/ChubaoFS
@@ -2500,6 +2500,7 @@ landscape:
             extra:
               accepted: '2019-12-16'
               incubating: '2022-07-03'
+              graduated: '2024-12-11'
               dev_stats_url: https://chubaofs.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#cubefs-logos
               slack_url: https://cubefs.slack.com/
@@ -17030,6 +17031,12 @@ landscape:
             logo: teleport.svg
             crunchbase: https://www.crunchbase.com/organization/gravitational
             joined: '2017-10-01'
+          - item:
+            name: Tempest (member)
+            homepage_url: https://tempestdx.com
+            logo: tempest.svg
+            crunchbase: https://www.crunchbase.com/organization/tempest-97c6
+            joined: '2024-12-01'            
           - item:
             name: Temporal (member)
             homepage_url: https://www.temporal.io/
