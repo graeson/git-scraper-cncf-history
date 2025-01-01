@@ -659,7 +659,7 @@ landscape:
             name: Dragonfly
             homepage_url: https://d7y.io/
             project: incubating
-            repo_url: https://github.com/dragonflyoss/Dragonfly2
+            repo_url: https://github.com/dragonflyoss/dragonfly
             logo: dragonfly.svg
             twitter: https://twitter.com/dragonfly_oss
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -6550,6 +6550,13 @@ landscape:
             repo_url: https://github.com/habitat-sh/habitat
             logo: chef_habitat.svg
             crunchbase: https://www.crunchbase.com/organization/chef
+          - item:
+            name: Clace
+            homepage_url: https://clace.io/
+            repo_url: https://github.com/claceio/clace
+            logo: clace.svg
+            crunchbase: https://www.crunchbase.com/organization/clace
+            description: Internal Tools Deployment Platform
           - item:
             name: CloudARK KubePlus
             description: Build SaaS for your containerized applications
@@ -15871,6 +15878,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/n3xgen-io
             joined: '2023-10-01'
           - item:
+            name: Nadrama (member)
+            homepage_url: https://nadrama.com
+            logo: nadrama.svg
+            crunchbase: https://www.crunchbase.com/organization/nadrama
+            joined: '2025-01-01'            
+          - item:
             name: Namutech (member)
             homepage_url: https://www.namutech.co.kr/
             logo: namutech.svg
@@ -17173,6 +17186,12 @@ landscape:
             twitter: https://twitter.com/true_nl
             crunchbase: https://www.crunchbase.com/organization/true-6787
             joined: '2021-12-01'
+          - item:
+            name: TrueFoundry (member)
+            homepage_url: https://www.truefoundry.com
+            logo: truefoundry.svg
+            crunchbase: https://www.crunchbase.com/organization/truefoundry
+            joined: '2025-01-01'            
           - item:
             name: Tyk (member)
             homepage_url: https://tyk.io/
