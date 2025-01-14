@@ -483,13 +483,16 @@ landscape:
             name: OpenYurt
             description: An open platform that extending your native Kubernetes to edge.
             homepage_url: https://openyurt.io/
-            project: sandbox
+            project: incubating
             repo_url: https://github.com/openyurtio/openyurt
             logo: openyurt.svg
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             allow_duplicate_repo: true
+            second_path:
+              - "Wasm / Orchestration & Management"
             extra:
               accepted: '2020-09-08'
+              incubating: '2025-01-10'
               annual_review_url: https://github.com/cncf/toc/pull/1068
               annual_review_date: '2023-06-02'
               dev_stats_url: https://openyurt.devstats.cncf.io/
@@ -1083,7 +1086,6 @@ landscape:
             name: Curiefense
             homepage_url: https://www.curiefense.io/
             project: archived
-            repo_url: https://github.com/curiefense/curiefense
             logo: curiefense.svg
             twitter: https://twitter.com/curiefense
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -1467,13 +1469,14 @@ landscape:
               repositories, container registries and images. It detects misconfigurations according to frameworks such as the NSA-CISA,  MITRE ATT&CK® and CIS,
               as well as software vulnerabilities, and calculates risk scores.
             homepage_url: https://kubescape.io/
-            project: sandbox
+            project: incubating
             repo_url: https://github.com/kubescape/kubescape
             logo: kubescape.svg
             twitter: https://twitter.com/kubescape
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2022-12-13'
+              incubating: '2025-01-13'
               slack_url: https://cloud-native.slack.com/messages/kubescape
               dev_stats_url: https://kubescape.devstats.cncf.io/
               clomonitor_name: kubescape
@@ -6019,7 +6022,6 @@ landscape:
             name: VoltDB
             description: VoltDB is a high-velocity decisioning engine, powering real-time applications that must react in milliseconds.
             homepage_url: https://www.voltactivedata.com
-            repo_url: https://github.com/voltdb/voltdb
             logo: voltdb.svg
             crunchbase: https://www.crunchbase.com/organization/voltdb
           - item:
@@ -8671,7 +8673,7 @@ landscape:
             description: >-
               IZO Cloud Kubernetes Service is an enterprise-grade managed service that makes it easy for you to run Kubernetes on IZO Cloud platform without needing to install and operate your own Kubernetes clusters, for running containerized applications, including stateful and stateless, AI and ML, complex and simple web apps, API, and backend services.
             homepage_url: https://www.tatacommunications.com/solutions/cloud/izo-cloud-platform-services/izo-cloud-platform-for-kubernetes-solutions/
-            logo: tata-communications.sv
+            logo: tata-communications.svg
             crunchbase: https://www.crunchbase.com/organization/tata-communications            
           - item:
             name: Linode Kubernetes Engine
@@ -12226,12 +12228,6 @@ landscape:
             logo: nec.svg
             crunchbase: https://www.crunchbase.com/organization/nec
           - item:
-            name: NetApp (KCSP)
-            description: NetApp offers a wide range of support plans for managed Kubernetes clusters built through its universal control plane for Kubernetes Anywhere.
-            homepage_url: https://cloud.netapp.com
-            logo: netapp.svg
-            crunchbase: https://www.crunchbase.com/organization/netapp
-          - item:
             name: NHN Cloud (KCSP)
             description: >-
               NHN Cloud strongly supports customers in understanding and using Kubernetes by offering consulting and training courses run by NHN Cloud edu
@@ -13566,12 +13562,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/china-electronic-system-cloud-data-and-intelligence-technology
             joined: '2022-04-01'
           - item:
-            name: Charter Communications (member)
-            homepage_url: https://spectrum.com/
-            logo: charter.svg
-            crunchbase: https://www.crunchbase.com/organization/charter-communications
-            joined: '2021-12-01'
-          - item:
             name: DaoCloud (member)
             homepage_url: https://www.daocloud.io
             logo: dao-cloud-member.svg
@@ -13628,29 +13618,17 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/jd-cloud
             joined: '2021-08-01'   
           - item:
-            name: JFrog (member)
-            homepage_url: https://jfrog.com/
-            logo: jfrog.svg
-            crunchbase: https://www.crunchbase.com/organization/jfrog-ltd
-            joined: '2017-11-01'
-          - item:
             name: Mercedes Benz AG (member)
             homepage_url: https://group.mercedes-benz.com/
             logo: mercedes-benz.svg
             enduser: true
-            crunchbase: https://www.crunchbase.com/organization/mercedes-benz-group-ag
+            crunchbase: https://www.crunchbase.com/organization/daimler
             joined: '2020-08-01'
           - item:
             name: NEC (member)
             homepage_url: https://www.nec.com/
             logo: nec.svg
             crunchbase: https://www.crunchbase.com/organization/nec
-            joined: '2016-01-01'
-          - item:
-            name: NetApp (member)
-            homepage_url: https://www.netapp.com
-            logo: netapp.svg
-            crunchbase: https://www.crunchbase.com/organization/netapp
             joined: '2016-01-01'
           - item:
             name: Splunk (member)
@@ -13957,6 +13935,11 @@ landscape:
             logo: armo.svg
             crunchbase: https://www.crunchbase.com/organization/cyber-armor
             joined: '2019-12-01'
+          - item:
+            name: Armored Gate (member)
+            homepage_url: https://armoredgate.com
+            logo: armored-gate.svg
+            joined: '2024-11-01'            
           - item:
             name: Aruba SpA (member)
             homepage_url: https://www.arubacloud.com/
@@ -15019,6 +15002,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/goldman-sachs
             joined: '2016-01-01'
           - item:
+            name: Golem Cloud (member)
+            homepage_url: https://www.golem.cloud
+            logo: golem-cloud.svg
+            joined: '2024-12-01'             
+          - item:
             name: Grafana Labs (member)
             homepage_url: https://grafana.com
             logo: grafana-labs-member.svg
@@ -15223,6 +15211,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/jetstack
             joined: '2018-01-01'
           - item:
+            name: JFrog (member)
+            homepage_url: https://jfrog.com/
+            logo: jfrog.svg
+            crunchbase: https://www.crunchbase.com/organization/jfrog-ltd
+            joined: '2017-11-01'            
+          - item:
             name: Jit (member)
             homepage_url: https://www.jit.io
             logo: jit.svg
@@ -15265,6 +15259,12 @@ landscape:
             logo: kbsys.svg
             crunchbase: https://www.crunchbase.com/organization/kbsys
             joined: '2020-01-01'
+          - item:
+            name: Kedify (member)
+            homepage_url: https://kedify.io
+            logo: kedify.svg
+            crunchbase: https://www.crunchbase.com/organization/kedify
+            joined: '2025-01-01'            
           - item:
             name: Kentik (member)
             homepage_url: https://www.kentik.com
@@ -15691,7 +15691,13 @@ landscape:
             homepage_url: https://nebius.com
             logo: nebius.svg
             crunchbase: https://www.crunchbase.com/organization/nebius
-            joined: '2024-12-01'           
+            joined: '2024-12-01'
+          - item:
+            name: NetBird (member)
+            homepage_url: https://netbird.io
+            logo: netbird.svg
+            crunchbase: https://www.crunchbase.com/organization/netbird
+            joined: '2025-01-01'           
           - item:
             name: Netdata (member)
             homepage_url: https://www.netdata.cloud
@@ -18418,13 +18424,6 @@ landscape:
               mailing_list_url: https://meshery.io/subscribe
               youtube_url: https://www.youtube.com/playlist?list=PL3A-A6hPO2INr4oEIorJqC8N0FtxnYj0a
               clomonitor_name: meshery
-          - item:
-            name: OpenYurt (Wasm)
-            homepage_url: https://openyurt.io/
-            repo_url: https://github.com/openyurtio/openyurt
-            logo: openyurt.svg
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            allow_duplicate_repo: true
           - item:
             name: podman (Wasm)
             homepage_url: https://podman.io/
