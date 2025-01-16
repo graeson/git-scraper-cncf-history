@@ -9869,7 +9869,7 @@ landscape:
           - item:
             name: cast.ai
             homepage_url: https://cast.ai/
-            logo: cast.svg
+            logo: cast-ai.svg
             crunchbase: https://www.crunchbase.com/organization/cast-ai
           - item:
             name: CloudPilot AI
@@ -10768,6 +10768,18 @@ landscape:
             homepage_url: https://nodesource.com/
             logo: nodesource.svg
             crunchbase: https://www.crunchbase.com/organization/nodesource
+          - item:
+            name: Odigos
+            logo: odigos.svg
+            description: >-
+              Enterprise-Grade OpenTelemetry for superior application performance monitoring.
+            homepage_url: https://odigos.io
+            repo_url: https://github.com/odigos-io/odigos
+            twitter: https://x.com/odigosio
+            crunchbase: https://www.crunchbase.com/organization/keyval
+            extra:
+              slack_url: https://join.slack.com/t/odigos/shared_invite/zt-24u91yknm-0fLXu6qnqYfNHS_GSUgTJw
+              summary_tags: monitoring, observability, tracing, metrics, logs
           - item:
             name: Okahu
             description: AI Observability as a Service to help enterprises building LLM-based apps in the cloud move to production.
@@ -12219,6 +12231,14 @@ landscape:
             homepage_url: https://www.mirantis.com/software/mirantis-kubernetes-engine
             logo: mirantis.svg
             crunchbase: https://www.crunchbase.com/organization/mirantis
+          - item:
+            name: Move2Cloud (KCSP)
+            description: 
+              Move2Cloud assists organizations in simplifying their transition to Kubernetes, minimizing operational complexity, and maximizing the advantages of
+              cloud-native technologies.
+            homepage_url: https://move2cloud.fr
+            logo: move2cloud.svg
+            crunchbase: https://www.crunchbase.com/organization/move2cloud-d678
           - item:
             name: Namutech (KCSP)
             description: Namutech provides an enterprise cloud native platform based on Kubernetes along with implementation, containerization, and training services.
@@ -18768,6 +18788,28 @@ landscape:
     - subcategory:
       name: Data Science
       items:
+        - item:
+          name: marimo
+          description: >-
+            A reactive notebook for Python — run reproducible experiments, execute as a script, deploy as an app, and version with git.
+          homepage_url: https://marimo.io/
+          repo_url: https://github.com/marimo-team/marimo
+          logo: marimo.svg
+          twitter: https://x.com/marimo_io
+          crunchbase: https://www.crunchbase.com/organization/marimo-1733
+          extra:
+            summary_personas: Data Scientists, Python Developers, Machine Learning Developers, Data Engineers, Research Scientists
+            summary_tags: reactive programming, python notebooks, data visualization, interactive computing, deployment, git-friendly, reproducible research, webapps, data engineering
+            summary_use_case: >-
+              marimo enables developers to create reactive notebooks that can be deployed as web applications. Its dataflow graph model (DAG) ensures real-time updates and consistent outputs, making it ideal for building interactive data applications and visualizations. The platform combines the power of Python with reactive programming, allowing seamless integration of UI elements without complex callback management.
+            summary_business_use_case: >-
+              Traditional Jupyter notebooks often face challenges with reproducibility, version control, and deployment as web applications. marimo addresses these issues by storing notebooks as Python files, enabling proper version control, and providing built-in deployment capabilities. This makes it easier for teams to collaborate, maintain code quality, and share their work as interactive web applications.
+            summary_release_rate: Weekly
+            summary_integrations: Package Managers (uv, pip, conda, rye, poetry), AI coding assistants, GitHub Copilot, MotherDuck, Google Cloud Storage, Google Cloud BigQuery, Google Sheets
+            summary_intro_url: https://docs.marimo.io/
+            blog_url: https://marimo.io/blog
+            linkedin_url: https://www.linkedin.com/company/marimo-io/
+            discord_url: https://marimo.io/discord
         - item:
           name: Project Jupyter
           description: Interactive Computing
