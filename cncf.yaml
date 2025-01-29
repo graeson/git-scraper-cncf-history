@@ -3602,6 +3602,33 @@ landscape:
             twitter: https://twitter.com/lf_networking
             crunchbase: https://www.crunchbase.com/organization/open-vswitch
           - item:
+            name: OVN-Kubernetes
+            homepage_url: https://ovn-kubernetes.io/
+            project: sandbox
+            repo_url: https://github.com/ovn-kubernetes/ovn-kubernetes
+            logo: ovn-kubernetes.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2024-10-17'
+              dev_stats_url: https://ovn-kubernetes.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#ovn-kubernetes-logos
+              slack_url: https://cloud-native.slack.com/messages/ovn-kubernetes
+              mailing_list_url: https://groups.google.com/g/ovn-kubernetes
+              summary_personas: Platform engineers, Network teams, SRE, DevOps Engineers
+              summary_tags: CNI, Networking, Load Balancing, Network Security, Observability, Multicloud
+              summary_use_case: >-
+                OVN-Kubernetes is a robust Kubernetes Networking platform, built from the ground up by leveraging
+                Open vSwitch (OVS) as the data plane, and Open Virtual Network (OVN) as the SDN Controller.
+              summary_business_use_case: >-
+                OVN-Kubernetes focuses strictly on enhancing networking for the Kubernetes clusters and includes
+                a wide variety of features that are critical to enterprise and telco users.
+              summary_release_rate: 2 major releases a year, plus minor and point releases for bug fixes and security updates
+              summary_integration: Kubernetes, CNI
+              summary_intro_url: ''
+              clomonitor_name: ovn-kubernetes
+              tag: 
+                - network
+          - item:
             name: Project Calico
             homepage_url: https://www.tigera.io/project-calico
             repo_url: https://github.com/projectcalico/calico
@@ -15654,6 +15681,13 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/namutech
             joined: '2020-08-01'
           - item:
+            name: Natwest (member)
+            homepage_url: https://www.natwest.com
+            logo: natwest.svg
+            enduser: true
+            crunchbase: https://www.crunchbase.com/organization/natwest-bank1
+            joined: '2024-12-01'         
+          - item:
             name: Navimentum (member)
             homepage_url: https://navimentum.com/
             logo: navimentum.svg
@@ -17558,7 +17592,13 @@ landscape:
             homepage_url: https://www.netmatch.nl/
             logo: netmatch.svg
             crunchbase: https://www.crunchbase.com/organization/netmatch-2
-            joined: '2020-01-01'
+            joined: '2020-01-01'        
+          - item:
+            name: Netnod (supporter)
+            homepage_url: https://ww.netnod.se
+            logo: netnod.svg
+            crunchbase: https://www.crunchbase.com/organization/netnod
+            joined: '2025-02-01' 
           - item:
             name: NielsenIQ (supporter)
             homepage_url: https://nielseniq.com/global/en/
