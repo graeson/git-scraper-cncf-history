@@ -7170,7 +7170,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/the-open-api-initiative
           - item:
             name: Operator Framework
-            homepage_url: https://www.redhat.com/en/technologies/cloud-computing/openshift/what-are-openshift-operators
+            homepage_url: https://operatorframework.io/
             project: incubating
             repo_url: https://github.com/operator-framework/operator-sdk
             logo: operator-framework.svg
@@ -15214,12 +15214,6 @@ landscape:
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/jpmorgan-chase-co
             joined: '2018-08-01'
-          - item:
-            name: Juniper Networks (member)
-            homepage_url: https://www.juniper.net/us/en.html
-            logo: juniper-networks.svg
-            crunchbase: https://www.crunchbase.com/organization/juniper-networks
-            joined: '2020-08-01'
           - item:
             name: Kapeta (member)
             homepage_url: https://kapeta.com/
