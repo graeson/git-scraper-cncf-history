@@ -621,9 +621,9 @@ landscape:
             name: XOAP
             description: Hybrid IT infrastructure and workplace automation platform
             homepage_url: https://xoap.io/
-            logo: xoap.svg
+            logo: xoap_plain.svg
             twitter: https://x.com/xoap_io
-            crunchbase:
+            crunchbase: https://www.crunchbase.com/organization/xoap
             extra:
               blog_url: https://xoap.io/blog/
               linkedin_url: https://www.linkedin.com/company/xoap_io/
@@ -948,6 +948,9 @@ landscape:
               blog_url: https://bpfman.io/main/blog/
               slack_url: https://kubernetes.slack.com/archives/C04UJBW2553
               clomonitor_name: bpfman
+              other_links: 
+                - name: Community Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/bpfman?view=list
           - item:
             name: Capsule8
             homepage_url: https://capsule8.com/
@@ -10577,6 +10580,15 @@ landscape:
             repo_url: https://github.com/alibaba/kubeskoop
             logo: kubeskoop.svg
             crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+          - name: KubeReport
+            description: >-
+              KubeReport is an open-source tool that generates detailed Kubernetes cluster reports in PDF and CSV formats, providing insights into 
+              resource utilization, workload status, and cluster health for easier auditing and troubleshooting.
+            homepage_url: https://kubesuite.org/
+            repo_url: https://github.com/kubesuiteorg/kubereport
+            logo: kubereport.svg
+            extra:
+              linkedin_url: https://www.linkedin.com/company/kubesuite
           - item:
             name: Kuberhealthy
             homepage_url: https://github.com/kuberhealthy/kuberhealthy
@@ -11262,6 +11274,11 @@ landscape:
             logo: virtasant.svg
             twitter: https://twitter.com/virtasant
             crunchbase: https://www.crunchbase.com/organization/virtasant
+          - name: Volcano Engine APMPlus
+            description: APMPlus (Application Performance Management Plus) on Volcano Engine delivers end-to-end observability for modern cloud-native environments, enabling precise root cause analysis and performance tuning through unified metrics, distributed tracing, and log correlation. It provides full-stack monitoring from client devices to server-side infrastructure, with specialized support for AI-native workloads such as large language models (LLMs), ensuring visibility across hybrid architectures and alignment with cloud-native best practices.
+            homepage_url: https://www.volcengine.com/product/apmplus
+            logo: volcano-engine-apmplus.svg
+            crunchbase: https://www.crunchbase.com/organization/volcano-engine
           - item:
             name: WhaTap
             description: WhaTap Labs provides an integrated monitoring service for DevOps that analyzes application performance issue running on kubernetes in real time.
@@ -12719,14 +12736,6 @@ landscape:
             logo: tencent-cloud.svg
             crunchbase: https://www.crunchbase.com/organization/tencent
           - item:
-            name: TenxCloud (KCSP)
-            description: >-
-              TenxCloud is a leading enterprise container cloud computing service provider in China, covering the areas such as container PaaS cloud platform,
-              micro-service management, DevOps, development test, AIOps and so on.
-            homepage_url: https://www.tenxcloud.com/
-            logo: tenxcloud.svg
-            crunchbase: https://www.crunchbase.com/organization/tenxcloud
-          - item:
             name: TeraSky (KCSP)
             description: >-
               Highly skilled DevOps company, focused on accelerating customers success. TeraSky offers Professional services, training and support for:
@@ -13297,14 +13306,6 @@ landscape:
             homepage_url: https://www.sva.de/de/services/devops-academy
             logo: sva.svg
             crunchbase: https://www.crunchbase.com/organization/sva
-          - item:
-            name: TenxCloud (KTP)
-            description: >-
-              TenxCloud is a leading enterprise container cloud computing service provider in China, covering the areas such as container PaaS cloud platform,
-              micro-service management, DevOps, development test, AIOps and so on.
-            homepage_url: https://www.tenxcloud.com/
-            logo: tenxcloud.svg
-            crunchbase: https://www.crunchbase.com/organization/tenxcloud
           - item:
             name: Linux Foundation Education (KTP)
             description: >-
@@ -16483,12 +16484,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/signoz
             joined: '2024-12-01'               
           - item:
-            name: Simplyblock (member)
-            homepage_url: https://www.simplyblock.io
-            logo: simplyblock.svg
-            crunchbase: https://www.crunchbase.com/organization/simplyblock
-            joined: '2024-03-01'
-          - item:
             name: SK Telecom (member)
             homepage_url: https://www.sktelecom.com
             logo: sk-telecom.svg
@@ -16825,12 +16820,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/temporal-technologies
             joined: '2021-07-01'
           - item:
-            name: TenxCloud (member)
-            homepage_url: https://www.tenxcloud.com
-            logo: tenxcloud.svg
-            crunchbase: https://www.crunchbase.com/organization/tenxcloud
-            joined: '2017-03-01'
-          - item:
             name: TeraSky (member)
             homepage_url: https://www.terasky.com
             logo: terasky.svg
@@ -16959,13 +16948,7 @@ landscape:
             homepage_url: https://www.umb.ch/
             logo: umb-ag.svg
             crunchbase: https://www.crunchbase.com/organization/umb-ag
-            joined: '2021-07-01'
-          - item:
-            name: Unicloud (member)
-            homepage_url: https://unicloud.com
-            logo: unicloud.svg
-            crunchbase: https://www.crunchbase.com/organization/unicloud-1e1b
-            joined: '2024-08-01'            
+            joined: '2021-07-01'         
           - item:
             name: Unikraft (member)
             homepage_url: https://www.unikraft.io/
@@ -17322,6 +17305,12 @@ landscape:
             logo: nia.svg
             crunchbase: https://www.crunchbase.com/organization/national-information-society-agency
             joined: '2020-12-01'
+          - item:
+            name: NIPA (member)
+            homepage_url: https://www.nipa.kr
+            logo: nipa.svg 
+            crunchbase: https://www.crunchbase.com/organization/national-it-industry-promotion-agency
+            joined: '2025-03-01'           
           - item:
             name: NIPR (member)
             homepage_url: https://www.nipr.com/
