@@ -2070,11 +2070,20 @@ landscape:
             logo: snyk.svg
             crunchbase: https://www.crunchbase.com/organization/snyk
           - item:
-            name: Sonatype Nexus
-            homepage_url: https://www.sonatype.com/
+            name: Sonatype
+            description: >-
+              Sonatype is the developer-friendly full-spectrum software supply, chain management platform helps organizations and software developers.
+              One of the Sonatype products includes the open source software repository manager Sonatype Nexus Repository.
+            homepage_url: https://www.sonatype.com
+            repo_url: https://github.com/sonatype/nexus-public
             logo: sonatype.svg
             twitter: https://twitter.com/sonatype
             crunchbase: https://www.crunchbase.com/organization/sonatype
+            extra:
+              youtube_url: https://www.youtube.com/@Sonatypeinc
+              blog_url: https://www.sonatype.com/blog
+              documentation_url: https://help.sonatype.com/en/sonatype-nexus-repository.html
+              linkedin_url: https://www.linkedin.com/company/sonatype/
           - item:
             name: Sonobuoy
             homepage_url: https://sonobuoy.io
@@ -8285,6 +8294,13 @@ landscape:
             logo: fury.svg
             crunchbase: https://www.crunchbase.com/organization/sighup
           - item:
+            name: Giant Swarm Managed Kubernetes
+            description: The Giant Swarm platform enables users to simply and rapidly create and use 24/7 managed Kubernetes clusters on-demand.
+            homepage_url: https://giantswarm.io
+            repo_url: https://github.com/giantswarm/cluster-aws
+            logo: giant-swarm-cncf.svg
+            crunchbase: https://www.crunchbase.com/organization/giant-swarm
+          - item:
             name: H3C CloudOS
             description: >-
               Based on container technology and pluggable open architecture, H3C CloudOS provides compute, storage, network, security, big data, database, PaaS,
@@ -8404,6 +8420,13 @@ landscape:
             homepage_url: https://xcloud.lenovo.com.cn/zh-cn/pages/paas.html
             logo: lenovo.svg
             crunchbase: https://www.crunchbase.com/organization/lenovo
+          - item:
+            name: Magellano
+            description: Magellano is a Kubernetes distribution that adds day two operations capabilities to your Kubernetes cluster.
+            homepage_url: https://mia-platform.eu/
+            repo_url: https://github.com/mia-platform/distribution
+            logo: magellano.svg
+            crunchbase: https://www.crunchbase.com/organization/mia-platform
           - item:
             name: MicroK8s
             description: An easy to install, single node local Kubernetes.
@@ -8694,6 +8717,19 @@ landscape:
             logo: conoa.svg
             crunchbase: https://www.crunchbase.com/organization/conoa
           - item:
+            name: Control Plane Managed Kubernetes
+            description: Control Plane Managed Kubernetes is a service that creates and manages Kubernetes clusters across multiple cloud platforms and on-prem environments.
+            homepage_url: https://controlplane.com
+            logo: control-plane-corporation.svg
+            crunchbase: https://www.crunchbase.com/organization/control-plane
+          - item:
+            name: CYSO Managed Kubernetes
+            description: >-
+              Simplify your cloud-native journey with Managed Kubernetes. Powered by Gardener, deploy, manage, and scale your containerized apps effortlessly on Cyso Cloud and beyond—all GDPR compliant.
+            homepage_url: https://cyso.cloud/managed-kubernetes/
+            logo: cyso.svg
+            crunchbase: https://www.crunchbase.com/organization/cyso
+          - item:
             name: De Novo Kubernetes as a Service (KaaS)
             description: De Novo's Kubernetes as a Service (KaaS) is a fully-managed K8s container orchestration service; Deploy, Manage, and Scale containerized environments in minutes with KaaS!
             homepage_url: https://denovo.ua/en/kaas
@@ -8713,13 +8749,6 @@ landscape:
             homepage_url: https://elastx.se/en/kubernetes/
             logo: elastx.svg
             crunchbase: https://www.crunchbase.com/organization/elastx
-          - item:
-            name: Enterprise Managed Kubernetes (EMK)
-            description: >-
-              Simplify your cloud-native journey with Enterprised Managed Kubernetes (EMK). Powered by Gardener, deploy, manage, and scale your containerized apps effortlessly on Fuga Cloud and beyond—all GDPR compliant.
-            homepage_url: https://fuga.cloud/emk/
-            logo: cyso.svg
-            crunchbase: https://www.crunchbase.com/organization/cyso
           - item:
             name: Exoscale Scalable Kubernetes Service
             description: >-
@@ -13911,6 +13940,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/aiven
             joined: '2019-06-01'
           - item:
+            name: Akamas (member)
+            homepage_url:  https://www.akamas.io
+            logo: akamas.svg
+            crunchbase: https://www.crunchbase.com/organization/akamas
+            joined: '2025-04-01'              
+          - item:
             name: Akka (member)
             homepage_url:  https://akka.io/
             logo: akka.svg
@@ -14791,6 +14826,13 @@ landscape:
             logo: digital-ocean.svg
             crunchbase: https://www.crunchbase.com/organization/digitalocean
             joined: '2016-09-01'
+          - item:
+            name: Dlocal (member)
+            homepage_url: https://www.dlocal.com
+            logo: dlocal.svg
+            enduser: true
+            crunchbase: https://www.crunchbase.com/organization/dlocal
+            joined: '2025-03-01'            
           - item:
             name: Docker (member)
             homepage_url: https://www.docker.com
@@ -17133,6 +17175,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/veritas-automata
             joined: '2024-01-01'
           - item:
+            name: VESSL AI (member)
+            homepage_url: https://vessl.ai/
+            logo: vessl-ai.svg
+            crunchbase: https://www.crunchbase.com/organization/vessl-ai
+            joined: '2025-03-01'            
+          - item:
             name: VEXXHOST (member)
             homepage_url: https://vexxhost.com
             logo: vexxhost.svg
@@ -17550,6 +17598,12 @@ landscape:
             logo: centrica.svg
             crunchbase: https://www.crunchbase.com/organization/centrica
             joined: '2024-02-01'
+          - item:
+            name: CFL (supporter)
+            homepage_url: https://www.cfl.lu/en-gb
+            logo: cfl.svg
+            crunchbase: https://www.crunchbase.com/organization/cfl-soci%C5%BEt%C5%BE-nationale-des-chemins-de-fer-luxembourgeois
+            joined: '2025-03-01'            
           - item:
             name: Cruise (supporter)
             homepage_url: https://getcruise.com/
