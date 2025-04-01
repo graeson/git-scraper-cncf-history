@@ -2227,6 +2227,21 @@ landscape:
             logo: tigera.svg
             crunchbase: https://www.crunchbase.com/organization/tigera
           - item:
+            name: Tokenetes
+            homepage_url: https://tokenetes.io/
+            repo_url: https://github.com/tokenetes/tokenetes
+            project: sandbox
+            description: >-
+              Tokenetes implements Transaction Tokens (TraTs) for microservices call chains. 
+              It's a Kubernetes-native framework providing immutable identity and context in 
+              service-to-service communication to prevent attacks like software supply chain 
+              or privileged user compromise.
+            logo: tokenetes.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2025-01-21'
+              dev_stats_url: https://tokenetes.devstats.cncf.io/
+          - item:
             name: Topaz
             description: Cloud-native authorization for modern applications and APIs, combining the best of Open Policy Agent and Google Zanzibar
             homepage_url: https://www.topaz.sh
@@ -3205,6 +3220,20 @@ landscape:
               summary_integrations: >-
                 Docker, Kubernetes, CRI, runc, crun, CNI, BuildKit, LinuxKit,
                 Alibaba, AWS, Azure, Google Cloud, IBM Cloud
+          - item:
+            name: composefs
+            description: >-
+              A project that combines Linux kernel features to provide read-only mountable filesystem trees stacking on top of an underlying "lower" Linux filesystem, particularly useful for mounting container images.
+            homepage_url: https://github.com/containers/composefs
+            repo_url: https://github.com/containers/composefs
+            project: sandbox
+            logo: cncf.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2025-01-21'
+              dev_stats_url: https://composefs.devstats.cncf.io/
+              tag: 
+                - runtime
           - item:
             name: CRI-O
             homepage_url: https://cri-o.io/
@@ -4232,6 +4261,7 @@ landscape:
               mailing_list_url: https://groups.google.com/g/kubeflow-discuss
               dev_stats_url: https://kubeflow.devstats.cncf.io/
               clomonitor_name: kubeflow
+              ai: true
           - item:
             name: Kubernetes
             description: Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications
@@ -4447,6 +4477,7 @@ landscape:
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#volcano
               incubating: '2022-03-21'
               clomonitor_name: volcano
+              ai: true
           - item:
             name: wasmCloud
             second_path:
@@ -6356,6 +6387,17 @@ landscape:
             logo: deepstream.svg
             crunchbase: https://www.crunchbase.com/organization/deepstreamhub-2
           - item:
+            name: Drasi
+            description: >-
+              A change data processing platform that automates real-time detection, evaluation, and meaningful reaction to events in complex, event-driven systems.
+            homepage_url: https://drasi.io
+            repo_url: http://github.com/drasi-project/drasi-platform
+            project: sandbox
+            extra:
+              accepted: '2025-01-21'
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            logo: drasi.svg
+          - item:
             name: EMQX
             homepage_url: https://www.emqx.com/en
             repo_url: https://github.com/emqx/emqx
@@ -6839,6 +6881,7 @@ landscape:
               summary_integration: Kubernetes, Docker, Open Telemetry, gRPC, CloudEvents, spiffe, Knative, Helm, Prometheus, Cert Manager
               summary_intro_url: https://youtu.be/9o9iDAgYBA8
               clomonitor_name: dapr
+              ai: true
               audits:
                 - date: '2023-06-30'
                   type: fuzzing
@@ -7834,6 +7877,25 @@ landscape:
                 Minor releases have a cadence of at least one per month.
                 (https://fluxcd.io/flux/faq/#where-can-i-find-information-on-how-long-versions-are-supported-and-how-often-to-expect-releases)
               summary_integrations: all standard Cloud Native, Git provider and observability tooling
+          - item:
+            name: Fortio
+            logo: fortio.svg
+            description: >-
+              Fortio is an open source load testing library, command-line tool, and server application written in Go.
+              Originated as Istio's performance characterization tool (in particular proxy overhead),
+              Fortio has evolved into a versatile tool for load testing and performance benchmarking of HTTP, gRPC, and TCP services.
+              Among other options it enables users to generate a specified query-per-second (QPS) load and records detailed
+              latency histograms, facilitating the analysis of performance metrics.
+              The server component offers a straightforward web UI and REST API, allowing users to initiate tests and
+              visualize results through graphical representations.
+              Beyond load testing, Fortio provides server-side features akin to httpbin, including request echoing
+              with headers, configurable latency or error responses, TCP echoing and proxying, HTTP fan-out,
+              and support for gRPC echo and health checks.
+              These capabilities make Fortio a versatile tool for debugging and testing high-performance
+              services in cloud-native environments. As an organization set of git repositories, is also a growing
+              set of reusable libraries for writing Cloud Native Go code and CLIs.
+            homepage_url: https://fortio.org/
+            repo_url: https://github.com/fortio/fortio
           - item:
             name: GitHub Actions
             description: >-
@@ -9837,6 +9899,17 @@ landscape:
             logo: openfaas.svg
             crunchbase: https://www.crunchbase.com/organization/openfaas
           - item:
+            name: SlimFaaS
+            description: >-
+              The slimest and simplest Function As A Service
+            repo_url: https://github.com/SlimPlanet/SlimFaas
+            homepage_url: https://github.com/SlimPlanet/SlimFaas
+            project: sandbox
+            extra:
+              accepted: '2025-01-21'
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            logo: slimfaas.svg
+          - item:
             name: PipelineAI
             homepage_url: https://www.datascienceonaws.com
             repo_url: https://github.com/pipelineai/pipeline
@@ -10739,6 +10812,7 @@ landscape:
             extra:
               accepted: '2023-12-19'
               clomonitor_name: k8sgpt
+              ai: true
           - item:
             name: Keep
             homepage_url: https://www.keephq.dev/
@@ -18356,8 +18430,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Spin
+            description: Spin is a framework for building and deploying serverless applications in WebAssembly.
             homepage_url: https://developer.fermyon.com/spin/index
-            repo_url: https://github.com/fermyon/spin
+            repo_url: https://github.com/spinframework/spin
             logo: spin.svg
             crunchbase: https://www.crunchbase.com/organization/fermyon-technologies
           - item:
@@ -18632,11 +18707,26 @@ landscape:
         name: Orchestration & Management
         items:
           - item:
+            name: SpinKube
+            description: >-
+              Open source platform for efficiently running (containerless) Spin-based WebAssembly (Wasm) applications on Kubernetes.
+            homepage_url: https://www.spinkube.dev/
+            repo_url: https://github.com/spinkube
+            logo: spinkube.svg
+            project: sandbox
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2025-01-21'
+              dev_stats_url: https://spinkube.devstats.cncf.io/
+          - item:
             name: container2wasm
-            homepage_url: https://ktock.github.io/container2wasm-demo/
-            repo_url: https://github.com/ktock/container2wasm
             logo: wasm.svg
-            unnamed_organization: true
+            description: A tool to run containers on Wasm-enabled environments.
+            homepage_url: https://github.com/container2wasm/container2wasm
+            repo_url: https://github.com/container2wasm/container2wasm
+            project: sandbox
+            extra:
+              accepted: '2025-01-21'
           - item:
             name: containerd (Wasm)
             homepage_url: https://containerd.io/
