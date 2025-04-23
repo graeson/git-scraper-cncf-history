@@ -4284,6 +4284,24 @@ landscape:
               clomonitor_name: kubeflow
               ai: true
           - item:
+            name: KubeFleet
+            description: A multi-cluster solution that enables users to effectively manage their applications running in multiple Kubernetes clusters.
+            homepage_url: https://github.com/kubefleet-dev/kubefleet
+            project: sandbox
+            repo_url: https://github.com/kubefleet-dev/kubefleet
+            logo: cncf.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2025-01-21'
+              summary_personas: Platform Engineers, DevOps Engineers, Kubernetes Administrators
+              summary_tags: multi-cluster, kubernetes, orchestration, fleet management
+              summary_use_case: >-
+                KubeFleet provides orchestration and coordination of applications across a fleet of Kubernetes clusters, enabling 
+                users to create resources on a hub cluster and selectively propagate them to managed clusters based on various criteria.
+              summary_business_use_case: >-
+                Streamlines resource management across multiple Kubernetes clusters, enhancing operational efficiency and enabling 
+                teams to effectively manage Kubernetes native configurations at scale, with support for intelligent scheduling and staged rollouts.
+          - item:
             name: Kubernetes
             description: Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications
             homepage_url: https://kubernetes.io/
@@ -14625,13 +14643,7 @@ landscape:
             homepage_url: https://www.cloudmt.co.kr
             logo: cloudmate.svg
             crunchbase: https://www.crunchbase.com/organization/cloudmate-1d80
-            joined: '2023-04-01'
-          - item:
-            name: Cloudoor (member)
-            homepage_url: https://cloudoor.com
-            logo: cloudoor.svg
-            crunchbase: https://www.crunchbase.com/organization/cno
-            joined: '2024-08-01'             
+            joined: '2023-04-01'           
           - item:
             name: CloudOps by Aptum (member)
             homepage_url: https://www.cloudops.com/
@@ -15351,6 +15363,12 @@ landscape:
             logo: hashicorp.svg
             crunchbase: https://www.crunchbase.com/organization/hashicorp
             joined: '2020-04-01'
+          - item:
+            name: HawkStack (member)
+            homepage_url: https://www.hawkstack.com
+            logo: hawkstack.svg
+            crunchbase: https://www.crunchbase.com/organization/hawkstack-technologies
+            joined: '2025-05-01'            
           - item:
             name: Highlight (member)
             homepage_url: https://www.highlight.io/
@@ -18971,6 +18989,13 @@ landscape:
           logo: ./vllm-logo-text-light.svg
           unnamed_organization: true
           homepage_url: https://aibrix.github.io/
+        - item:
+          name: Arks
+          description: Arks is an end-to-end framework for managing LLM-based applications within Kubernetes cluster. It provides a robust and extensible infrastructure tailored for deploying, orchestrating, and scaling LLM inference workloads in cloud-native environments.
+          repo_url: https://github.com/scitix/arks
+          logo: ./arks.svg
+          unnamed_organization: true
+          homepage_url: https://www.scitix.ai
         - item:
           name: KAITO
           description: Kubernetes AI Toolchain Operator (KAITO) simplifies LLM inference, tuning, and RAG workloads on Kubernetes.
